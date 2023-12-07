@@ -1,0 +1,100 @@
+1702506983
+a:2:{s:7:"content";s:5343:"<h2>Acknowledgements</h2>
+<p>Angaben gemäß § 5 TMG</p>
+<p>Max Muster
+Musterweg
+12345 Musterstadt
+Vertreten durch:
+Max Muster
+Kontakt:
+Telefon: 01234-789456
+Fax: 1234-56789
+E-Mail: max@muster.de</p>
+<p>Umsatzsteuer-ID:
+Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: Musterustid.</p>
+<p>Wirtschafts-ID:
+Musterwirtschaftsid
+Aufsichtsbehörde:
+Musteraufsicht Musterstadt</p>
+<p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+Max Muster
+Musterweg
+12345 Musterstadt</p>
+<p>Haftungsausschluss:</p>
+<p>Haftung für Links</p>
+<p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
+<p>Datenschutz</p>
+<p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.</p>
+<h2>UL API Reference</h2>
+<ul>
+<li><a href="https://awesomeopensource.com/project/elangosundar/awesome-README-templates">Awesome Readme Templates</a></li>
+<li><a href="https://github.com/matiassingers/awesome-readme">Awesome README</a></li>
+<li><a href="https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project">How to write a Good readme</a></li>
+</ul>
+<h4>Get all items</h4>
+<pre><code class="language-http">  GET /api/items</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>api_key</code></td>
+<td style="text-align: left;"><code>string</code></td>
+<td style="text-align: left;"><strong>Required</strong>. Your API key</td>
+</tr>
+</tbody>
+</table>
+<h4>Get item</h4>
+<pre><code class="language-http">  GET /api/items/${id}</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>id</code></td>
+<td style="text-align: left;"><code>string</code></td>
+<td style="text-align: left;"><strong>Required</strong>. Id of item to fetch</td>
+</tr>
+</tbody>
+</table>
+<h4>add(num1, num2)</h4>
+<p>Takes two numbers and returns the sum.</p>
+<h2>Badges</h2>
+<p>Add badges from somewhere like: <a href="https://shields.io/">shields.io</a></p>
+<p><a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License" /></a>
+<a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL v3-yellow.svg" alt="GPLv3 License" /></a>
+<a href="http://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License" /></a></p>
+<h2>Contributing</h2>
+<p>Contributions are always welcome!</p>
+<p>See <code>contributing.md</code> for ways to get started.</p>
+<p>Please adhere to this project's <code>code of conduct</code>.</p>
+<h2>Deployment</h2>
+<p>To deploy this project run</p>
+<pre><code class="language-bash">  npm run deploy</code></pre>
+<h2>Documentation</h2>
+<p><a href="https://linktodocumentation">Documentation</a></p>
+<h2>FAQ</h2>
+<h4>Question 1</h4>
+<p>Answer 1</p>
+<h4>Question 2</h4>
+<p>Answer 2</p>
+<h2>Feedback</h2>
+<p>If you have any feedback, please reach out to us at fake@fake.com</p>
+<h2>🚀 About Me</h2>
+<p>I'm a full stack developer...</p>
+<h2>🔗 Links</h2>
+<p><a href="https://katherineoelsner.com/"><img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white" alt="portfolio" /></a>
+<a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="linkedin" /></a>
+<a href="https://twitter.com/"><img src="https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&amp;logo=twitter&amp;logoColor=white" alt="twitter" /></a></p>";s:12:"content_meta";N;}

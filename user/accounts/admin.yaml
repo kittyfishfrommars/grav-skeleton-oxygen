@@ -1,0 +1,11 @@
+state: enabled
+email: kittyfishfrommars@gmail.com
+fullname: KittyFish
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$8bfx1jjN.KUgao2tasuEK.LDCMz.c3W9VZfzm1aVF6P9T4C7s9Sb2

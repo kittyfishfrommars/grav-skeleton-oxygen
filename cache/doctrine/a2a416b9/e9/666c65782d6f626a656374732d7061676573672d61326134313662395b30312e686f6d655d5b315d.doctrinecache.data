@@ -1,0 +1,91 @@
+1701819728
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"home";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:8:{s:5:"title";s:21:"Solarize by TEMPLATED";s:4:"menu";s:4:"Home";s:12:"body_classes";s:8:"homepage";s:6:"banner";a:3:{s:8:"headline";s:8:"Solarize";s:8:"follower";s:19:"Design by Templated";s:5:"blurb";s:112:"Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna.";}s:4:"hook";a:3:{s:6:"teaser";s:83:"Pellentesque viverra vulputate enim. Aliquam volutpat. Pellentesque tristique Risus";s:6:"byline";s:147:"In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Donec pulvinar ullamcorper metus.";s:6:"button";a:2:{s:4:"text";s:22:"Nulla aluctus eleifend";s:6:"target";s:1:"#";}}s:3:"cta";a:3:{s:8:"headline";s:24:"Cras vitae metus aliNuam";s:4:"copy";s:139:"Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.";s:6:"button";a:2:{s:4:"text";s:22:"Nulla aluctus eleifend";s:6:"target";s:1:"#";}}s:7:"notices";a:3:{s:7:"heading";s:24:"Cras vitae metus aliNuam";s:6:"byline";s:65:"pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.";s:5:"items";a:9:{i:0;a:3:{s:4:"icon";s:4:"cogs";s:7:"heading";s:21:"Nulla luctus eleifend";s:5:"point";s:89:"In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.";}i:1;a:3:{s:4:"icon";s:6:"wrench";s:7:"heading";s:19:"Etiam posuere augue";s:5:"point";s:84:"Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.";}i:2;a:3:{s:4:"icon";s:4:"leaf";s:7:"heading";s:24:"Fusce ultrices fringilla";s:5:"point";s:94:"Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.";}i:3;a:3:{s:4:"icon";s:4:"cogs";s:7:"heading";s:21:"Nulla luctus eleifend";s:5:"point";s:89:"In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.";}i:4;a:3:{s:4:"icon";s:6:"wrench";s:7:"heading";s:19:"Etiam posuere augue";s:5:"point";s:84:"Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.";}i:5;a:3:{s:4:"icon";s:4:"leaf";s:7:"heading";s:24:"Fusce ultrices fringilla";s:5:"point";s:94:"Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.";}i:6;a:3:{s:4:"icon";s:4:"cogs";s:7:"heading";s:21:"Nulla luctus eleifend";s:5:"point";s:89:"In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.";}i:7;a:3:{s:4:"icon";s:6:"wrench";s:7:"heading";s:19:"Etiam posuere augue";s:5:"point";s:84:"Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.";}i:8;a:3:{s:4:"icon";s:4:"leaf";s:7:"heading";s:24:"Fusce ultrices fringilla";s:5:"point";s:94:"Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.";}}}s:7:"portals";a:3:{s:7:"heading";s:24:"Cras vitae metus aliNuam";s:6:"byline";s:65:"pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.";s:5:"items";a:4:{i:0;a:5:{s:9:"thumbnail";s:10:"person.png";s:3:"alt";s:14:"Molly Millions";s:6:"target";s:1:"#";s:7:"heading";s:14:"Molly Millions";s:6:"teaser";s:58:"In posuere eleifend odio quisque semper augue wisi ligula.";}i:1;a:5:{s:9:"thumbnail";s:10:"person.png";s:3:"alt";s:18:"Henry Dorsett Case";s:6:"target";s:1:"#";s:7:"heading";s:18:"Henry Dorsett Case";s:6:"teaser";s:58:"In posuere eleifend odio quisque semper augue wisi ligula.";}i:2;a:5:{s:9:"thumbnail";s:10:"person.png";s:3:"alt";s:12:"Willis Corto";s:6:"target";s:1:"#";s:7:"heading";s:12:"Willis Corto";s:6:"teaser";s:58:"In posuere eleifend odio quisque semper augue wisi ligula.";}i:3;a:5:{s:9:"thumbnail";s:10:"person.png";s:3:"alt";s:9:"Linda Lee";s:6:"target";s:1:"#";s:7:"heading";s:9:"Linda Lee";s:6:"teaser";s:58:"In posuere eleifend odio quisque semper augue wisi ligula.";}}}}s:11:"frontmatter";s:3866:"title: 'Solarize by TEMPLATED'
+menu: Home
+body_classes: homepage
+
+banner:
+    headline: Solarize
+    follower: 'Design by Templated'
+    blurb: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna.'
+
+hook:
+    teaser: 'Pellentesque viverra vulputate enim. Aliquam volutpat. Pellentesque tristique Risus'
+    byline: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Donec pulvinar ullamcorper metus.'
+    button:
+        text: 'Nulla aluctus eleifend'
+        target: '#'
+
+cta:
+    headline: 'Cras vitae metus aliNuam'
+    copy: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
+    button:
+        text: 'Nulla aluctus eleifend'
+        target: '#'
+notices: # NB. these will be rendered vertically in columns in order provided here
+    heading: Cras vitae metus aliNuam
+    byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
+    items:
+        - icon: cogs
+          # target: '#'
+          heading: 'Nulla luctus eleifend'
+          point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
+        - icon: wrench
+          # target: '#'
+          heading: 'Etiam posuere augue'
+          point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
+        - icon: leaf
+          # target: '#'
+          heading: 'Fusce ultrices fringilla'
+          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
+        - icon: cogs
+          # target: '#'
+          heading: 'Nulla luctus eleifend'
+          point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
+        - icon: wrench
+          # target: '#'
+          heading: 'Etiam posuere augue'
+          point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
+        - icon: leaf
+          # target: '#'
+          heading: 'Fusce ultrices fringilla'
+          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
+        - icon: cogs
+          # target: '#'
+          heading: 'Nulla luctus eleifend'
+          point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
+        - icon: wrench
+          # target: '#'
+          heading: 'Etiam posuere augue'
+          point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
+        - icon: leaf
+          # target: '#'
+          heading: 'Fusce ultrices fringilla'
+          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
+
+portals: # could be used for: key staff, testimonials, service previews, ...
+    heading: Cras vitae metus aliNuam
+    byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
+    items:
+        - thumbnail: person.png
+          alt: 'Molly Millions'
+          target: '#'
+          heading: 'Molly Millions'
+          teaser: 'In posuere eleifend odio quisque semper augue wisi ligula.'
+        - thumbnail: person.png
+          alt: 'Henry Dorsett Case'
+          target: '#'
+          heading: 'Henry Dorsett Case'
+          teaser: 'In posuere eleifend odio quisque semper augue wisi ligula.'
+        - thumbnail: person.png
+          alt: 'Willis Corto'
+          target: '#'
+          heading: 'Willis Corto'
+          teaser: 'In posuere eleifend odio quisque semper augue wisi ligula.'
+        - thumbnail: person.png
+          alt: 'Linda Lee'
+          target: '#'
+          heading: 'Linda Lee'
+          teaser: 'In posuere eleifend odio quisque semper augue wisi ligula.'
+";s:8:"markdown";s:305:"### Suspendisse dictum porta
+
+Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet, magna nec eleifend semper augue mattis wisi maecenas ligula nunc lectus vestibulum euismod lacinia quam nisl.";}s:7:"storage";a:6:{s:3:"key";s:4:"home";s:11:"storage_key";s:7:"01.home";s:8:"template";s:4:"home";s:17:"storage_timestamp";i:1701819026;s:8:"markdown";a:1:{s:0:"";a:1:{s:4:"home";i:1701819026;}}s:8:"checksum";s:32:"fab097f82483b10451761a273eab0ef1";}}

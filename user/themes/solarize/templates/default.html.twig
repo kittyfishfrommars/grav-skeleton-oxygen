@@ -1,0 +1,18 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block body %}
+<!-- Main -->
+	<div id="main" class="wrapper style4 plain">
+
+		<!-- Content -->
+		<div id="content" class="container">
+			<section>
+				{% include 'partials/heading.html.twig' %}
+				{{ page.content|raw }}
+			</section>
+		</div>
+	</div>
+
+	{% include 'partials/sections/portals.html.twig' with { 'data_source': page.find('/') } %}
+
+{% endblock body %}

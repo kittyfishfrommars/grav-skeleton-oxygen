@@ -1,0 +1,23 @@
+{% if page.header.hook %}
+<!-- Section One aka Even(ly)Part(ed) aka 'hook' (frontmatter) -->
+	<div class="wrapper style2 evenpart">
+		<section class="container">
+			<div class="row double">
+				<div class="6u">
+					<header class="major">
+						<h2>{{ header.hook.teaser }}</h2>
+						<span class="byline">{{ header.hook.byline }}</span>
+					</header>
+				</div>
+				<div class="6u">
+					{{ (text_copy|default(page.content))|raw }}
+					{% if page.header.hook.button %}
+						<a href="{{ header.hook.button.target }}" class="button">{{ header.hook.button.text }}</a>
+					{% endif %}
+				</div>
+			</div>
+		</section>
+	</div>
+{% elseif page.content|trim|length > 0 %}
+	{{ dump('Notice: homepage markdown content not rendered because page header "hook" is missing in frontmatter.') }}
+{% endif %}

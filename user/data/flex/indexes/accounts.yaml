@@ -1,0 +1,9 @@
+version: '1.2'
+timestamp: 1701819100
+count: 1
+index:
+  admin:
+    storage_key: admin
+    storage_timestamp: 1701819100
+    key: admin
+    email: kittyfishfrommars@gmail.com

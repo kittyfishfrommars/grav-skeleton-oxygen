@@ -1,0 +1,4 @@
+1701819700
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:25:"dropdown/veroeros-feugiat";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:1:{s:5:"title";s:16:"Veroeros feugiat";}s:11:"frontmatter";s:25:"title: 'Veroeros feugiat'";s:8:"markdown";s:109:"This page exists only to support the dropdown menu of which it is part.
+
+Up to you really if this is for you.";}s:7:"storage";a:6:{s:3:"key";s:25:"dropdown/veroeros-feugiat";s:11:"storage_key";s:31:"02.dropdown/05.veroeros-feugiat";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1701819026;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1701819026;}}s:8:"checksum";s:32:"a0eeb540156f01951881e03503ea48c0";}}

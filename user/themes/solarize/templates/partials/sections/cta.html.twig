@@ -1,0 +1,12 @@
+{% if page.header.cta %}
+<!-- Section Two aka 'cta' (CSS and frontmatter) -->
+	<div class="wrapper style3 cta">
+		<section class="container">
+			<header class="major">
+				<h2>{{ header.cta.headline }}</h2>
+			</header>
+			<p>{{ header.cta.copy }}</p>
+			<a href="{{ header.cta.button.target }}" class="button alt">{{ header.cta.button.text }}</a>
+		</section>
+	</div>
+{% endif %}

@@ -1,0 +1,14 @@
+<!-- Links Sidebar -->
+{% for sidebar in page.header.sidebars.links %}
+	{% set front =  page.find('/components/links/' ~ sidebar).header %}
+	<section>
+		<header class="major">
+			<h2>{{ front.title }}</h2>
+		</header>
+		<ul class="default">
+			{% for link in front.links %}
+				<li><a href="{{ link.target }}">{{ link.text }}</a></li>
+			{% endfor %}
+		</ul>
+	</section>
+{% endfor %}
