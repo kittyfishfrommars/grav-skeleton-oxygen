@@ -1,6 +1,9 @@
 # ignore all files starting with .
 #.*
 
+# ignore built files
+dist/
+
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
 

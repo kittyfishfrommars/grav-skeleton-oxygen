@@ -1,0 +1,9 @@
+{
+    "path": {
+      "html": "../../pages/**/*.md",
+      "scss": "src/scss/**/*.scss",
+      "js": "src/js/**/*.js",
+      "dist": "dist",
+      "baseDir": "../../../"
+    }
+ }  
