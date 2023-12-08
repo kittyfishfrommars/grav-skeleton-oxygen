@@ -1,8 +1,9 @@
 // Gulp 4 API functions
 // Write as series() instead of gulp.series()
-const { src, dest, watch, series, parallel } = require('gulp');
+const { series, parallel } = require('gulp');
 
 // import functions from individual files
+const { cleanDist } = require('./clean.js');
 const { lintCSS, fixCSS } = require('./stylelint.js');
 const { compileSCSS } = require('./sass.js');
 const { compileJS } = require('./concat.js');
@@ -36,14 +37,17 @@ exports.fix = series(
 // Spins up a local Browsersync server
 // Run "gulp watch" on the command line
 exports.serve = series(
-	parallel(
+	cleanDist,
+ 	parallel(
 		compileSCSS,
 		compileJS
 	),
-	server,
-	lintYAML,
-	lintCSS,
-	lintJS,
+	parallel(
+		server,
+		lintYAML,
+		lintCSS,
+		lintJS,	
+	),
 	parallel(
 		watcher.html,
 		watcher.css,
@@ -51,10 +55,17 @@ exports.serve = series(
 	)
 );
 
+// 	parallel(
+//	compileSCSS,
+//	compileJS
+// ),
+// 
+
 // TODO: implement babel (if necessary) / concat / uglify etc., check built files (?)
 // Exports assets once
 // Run "gulp build" on the command line
 exports.build = series(
+	cleanDist,
 	parallel(
 		compileSCSS,
 		compileJS
