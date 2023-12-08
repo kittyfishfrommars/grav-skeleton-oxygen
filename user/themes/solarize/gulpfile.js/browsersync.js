@@ -3,15 +3,16 @@
 const config = require('../gulp.config.json');
 const browsersync = require('browser-sync').create();
 
-// startup local server on port 3000
+// assumes apache is running
 function server(cb) {
 	browsersync.init({
-        ui: {
-            port: 3000
+		server: false,
+        port: 8080,
+        open: 'local',
+        proxy: {
+            target: "http://localhost/",
+            ws: true
         },
-		server: {
-			baseDir: config.path.baseDir,
-		},
 		notify: {
 			styles: {
 				top: 'auto',
