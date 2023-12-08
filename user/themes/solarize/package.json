@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@ronilaukkarinen/gulp-stylelint": "^14.1.2",
+    "gulp-eslint-new": "^1.8.4",
     "stylelint": "^15.11.0",
     "stylelint-codeguide": "^0.3.2",
     "stylelint-config-standard-scss": "^11.1.0",
