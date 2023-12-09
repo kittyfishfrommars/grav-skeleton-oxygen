@@ -12,29 +12,30 @@
 	<link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
 	<link rel="canonical" href="{{ page.url(true, true) }}" />
 
-	{% block javascripts %}
-		{% do assets.addJs('theme://vendor/js/jquery.min.js') %}
-		{% do assets.addJs('theme://vendor/js/jquery.dropotron.min.js') %}
-		{% do assets.addJs('theme://vendor/js/skel.min.js') %}
-		{% do assets.addJs('theme://vendor/js/skel-layers.min.js') %}
-		{% do assets.addJs('theme://dist/js/scripts.js', {'group': 'init', 'data-theme-root': theme_url} ) %}
-	{% endblock %}
-
 	{% block stylesheets %}
-		{% do assets.addCss('theme://css/skel.css', {'group': 'noscript'}) %}
-		{% do assets.addCss('theme://css/style.css', {'group': 'noscript'}) %}
-		{% do assets.addCss('theme://css/custom.css') %}
+		{% do assets.addCss('theme://dist/css/main.css', {group: 'init'}) %}
+		{# TODO: test font, research license #}		
+		{% do assets.addCss('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800', {group: 'init'}) %}
+		{% do assets.addCss('theme://fonts/fontawesome/font-awesome.min.css', {group: 'delay', loading: 'defer'}) %}		
+		{# head: blocking scripts #}		
+		{{ assets.css('init')|raw }}
+		{# head: with loading parameter #}		
+		{{ assets.css('delay')|raw }}
 	{% endblock %}
 
-	{% block assets %}
-		{{ assets.js()|raw }}
-		{# required for pre deferred assets Twig versions, see https://getgrav.org/blog/important-theme-updates #}
-		{{ assets.js('init', {'data-theme-root': theme_url} )|raw }} 
-		{{ assets.css()|raw }}
-		<noscript>
-			{{ assets.css('noscript')|raw }}
-		</noscript>
-	{% endblock assets %}
+	{% block javascripts %}
+		{# TODO: test if necessary, eslint #}		
+		{% do assets.addJs('theme://vendor/js/jquery-1.11-custom.min.js', {group: 'init'}) %}
+		{% do assets.addJs('theme://vendor/js/jquery.dropotron.min.js', {group: 'delay', loading: 'defer'}) %}
+		{% do assets.addJs('theme://vendor/js/skel.min.js', {group: 'delay', loading: 'defer'}) %}
+		{% do assets.addJs('theme://vendor/js/skel-layers.min.js', {group: 'delay', loading: 'defer'}) %}
+		{# TODO: fix improve, rewrite #}		
+		{% do assets.addJs('theme://dist/js/scripts.js', {group: 'delay', loading: 'defer', 'data-theme-root': theme_url}) %}
+		{# head: blocking scripts #}		
+		{{ assets.js('init')|raw }}
+		{# head: with loading parameter #}		
+		{{ assets.js('delay')|raw }}
+	{% endblock %}
 
 {% endblock head %}
 </head>
@@ -77,8 +78,10 @@
 		{% include 'partials/footer.html.twig' %}
 	{% endblock footer %}
 
-	{% block bottom %}
-		{{ assets.js('bottom')|raw }}
-	{% endblock bottom %}
+	{% block assets deferred %}
+		{# plugins: JS / CSS #}		
+		{{ assets.js()|raw }}
+		{{ assets.css()|raw }}
+    {% endblock %}
 
 </body>

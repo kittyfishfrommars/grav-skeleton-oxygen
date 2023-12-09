@@ -11,12 +11,12 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			global:		{ range: '*', href: themeCSSPath + 'style.css', containers: 1400, grid: { gutters: 50 } },
-			wide:		{ range: '-1680', href: themeCSSPath + 'style-wide.css', containers: 1200, grid: { gutters: 40 } },
-			normal:		{ range: '-1280', href: themeCSSPath + 'style-normal.css', containers: 960, lockViewport: true },
-			narrow:		{ range: '-980', href: themeCSSPath + 'style-narrow.css', containers: '95%', grid: { gutters: 25 } },
-			narrower:	{ range: '-840', href: themeCSSPath + 'style-narrower.css', grid: { collapse: true } },
-			mobile:		{ range: '-640', href: themeCSSPath + 'style-mobile.css', containers: '90%', grid: { gutters: 15 } }
+			global:		{ range: '*', containers: 1400, grid: { gutters: 50 } },
+			wide:		{ range: '-1680', containers: 1200, grid: { gutters: 40 } },
+			normal:		{ range: '-1280', containers: 960, lockViewport: true },
+			narrow:		{ range: '-980', containers: '95%', grid: { gutters: 25 } },
+			narrower:	{ range: '-840', grid: { collapse: true } },
+			mobile:		{ range: '-640', containers: '90%', grid: { gutters: 15 } }
 		}
 	}, {
 		layers: {

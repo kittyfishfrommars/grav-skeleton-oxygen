@@ -1,20 +1,21 @@
-# ignore all files starting with .
-#.*
+# ignore package managers
+node_modules
+bower_components
+node_modules
+npm-debug.log
 
-# ignore temporary folders
+# ignore temporary files
 .sass-cache
 *.css.map
 .DS_Store
 config.codekit
 
-# ignore package managers
-bower_components
-node_modules
-
-# ignore tempoary folders
-cache/**
-logs/**
-backup/**
+# ignore tempoary folders and subfolders
+logs/
+dist/
+assets/
+cache/
+tmp/
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
@@ -71,7 +72,3 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
-
-# Node
-npm-debug.log
-node_modules

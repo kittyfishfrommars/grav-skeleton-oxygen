@@ -5,8 +5,8 @@
                "../../pages/**/*.md",
                "templates/**/*.twig"
               ],
-      "scss": "src/scss/**/*.scss",
-      "js": "src/js/**/*.js",
+      "scss": ["src/scss/**/*.scss"],
+      "js": ["src/js/**/*.js"],
       "dist": "dist"
     }
  }  

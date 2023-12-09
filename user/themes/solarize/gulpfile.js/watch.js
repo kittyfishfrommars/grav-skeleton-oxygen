@@ -13,7 +13,7 @@ const { lintCSS } = require('./stylelint.js');
 const watcher = {
 	// watch HTML separately
 	html: function() {
-		watch([config.path.html], {
+		watch(config.path.html, {
 				interval: 1000,
 				usePolling: true
 			},
@@ -24,7 +24,7 @@ const watcher = {
 
 	// watch CSS separately
 	css: function() {
-		watch([config.path.scss], {
+		watch(config.path.scss, {
 				interval: 1000,
 				usePolling: true
 			},
@@ -41,7 +41,7 @@ const watcher = {
 	// watch JS separately
 	// TODO: add lintJS
 	js: function() {
-		watch([config.path.js], {
+		watch(config.path.js, {
 				interval: 1000,
 				usePolling: true
 			},

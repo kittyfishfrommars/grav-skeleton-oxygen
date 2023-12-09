@@ -1,11 +1,11 @@
-# ignore all files starting with .
-#.*
-
 # ignore built files
 dist/
+assets/
+cache/
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
+!.htaccess
 
 # track .editorconfig file (i.e. do NOT ignore it)
 !.editorconfig

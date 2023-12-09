@@ -9,10 +9,8 @@ const terser = require('gulp-terser');
 // terser: minify and add sourcemaps
 function compileJS() {
 	return src(
-			[
-				config.path.js,
-				//,'!' + 'includes/js/jquery.min.js', // exclude specific files
-			], {
+			config.path.js,
+			{
 				sourcemaps: true
 			}
 		)
