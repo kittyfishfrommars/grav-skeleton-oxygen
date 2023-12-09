@@ -13,31 +13,23 @@
 	<link rel="canonical" href="{{ page.url(true, true) }}" />
 
 	{% block javascripts %}
-		{% do assets.addJs('theme://js/jquery.min.js') %}
-		{% do assets.addJs('theme://js/jquery.dropotron.min.js') %}
-		{% do assets.addJs('theme://js/skel.min.js') %}
-		{% do assets.addJs('theme://js/skel-layers.min.js') %}
-		{% do assets.addJs('theme://js/init.js', {'group': 'init', 'data-theme-root': theme_url} ) %}
+		{% do assets.addJs('theme://vendor/js/jquery.min.js') %}
+		{% do assets.addJs('theme://vendor/js/jquery.dropotron.min.js') %}
+		{% do assets.addJs('theme://vendor/js/skel.min.js') %}
+		{% do assets.addJs('theme://vendor/js/skel-layers.min.js') %}
+		{% do assets.addJs('theme://dist/js/scripts.js', {'group': 'init', 'data-theme-root': theme_url} ) %}
 	{% endblock %}
 
 	{% block stylesheets %}
-		{% if browser.getBrowser == 'msie' and browser.getVersion <= 8 %}
-			{# do assets.addJs('theme://css/ie/html5shiv.js', {'group', 'shiv'}) #}
-			{% do assets.addJs('theme://css/ie/html5shiv.js') %}
-		{% endif %}
-
 		{% do assets.addCss('theme://css/skel.css', {'group': 'noscript'}) %}
 		{% do assets.addCss('theme://css/style.css', {'group': 'noscript'}) %}
-		{% if browser.getBrowser == 'msie' and browser.getVersion <= 8 %}
-			{# do assets.addCss('theme://css/ie/v8.css', {'group', 'ie'}) #}
-			{% do assets.addCss('theme://css/ie/v8.css') %}
-		{% endif %}
 		{% do assets.addCss('theme://css/custom.css') %}
 	{% endblock %}
 
 	{% block assets %}
 		{{ assets.js()|raw }}
-		{{ assets.js('init', {'data-theme-root': theme_url} )|raw }} {# required for pre deferred assets Twig versions, see https://getgrav.org/blog/important-theme-updates #}
+		{# required for pre deferred assets Twig versions, see https://getgrav.org/blog/important-theme-updates #}
+		{{ assets.js('init', {'data-theme-root': theme_url} )|raw }} 
 		{{ assets.css()|raw }}
 		<noscript>
 			{{ assets.css('noscript')|raw }}

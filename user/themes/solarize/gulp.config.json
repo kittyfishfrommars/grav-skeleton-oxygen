@@ -1,7 +1,10 @@
 {
     "host": "http://localhost/",
     "path": {
-      "html": "../../pages/**/*.md",
+      "html": [
+               "../../pages/**/*.md",
+               "templates/**/*.twig"
+              ],
       "scss": "src/scss/**/*.scss",
       "js": "src/js/**/*.js",
       "dist": "dist"
