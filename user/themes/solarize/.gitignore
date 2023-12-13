@@ -1,3 +1,5 @@
+# THEME .gitignore
+
 # ignore built files
 dist/
 assets/

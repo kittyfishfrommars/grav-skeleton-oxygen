@@ -4,6 +4,8 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+@use "_config.scss" as config;
+
 /* Basic */
 
 body {
@@ -37,7 +39,7 @@ body, p, input, select, textarea {
 a {
     color: #0000ee;
 
-    /* color: #0398fc; */
+    /* color: config.$color-primary; */
     text-decoration: underline;
 }
 
@@ -96,13 +98,13 @@ sup {
 }
 
 hr {
-    border-top: solid 1px #0398fc;
+    border-top: solid 1px config.$color-primary;
     border: 0;
     margin-bottom: 1.5em;
 }
 
 blockquote {
-    border-left: solid 0.5em #0398fc;
+    border-left: solid 0.5em config.$color-primary;
     font-style: italic;
     padding: 1em 0 1em 2em;
 }
@@ -149,7 +151,7 @@ textarea {
     appearance: none;
     appearance: none;
     background: none;
-    border: solid 1px #0398fc;
+    border: solid 1px config.$color-primary;
     color: inherit;
     display: block;
     outline: 0;
@@ -162,7 +164,7 @@ input[type = "text"]:focus,
 input[type = "password"]:focus,
 input[type = "email"]:focus,
 textarea:focus {
-    border-color: #0398fc;
+    border-color: config.$color-primary;
 }
 
 input[type = "text"],
@@ -367,7 +369,7 @@ ul.special-icons .fa {
     display: inline-block;
     padding-right: 1em;
     font-size: 1.4em;
-    color: #0398fc;
+    color: config.$color-primary;
 }
 
 ul.special-icons p {
@@ -385,7 +387,7 @@ table.default {
 }
 
 table.default tbody tr {
-    border-bottom: solid 1px #0398fc;
+    border-bottom: solid 1px config.$color-primary;
 }
 
 table.default td {
@@ -417,8 +419,8 @@ input[type = "button"],
     background: none;
     border-radius: none;
     border: 2px solid;
-    border-color: #0398fc;
-    color: #0398fc;
+    border-color: config.$color-primary;
+    color: config.$color-primary;
     cursor: pointer;
     display: inline-block;
     padding: 0.90em 1.2em;
@@ -438,8 +440,8 @@ input[type = "submit"]:hover,
 input[type = "reset"]:hover,
 input[type = "button"]:hover,
 .button:hover {
-    background: #0398fc;
-    color: white;
+    background: config.$color-primary;
+    color: config.$color-secondary;
 }
 
 input[type = "submit"].alt,
@@ -454,8 +456,8 @@ input[type = "submit"].alt:hover,
 input[type = "reset"].alt:hover,
 input[type = "button"].alt:hover,
 .button.alt:hover {
-    background: white;
-    color: #0398fc;
+    background: config.$color-secondary;
+    color: config.$color-primary;
 }
 
 input[type = "submit"].fit,
@@ -530,9 +532,9 @@ input[type = "button"].small,
 .wrapper.style3,
 .wrapper.cta {
     padding-bottom: 6em;
-    background: #0398fc;
+    background: config.$color-primary;
     text-align: center;
-    color: white;
+    color: config.$color-secondary;
 }
 
 .wrapper.style3 .container,
@@ -548,14 +550,14 @@ input[type = "button"].small,
 
 .wrapper.style4,
 .wrapper.plain {
-    background: white;
+    background: config.$color-secondary;
 }
 
 .wrapper.style5,
 .wrapper.portals {
-    background: #0398fc;
+    background: config.$color-primary;
     text-align: center;
-    color: white;
+    color: config.$color-secondary;
 }
 
 .wrapper.style5 .image,
@@ -569,13 +571,13 @@ input[type = "button"].small,
 .wrapper.portals .image img {
     border-radius: 50%;
     border: 10px solid;
-    border-color: white;
+    border-color: config.$color-secondary;
 }
 
 /* Header */
 
 #header {
-    color: white;
+    color: config.$color-secondary;
     height: 4em;
     background: rgb(0 0 0 / 85%);
 }
@@ -584,6 +586,7 @@ input[type = "button"].small,
     position: relative;
 }
 
+/*
 .homepage #logo {
     display: none;
 }
@@ -593,6 +596,7 @@ input[type = "button"].small,
     right: none;
     text-align: center;
 }
+*/
 
 #logo {
     line-height: 2em;
@@ -600,7 +604,7 @@ input[type = "button"].small,
     text-transform: uppercase;
     font-size: 2em;
     font-weight: 400;
-    color: white;
+    color: config.$color-secondary;
 }
 
 #logo h1 {
@@ -641,7 +645,7 @@ input[type = "button"].small,
 }
 
 #nav > ul > li.active a {
-    color: white;
+    color: config.$color-secondary;
 }
 
 #nav > ul > li > ul {
@@ -658,7 +662,7 @@ input[type = "button"].small,
     border-radius: 4px;
     min-width: 12em;
     padding: 1em 0;
-    color: white;
+    color: config.$color-secondary;
 }
 
 .dropotron > li {
@@ -689,7 +693,7 @@ input[type = "button"].small,
     padding: 6em 0 3em;
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    color: config.$color-secondary;
 }
 
 #banner .container {
@@ -699,7 +703,7 @@ input[type = "button"].small,
 #banner h2 {
     display: inline-block;
     padding: 0.50em 0.30em;
-    background: #0398fc;
+    background: config.$color-primary;
     font-size: 3em;
     font-weight: 400;
 }
@@ -752,7 +756,7 @@ input[type = "button"].small,
 #footer {
     padding: 6em 0 2em;
     text-align: center;
-    color: white;
+    color: config.$color-secondary;
 }
 
 #footer hr {

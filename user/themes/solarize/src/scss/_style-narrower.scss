@@ -4,6 +4,8 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+@use "_config.scss" as config;
+
 /* Basic */
 @media ( width <= 840px ) {
 
@@ -116,7 +118,7 @@
         font-weight: 700;
         text-align: center;
         text-transform: uppercase;
-        color: #ffffff;
+        color: config.$color-nav;
         z-index: 1;
     }
 
@@ -141,7 +143,7 @@
 
     #titleBar .toggle:before {
         background: none;
-        color: white;
+        color: config.$color-secondary;
         display: block;
         height: 44px;
         line-height: 44px;
@@ -180,7 +182,7 @@
     }
 
     #navPanel .link.depth-0 {
-        color: #ffffff;
+        color: config.$color-nav;
     }
 
     #navPanel .link .indent-1 {
@@ -214,7 +216,7 @@
         padding: 6em 0 3em;
         text-align: center;
         text-transform: uppercase;
-        color: #ffffff;
+        color: config.$color-nav;
     }
 
     #banner .container {

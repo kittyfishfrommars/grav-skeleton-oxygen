@@ -1,3 +1,5 @@
+# ROOT .gitignore
+
 # ignore package managers
 node_modules
 bower_components
@@ -16,6 +18,7 @@ dist/
 assets/
 cache/
 tmp/
+images/
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
