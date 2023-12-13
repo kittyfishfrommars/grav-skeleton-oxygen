@@ -9,7 +9,7 @@ const { compileSCSS } = require('./sass.js');
 const { compileJS } = require('./concat.js');
 // const { fingerprint } = require('./replace.js');
 const { server } = require('./browsersync.js');
-const { watcher } = require('./watch.js');
+const { watchHTML, watchCSS, watchJS } = require('./watch.js');
 
 // TODO: implement gulp-eslint
 function lintJS(cb) {
@@ -49,9 +49,9 @@ exports.serve = series(
 		lintJS,	
 	),
 	parallel(
-		watcher.html,
-		watcher.css,
-		watcher.js
+		watchHTML,
+		watchCSS,
+		watchJS,
 	)
 );
 
