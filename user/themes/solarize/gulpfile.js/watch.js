@@ -2,9 +2,9 @@
 const config = require('../gulp.config.json');
 const { watch, series, parallel } = require('gulp');
 const { reload } = require('./browsersync.js');
-const { compileSCSS } = require('./sass.js');
+const { compileCSS } = require('./sass.js');
 const { compileJS } = require('./concat.js');
-const { lintCSS } = require('./stylelint.js');
+const { lintCSS, lintCSSAll } = require('./stylelint.js');
 
 // TODO: add lintJS
 // Browsersync watch task
@@ -23,20 +23,33 @@ function watchHTML() {
 
 exports.watchHTML = watchHTML;
 
-// watch CSS separately
-function watchCSS() {
-	watch(config.path.scss, {
+// TODO: watch CSS separately, lint modified file only
+function watchCSS1() {
+	return watch(config.path.scss, {
 			interval: 1000,
 			usePolling: true
-		},
+		}).on('all', function(stats, path) {
+			console.log(`File ${path} was changed`);
+			lintCSS(path);
+			series(
+				compileCSS,
+				reload
+			)
+	   });
+};
+
+// TODO: watch CSS separately, lint all files
+function watchCSS() {
+ 	return watch(config.path.scss, {
+			interval: 1000,
+			usePolling: true
+		},						
 		series(
-			parallel(
-				compileSCSS,
-				lintCSS
-			),
-			reload
+			lintCSSAll,
+			compileCSS,
+			reload		
 		)
-	);
+	)
 };
 
 exports.watchCSS = watchCSS;

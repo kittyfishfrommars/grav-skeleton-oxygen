@@ -3,7 +3,7 @@
 const config = require('../gulp.config.json');
 const browsersync = require('browser-sync').create();
 
-// assumes apache is running at config.hist (default: http://localhost/)
+// assumes apache is running at config.host (default: http://localhost/)
 function server(cb) {
 	browsersync.init({
 		server: false,

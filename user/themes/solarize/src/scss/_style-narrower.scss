@@ -1,15 +1,10 @@
-/*
-	Solarize by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 @use "_config.scss" as config;
 
 /* Basic */
 @media ( width <= 840px ) {
 
     #skel-layers-wrapper {
+        /* TODO: remove this comment, it is supposed to trip stylelint */
         padding-top: 44px;
     }
 
@@ -36,10 +31,10 @@
     input[type = "button"],
     .button {
         display: block;
-        width: 100%;
-        max-width: 350px;
-        margin: 0 auto;
         font-weight: 600;
+        margin: 0 auto;
+        max-width: 350px;        
+        width: 100%;
     }
 
     .wrapper.style2,
@@ -110,15 +105,15 @@
     }
 
     #titleBar .title {
+        color: config.$color-nav;
         display: block;
-        position: relative;
-        letter-spacing: 2px;
-        line-height: 44px;
         font-size: 1.3em;
         font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 44px;
+        position: relative;
         text-align: center;
         text-transform: uppercase;
-        color: config.$color-nav;
         z-index: 1;
     }
 
@@ -133,9 +128,11 @@
 
     #titleBar .toggle:before {
         content: "\f0c9";
+
+        /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+        font-family: FontAwesome;
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
         text-transform: none !important;
@@ -217,10 +214,10 @@
     /* Banner */
 
     #banner {
+        color: config.$color-nav;
         padding: 6em 0 3em;
         text-align: center;
         text-transform: uppercase;
-        color: config.$color-nav;
     }
 
     #banner .container {
@@ -228,8 +225,8 @@
     }
 
     #banner h2 {
-        padding: 0.50em;
         font-size: 1.8em;
+        padding: 0.50em;
     }
 
     #banner span, #banner p {

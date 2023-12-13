@@ -48,7 +48,8 @@
     "stylelint": "^15.11.0",
     "stylelint-codeguide": "^0.3.2",
     "stylelint-config-standard-scss": "^11.1.0",
-    "stylelint-formatter-pretty": "^3.2.1"
+    "stylelint-formatter-pretty": "^3.2.1",
+    "stylelint-order": "^6.0.4"
   },
   "scripts": {
     "build": "gulp build"

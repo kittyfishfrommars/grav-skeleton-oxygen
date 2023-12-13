@@ -1,9 +1,3 @@
-/*
-	Solarize by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 @use "_config.scss" as config;
 
 /* Basic */
@@ -62,6 +56,7 @@ p.medium {
 h1, h2, h3, h4, h5, h6 {
     color: inherit;
     font-weight: 700;
+    margin-bottom: config.$margin-bottom;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -106,7 +101,6 @@ section.special, article.special {
 }
 
 header.major {
-    padding-bottom: 3em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -118,9 +112,9 @@ header.major h2 {
 
 header.major .byline {
     display: block;
-    padding-top: 1em;
     letter-spacing: 1px;
     font-size: 1.4em;
+    margin-bottom: config.$margin-bottom;
 }
 
 footer > :last-child {
@@ -499,7 +493,6 @@ input[type = "button"].small,
 .wrapper.style2 h3,
 .wrapper.evenpart h3 {
     display: block;
-    margin-bottom: 1em;
     letter-spacing: 1px;
     line-height: 1.4em;
     text-transform: uppercase;
@@ -637,6 +630,7 @@ input[type = "button"].small,
 .dropotron {
     top: 2em;
     background: rgb(0 0 0 / 88%);
+
     /* background: rgba(32, 32, 32, 0.92); */
 
     border-radius: 4px;
@@ -779,7 +773,6 @@ input[type = "button"].small,
 
 #extra1 h2 {
     display: block;
-    margin-bottom: 1em;
     letter-spacing: 1px;
     line-height: 1.4em;
     text-transform: uppercase;
@@ -789,7 +782,6 @@ input[type = "button"].small,
 
 #extra1 h3 {
     display: block;
-    margin-bottom: 1em;
     letter-spacing: 1px;
     line-height: 1.4em;
     text-transform: uppercase;

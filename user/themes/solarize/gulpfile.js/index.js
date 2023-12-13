@@ -4,8 +4,8 @@ const { series, parallel } = require('gulp');
 
 // import functions from individual files
 const { cleanDist } = require('./clean.js');
-const { lintCSS, fixCSS } = require('./stylelint.js');
-const { compileSCSS } = require('./sass.js');
+const { lintCSSAll, fixCSS } = require('./stylelint.js');
+const { compileCSS } = require('./sass.js');
 const { compileJS } = require('./concat.js');
 // const { fingerprint } = require('./replace.js');
 const { server } = require('./browsersync.js');
@@ -39,13 +39,13 @@ exports.fix = series(
 exports.serve = series(
 	cleanDist,
  	parallel(
-		compileSCSS,
+		compileCSS,
 		compileJS
 	),
 	parallel(
 		server,
 		lintYAML,
-		lintCSS,
+		lintCSSAll,
 		lintJS,	
 	),
 	parallel(
@@ -67,7 +67,7 @@ exports.serve = series(
 exports.build = series(
 	cleanDist,
 	parallel(
-		compileSCSS,
+		compileCSS,
 		compileJS
 	)
 );

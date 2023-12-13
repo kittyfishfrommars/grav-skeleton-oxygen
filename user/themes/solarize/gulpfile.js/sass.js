@@ -10,10 +10,10 @@ const cssnano = require('cssnano');
 // postcss: handles plugins autoprefixer and cssnano
 // autoprefixer: get options from package.json
 // cssnano: PostCSS plugins
-function compileSCSS() {
+function compileCSS(cb) {
 	return src(config.path.scss, {
 			sourcemaps: true
-		}) // set source and turn on sourcemaps
+		})
 		.pipe(sass())
 		.pipe(postcss([
 			autoprefixer(),
@@ -21,7 +21,10 @@ function compileSCSS() {
 		]))
 		.pipe(dest(config.path.dist + '/css', {
 			sourcemaps: '.'
-		})); // put final CSS in dist folder with sourcemap
-}
+		}))
+		.on('end', function() {
+            cb();
+       });
+};
 
-exports.compileSCSS = compileSCSS;
+exports.compileCSS = compileCSS;

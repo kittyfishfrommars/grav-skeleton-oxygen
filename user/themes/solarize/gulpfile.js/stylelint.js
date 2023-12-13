@@ -7,8 +7,26 @@ const stylelintFormatter = require('stylelint-formatter-pretty');
 // CSS Linter
 // Man: https://doc.esdoc.org/github.com/olegskl/gulp-stylelint/
 // Stylelint Generator: https://maximgatilin.github.io/stylelint-config/
-function lintCSS() {
+
+// lint all css
+function lintCSSAll() {
 	return src(config.path.scss)
+		.pipe(stylelint({
+			failAfterError: false,
+			quietDeprecationWarnings: true,
+			reporters: [{
+				formatter: stylelintFormatter,
+				console: true
+			}]
+		}));
+};
+
+exports.lintCSSAll = lintCSSAll;
+
+// lint only a single file
+function lintCSS(path) {
+	path = path || config.path.scss;
+	return src(path)
 		.pipe(stylelint({
 			failAfterError: false,
 			quietDeprecationWarnings: true,

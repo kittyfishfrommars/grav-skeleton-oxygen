@@ -2,25 +2,57 @@
 
 /* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+/* stylelint-disable-next-line */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display: block;}
+/* stylelint-disable-next-line */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
 
-body{line-height: 1;}
+body {
+    line-height: 1;
+}
 
-ol,ul{list-style: none;}
+ol,
+ul {
+    list-style: none;
+}
 
-blockquote,q{quotes: none;}
+blockquote,
+q {
+    quotes: none;
+}
 
-blockquote:before,blockquote:after,q:before,q:after{content: "";content: none;}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
 
-table{border-collapse: collapse;border-spacing: 0;}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
-body{text-size-adjust: none;}
+body {
+    text-size-adjust: none;
+}
 
 /* Box Model */
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
@@ -35,13 +67,13 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
-		
+
     /* width: (containers) */
     width: 1200px;
 }
 
 /* Modifiers */
-	
+
 .container.small {
 
     /* width: (containers) * 0.75; */
@@ -49,73 +81,122 @@ body {
 }
 
 .container.big {
-    width: 100%;
 
     /* max-width: (containers) * 1.25; */
     max-width: 1500px;
 
     /* min-width: (containers); */
     min-width: 1200px;
+    width: 100%;
 }
 
 /* Grid */
 
-.\31 2u { width: 100%; }
+.\31 2u {
+    width: 100%;
+}
 
-.\31 1u { width: 91.6666666667%; }
+.\31 1u {
+    width: 91.6667%;
+}
 
-.\31 0u { width: 83.3333333333%; }
+.\31 0u {
+    width: 83.3333%;
+}
 
-.\39 u { width: 75%; }
+.\39 u {
+    width: 75%;
+}
 
-.\38 u { width: 66.6666666667%; }
+.\38 u {
+    width: 66.6667%;
+}
 
-.\37 u { width: 58.3333333333%; }
+.\37 u {
+    width: 58.3333%;
+}
 
-.\36 u { width: 50%; }
+.\36 u {
+    width: 50%;
+}
 
-.\35 u { width: 41.6666666667%; }
+.\35 u {
+    width: 41.6667%;
+}
 
-.\34 u { width: 33.3333333333%; }
+.\34 u {
+    width: 33.3333%;
+}
 
-.\33 u { width: 25%; }
+.\33 u {
+    width: 25%;
+}
 
-.\32 u { width: 16.6666666667%; }
+.\32 u {
+    width: 16.6667%;
+}
 
-.\31 u { width: 8.3333333333%; }
+.\31 u {
+    width: 8.3333%;
+}
 
-.\-11u { margin-left: 91.6666666667%; }
+.\-11u {
+    margin-left: 91.6667%;
+}
 
-.\-10u { margin-left: 83.3333333333%; }
+.\-10u {
+    margin-left: 83.3333%;
+}
 
-.\-9u { margin-left: 75%; }
+.\-9u {
+    margin-left: 75%;
+}
 
-.\-8u { margin-left: 66.6666666667%; }
+.\-8u {
+    margin-left: 66.6667%;
+}
 
-.\-7u { margin-left: 58.3333333333%; }
+.\-7u {
+    margin-left: 58.3333%;
+}
 
-.\-6u { margin-left: 50%; }
+.\-6u {
+    margin-left: 50%;
+}
 
-.\-5u { margin-left: 41.6666666667%; }
+.\-5u {
+    margin-left: 41.6667%;
+}
 
-.\-4u { margin-left: 33.3333333333%; }
+.\-4u {
+    margin-left: 33.3333%;
+}
 
-.\-3u { margin-left: 25%; }
+.\-3u {
+    margin-left: 25%;
+}
 
-.\-2u { margin-left: 16.6666666667%; }
+.\-2u {
+    margin-left: 16.6667%;
+}
 
-.\-1u { margin-left: 8.3333333333%; }
+.\-1u {
+    margin-left: 8.3333%;
+}
 
 /* Rows */
 
 .row > * {
     float: left;
+
+    /* padding-left: (gutters) */
+    padding-left: 40px;
 }
 
 .row:after {
+    clear: both;
     content: "";
     display: block;
-    clear: both;
     height: 0;
 }
 
@@ -124,12 +205,6 @@ body {
 }
 
 /* Normal */
-
-.row > * {
-
-    /* padding-left: (gutters) */
-    padding-left: 40px;
-}
 
 .row + .row > * {
 

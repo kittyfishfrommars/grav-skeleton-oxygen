@@ -1,12 +1,13 @@
 {
   "extends": "stylelint-config-standard-scss",
   "plugins": [
-		"stylelint-codeguide"
+		"stylelint-codeguide",
+    "stylelint-order"
 	],
   "rules": {
       "indentation": 4,
       "string-quotes": "double",
-      "no-duplicate-selectors": true,
+      "no-duplicate-selectors": null,
       "color-hex-case": "lower",
       "color-hex-length": "long",
       "color-named": "never",
@@ -24,6 +25,8 @@
       "comment-whitespace-inside": "always",
       "comment-empty-line-before": "always",
       "rule-empty-line-before": "always",
+      "selector-class-pattern": "",
+      "selector-id-pattern": "",
       "selector-pseudo-element-colon-notation": "single",
       "selector-pseudo-class-parentheses-space-inside": "always",
       "media-feature-range-operator-space-before": "always",
@@ -31,6 +34,7 @@
       "media-feature-parentheses-space-inside": "always",
       "media-feature-colon-space-before": "never",
       "media-feature-colon-space-after": "always",
-      "order/properties-alphabetical-order": true
+      "order/properties-alphabetical-order": true,
+      "scss/load-no-partial-leading-underscore": null
   }
 }
