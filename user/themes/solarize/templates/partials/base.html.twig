@@ -25,7 +25,7 @@
 
 	{% block javascripts %}
 		{# TODO: test if necessary, eslint #}		
-		{% do assets.addJs('theme://vendor/js/jquery-1.11.min.js', {group: 'init'}) %}
+		{% do assets.addJs('theme://vendor/js/jquery-1.11.custom.min.js', {group: 'init'}) %}
 		{% do assets.addJs('theme://vendor/js/jquery.dropotron.min.js', {group: 'delay', loading: 'defer'}) %}
 		{% do assets.addJs('theme://vendor/js/skel.min.js', {group: 'delay', loading: 'defer'}) %}
 		{% do assets.addJs('theme://vendor/js/skel-layers.min.js', {group: 'delay', loading: 'defer'}) %}

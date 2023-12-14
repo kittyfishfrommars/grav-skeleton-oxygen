@@ -14,15 +14,18 @@ in /user/theme/solaris/
 * Run `gulp` to run the default Gulp task (build)
 
 * Run `gulp serve` for development 
-* Run `gulp build`
+* Run `gulp build` for production build
+
+(Developers) How-to [update](https://stackoverflow.com/a/69537863)
+
 
 Gulp is configured to run the following functions:
 
 * Autoreload on CSS/JS or content change
-* Compile the SCSS files to CSS
-* Autoprefix and minify the CSS file
-* Concatenate the JS files
-* Uglify the JS files
+* Lint SCSS files via stylelint
+* Concatenate and compile SCSS files to CSS
+* Autoprefix and minify CSS file
+* Minify JS files
 * Move final CSS and JS files to the `/dist` folder
 
 # Installation

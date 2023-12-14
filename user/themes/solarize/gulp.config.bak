@@ -1,9 +1,0 @@
-{
-    "path": {
-      "html": "index.html",
-      "scss": "app/scss/**/*.scss",
-      "js": "app/js/**/*.js",
-      "dist": "dist",
-      "baseDir": "app/"
-    }
- }  

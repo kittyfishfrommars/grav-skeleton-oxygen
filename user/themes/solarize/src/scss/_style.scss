@@ -226,6 +226,10 @@ input[type = "text"] {
     text-transform: none !important;
 }
 
+.button.icon:before {
+    margin-right: 0.5em;
+}
+
 .icon > .label {
     display: none;
 }
@@ -235,30 +239,36 @@ input[type = "text"] {
 ul,
 ol {
     list-style-position: outside;
-    margin: 0 0 1em 1em;
     padding: 0;
 }
 
 ul,
 ul.default {
     list-style-type: disc;
+    margin: 0 0 1em 1.23em;
 }
+
+ol,
+ol.default {
+    list-style-type: decimal;
+    margin: 0 0 1em 1.1em;
+}
+
 
 ul li,
 ol li,
 ul.default li,
 ol.default li {
     padding-bottom: 0.5em;
-    padding-left: 0.5em;
+    padding-left: 0.35em;
 }
 
-ol,
-ol.default {
-    list-style: decimal;
-}
-
-ul.icons {
+ul.actions,
+ul.icons,
+ul.special-icons {
     cursor: default;
+    list-style-type: none;
+    margin: 0;
     padding-bottom: 2em;
 }
 
@@ -289,11 +299,6 @@ ul.icons li a:hover {
     opacity: 1;
 }
 
-ul.actions {
-    cursor: default;
-    margin: 0;
-}
-
 ul.actions li {
     display: inline-block;
 }
@@ -312,11 +317,6 @@ ul.actions.vertical li {
 }
 
 ul.actions.vertical li:first-child {
-    padding: 0;
-}
-
-ul.special-icons {
-    margin: 0;
     padding: 0;
 }
 
@@ -342,8 +342,7 @@ ul.special-icons > li:first-child {
 ul.special-icons h3 {
     font-size: 1.2em;
     font-weight: 700;
-    line-height: 2em;
-    margin-bottom: 0.80em;
+    margin-bottom: 0.5em;
     text-transform: uppercase;
 }
 
@@ -639,6 +638,8 @@ input[type = "button"].small,
     background: config.$color-nav-bg;
     border-radius: 4px;
     color: config.$color-secondary;
+    list-style-type: none;
+    margin: 0;
     min-width: 12em;
     padding: 1em 0;
     top: 2em;
@@ -669,7 +670,7 @@ input[type = "button"].small,
 /* Banner */
 
 #banner {
-    background: #222222;
+    background: config.$color-disabled;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -697,15 +698,7 @@ input[type = "button"].small,
     font-weight: 300;
     letter-spacing: 1px;
     margin: 0 0 0.5em;
-
-    /* background: rgba(0, 0, 0, 0.35); */
     padding: 1em;
-
-    /* TODO: mobile */
-    text-shadow: 3px 4px 7px rgb(81 67 21 / 80%);
-    text-shadow: 2px 4px 3px rgb(0 0 0 / 100%),
-        0 -5px 35px rgb(0 0 0 / 100%);
-    text-transform: uppercase;
 }
 
 /* Main */
