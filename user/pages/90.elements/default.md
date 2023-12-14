@@ -2,9 +2,9 @@
 title: Elements
 ---
 
-> README: This page is not part of the Solarize theme but is probably a useful reference device to see gaps in the theme's styling. As you might notice, there are some gaps in styling. If you see an element here, it will probably need to be styled by you to look half decent.
+> README: This page is not part of this theme but is probably a useful reference device to see gaps in the theme's styling. As you might notice, there are some gaps in styling. If you see an element here, it will probably need to be styled by you to look half decent.
 
-> The elements markup has been taken faithfully copied from the [HTML5UP Massively theme elements page](https://html5up.net/massively "oops, resource not directly linkable"). This might be switched out for [elements used in Templated's Theory template](https://templated.co/items/demos/theory/elements.html) eventually.
+> The elements markup has been adapted from the [HTML5UP Massively theme elements page](https://html5up.net/massively "oops, resource not directly linkable"). This might be switched out for [elements used in Templated's Theory template](https://templated.co/items/demos/theory/elements.html) eventually.
 
 > This page uses [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/) and would likely benefit from loading [Font Awesome](https://fontawesome.com).
 
@@ -60,18 +60,18 @@ Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor s
 
 ### Unordered
 
-* Dolor pulvinar etiam.
-* Sagittis lorem eleifend.
-* Felis feugiat dolore viverra.
-* Dolor pulvinar etiam.
+* Dolor pulvinar etiam etiam. Dolor pulvinar etiam etiam. Felis enim dolore viverra. Sagittis adipiscing eleifend.
+* Sagittis adipiscing eleifend. Felis enim dolore viverra. Dolor pulvinar etiam etiam.
+* Felis enim dolore viverra. Sagittis adipiscing eleifend. Felis enim dolore viverra. Dolor pulvinar etiam etiam.
+* Dolor pulvinar etiam etiam. Sagittis adipiscing eleifend. Dolor pulvinar etiam etiam. Felis enim dolore viverra.
 
 ### Alternate
 
 <ul class="alt">
-	<li>Dolor pulvinar etiam etiam.</li>
-	<li>Sagittis adipiscing eleifend.</li>
-	<li>Felis enim dolore viverra.</li>
-	<li>Dolor pulvinar etiam etiam.</li>
+	<li>Dolor pulvinar etiam etiam. Dolor pulvinar etiam etiam. Felis enim dolore viverra. Sagittis adipiscing eleifend.</li>
+	<li>Sagittis adipiscing eleifend. Felis enim dolore viverra. Dolor pulvinar etiam etiam.</li>
+	<li>Felis enim dolore viverra. Sagittis adipiscing eleifend. Felis enim dolore viverra. Dolor pulvinar etiam etiam.</li>
+	<li>Dolor pulvinar etiam etiam. Sagittis adipiscing eleifend. Dolor pulvinar etiam etiam. Felis enim dolore viverra.</li>
 </ul>
 </div>
 
@@ -79,11 +79,11 @@ Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor s
 
 ### Ordered
 
-1. Dolor pulvinar etiam.
-2. Etiam vel felis at viverra.
-3. Felis enim feugiat magna.
-4. Etiam vel felis nullam.
-5. Felis enim et tempus.
+1. Dolor pulvinar etiam. Felis enim feugiat magna. Etiam vel felis nullam.
+2. Etiam vel felis at viverra. Sagittis adipiscing eleifend. Dolor pulvinar etiam etiam. Felis enim feugiat magna.
+3. Felis enim feugiat magna. Etiam vel felis nullam. Felis enim feugiat magna. Sagittis adipiscing eleifend.
+4. Etiam vel felis nullam. Felis enim feugiat magna. Dolor pulvinar etiam etiam.
+5. Sagittis adipiscing eleifend. Felis enim et tempus. Dolor pulvinar etiam etiam.
 
 ### Icons
 

@@ -232,23 +232,29 @@ input[type = "text"] {
 
 /* Lists */
 
-ul.default {
-    list-style: disc;
-    margin: 0;
+ul,
+ol {
+    list-style-position: outside;
+    margin: 0 0 1em 1em;
     padding: 0;
 }
 
-ul.default li {
-    padding: 0.40em 0;
+ul,
+ul.default {
+    list-style-type: disc;
 }
 
+ul li,
+ol li,
+ul.default li,
+ol.default li {
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+
+ol,
 ol.default {
     list-style: decimal;
-    padding-left: 1.25em;
-}
-
-ol.default li {
-    padding-left: 0.25em;
 }
 
 ul.icons {
@@ -285,11 +291,11 @@ ul.icons li a:hover {
 
 ul.actions {
     cursor: default;
+    margin: 0;
 }
 
 ul.actions li {
     display: inline-block;
-    padding: 0 0 0 1.5em;
 }
 
 ul.actions li:first-child {
