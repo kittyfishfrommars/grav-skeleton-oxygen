@@ -36,6 +36,7 @@
       "media-feature-parentheses-space-inside": "always",
       "media-feature-colon-space-before": "never",
       "media-feature-colon-space-after": "always",
+      "no-descending-specificity": null,
       "order/properties-alphabetical-order": true,
       "scss/load-no-partial-leading-underscore": null
   }
