@@ -104,7 +104,7 @@
     }
 
     #titleBar .title {
-        color: config.$color-nav;
+        color: config.$color-nav-text;
         display: block;
         font-size: 1.3em;
         font-weight: 700;
@@ -182,7 +182,7 @@
     }
 
     #navPanel .link.depth-0 {
-        color: config.$color-nav;
+        color: config.$color-nav-text;
     }
 
     #navPanel .link .indent-1 {
@@ -213,7 +213,7 @@
     /* Banner */
 
     #banner {
-        color: config.$color-nav;
+        color: config.$color-nav-text;
         padding: 6em 0 3em;
         text-align: center;
         text-transform: uppercase;

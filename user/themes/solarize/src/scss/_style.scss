@@ -455,13 +455,12 @@ input[type = "button"].small,
     padding: 6em 0 4em;
 }
 
-/* TODO: move banner.jpg to YAML */
-
 .wrapper.style1 {
-    background: #222222 url("../../images/placekitten_1680x600.jpg") no-repeat;
-    background-position: center top;
-    background-size: cover;
     padding: 0;
+}
+
+.wrapper.style1 #header h1 {
+    margin: 0;
 }
 
 .wrapper.style2,
@@ -551,7 +550,7 @@ input[type = "button"].small,
 /* Header */
 
 #header {
-    background: rgb(0 0 0 / 85%);
+    background: config.$color-nav-bg;
     color: config.$color-secondary;
     height: 4em;
 }
@@ -631,10 +630,7 @@ input[type = "button"].small,
 /* Dropotron */
 
 .dropotron {
-    background: rgb(0 0 0 / 88%);
-
-    /* background: rgba(32, 32, 32, 0.92); */
-
+    background: config.$color-nav-bg;
     border-radius: 4px;
     color: config.$color-secondary;
     min-width: 12em;
@@ -667,6 +663,10 @@ input[type = "button"].small,
 /* Banner */
 
 #banner {
+    background: #222222;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: config.$color-secondary;
     padding: 6em 0 3em;
     text-align: center;
@@ -700,6 +700,32 @@ input[type = "button"].small,
     text-shadow: 2px 4px 3px rgb(0 0 0 / 100%),
         0 -5px 35px rgb(0 0 0 / 100%);
     text-transform: uppercase;
+}
+
+/* Main */
+
+#main {
+    padding: 4em 0;
+}
+
+#main #content .major, #main #sidebar .major {
+    text-align: left;
+}
+
+#main #sidebar section {
+    margin-top: 4em;
+}
+
+#main #sidebar section:first-child {
+    margin-top: 0;
+}
+
+#main #sidebar .major {
+    padding-bottom: 2em;
+}
+
+#main #sidebar .major h2 {
+    font-size: 1.8em;
 }
 
 /* Extra */
@@ -748,32 +774,6 @@ input[type = "button"].small,
 #footer .copyright {
     margin-top: 3em;
     text-align: center;
-}
-
-/* Main */
-
-#main {
-    padding: 4em 0;
-}
-
-#main #content .major, #main #sidebar .major {
-    text-align: left;
-}
-
-#main #sidebar section {
-    margin-top: 4em;
-}
-
-#main #sidebar section:first-child {
-    margin-top: 0;
-}
-
-#main #sidebar .major {
-    padding-bottom: 2em;
-}
-
-#main #sidebar .major h2 {
-    font-size: 1.8em;
 }
 
 /* Copyright */
