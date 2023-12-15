@@ -60,12 +60,13 @@ em, i {
     font-style: italic;
 }
 
-p, ul, ol, dl, table, blockquote {
+dl, table {
     margin: 0 0 2em;
 }
 
 p {
     line-height: 1.5em;
+    margin-bottom: config.$margin-bottom;
 }
 
 p.medium {
@@ -91,12 +92,6 @@ hr {
     margin-bottom: 1.5em;
 }
 
-blockquote {
-    border-left: solid 0.5em config.$color-primary;
-    font-style: italic;
-    padding: 1em 0 1em 2em;
-}
-
 section.special, article.special {
     text-align: center;
 }
@@ -115,7 +110,7 @@ header.major .byline {
     display: block;
     font-size: 1.4em;
     letter-spacing: 1px;
-    margin-bottom: config.$margin-bottom;
+    margin-bottom: config.$margin-bottom * 2;
 }
 
 footer > :last-child {
@@ -343,6 +338,7 @@ ul.special-icons h3 {
     font-size: 1.2em;
     font-weight: 700;
     margin-bottom: 0.5em;
+    padding-top: 0.38em;
     text-transform: uppercase;
 }
 
@@ -447,6 +443,7 @@ input[type = "button"].fit,
     width: 100%;
 }
 
+small,
 input[type = "submit"].small,
 input[type = "reset"].small,
 input[type = "button"].small,

@@ -23,6 +23,14 @@
         font-size: 1.1em;
     }
 
+    /* List */ 
+
+    ul.actions,
+    ul.icons,
+    ul.special-icons {
+        padding-bottom: 0;
+    }
+
     /* Button */
 
     input[type = "submit"],
@@ -30,7 +38,7 @@
     input[type = "button"],
     .button {
         display: block;
-        font-weight: 600;
+        font-weight: 300;
         margin: 0 auto;
         max-width: 350px;        
         width: 100%;
