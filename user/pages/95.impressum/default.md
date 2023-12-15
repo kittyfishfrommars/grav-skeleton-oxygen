@@ -1,12 +1,15 @@
 ---
 title: 'Impressum'
-subtitle: 'Integer sit amet pede vel arcu aliquet pretium'
+# subtitle: 'Integer sit amet pede vel arcu aliquet pretium'
 visible: false
 ---
+### 3 Überschrift V.i.S.d.P.
+#### 4 Überschrift V.i.S.d.P.
 
-
-## Acknowledgements
-
+<small>
+#### Credits
+OpenSans[wdth,wght].ttf: Copyright 2020 The Open Sans Project Authors ([https://github.com/googlefonts/opensans](https://github.com/googlefonts/opensans)) (self-hosted)
+</small>
 
 Angaben gemäß § 5 TMG
 
@@ -125,14 +128,3 @@ Answer 2
 ## Feedback
 
 If you have any feedback, please reach out to us at fake@fake.com
-
-
-## 🚀 About Me
-I'm a full stack developer...
-
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-

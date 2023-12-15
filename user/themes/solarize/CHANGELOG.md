@@ -1,10 +1,14 @@
-# v0.2.1
+# v1.0.0
 ##  06-12-2023
 
 1. [](#improvement)
-    * remove IE8 support
-    * add larger fonts
-    * split js into /src for compilation and /vendor folder for use as-is
+    * Remove IE8 support
+    * Host Google Fonts locally for ([GDPR-compliance](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/))
+    * Increase font-size to improve readability
+    * Introduce SASS to /src/scss folder
+    * JS files into /src/js for to compo 
+    * /vendor folder for use as-is
+    * Add banner URL to .md pages
 
 # v0.2.0
 ##  19-02-2022

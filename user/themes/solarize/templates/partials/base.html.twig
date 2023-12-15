@@ -13,9 +13,8 @@
 	<link rel="canonical" href="{{ page.url(true, true) }}" />
 
 	{% block stylesheets %}
+		{% do assets.addCss('theme://fonts/opensans/opensans.css', {group: 'init'}) %}
 		{% do assets.addCss('theme://dist/css/main.css', {group: 'init'}) %}
-		{# TODO: test font, research license #}		
-		{% do assets.addCss('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800', {group: 'init'}) %}
 		{% do assets.addCss('theme://fonts/fontawesome/font-awesome.min.css', {group: 'delay', loading: 'defer'}) %}		
 		{# head: blocking scripts #}		
 		{{ assets.css('init')|raw }}
