@@ -12,8 +12,29 @@ blockquote p {
     padding: 0;
 }
 
+/* ICONS */
+
+.icons.alt {
+    color: config.$color-primary;
+}
+
+.icons.icons-all {
+    color: config.$color-text;
+
+    li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .fa {
+        font-size: 1.8em;
+    }
+}
+
+/* PRE */
+
 code {
-    border: solid 1px config.$color-secondary;
+    border: solid 1px config.$color-text;
     font-family: "Courier New", monospace;
     font-size: 0.9rem;
     margin: 0 0.25rem;

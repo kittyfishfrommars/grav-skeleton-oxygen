@@ -26,39 +26,39 @@ notices: # NB. these will be rendered vertically in columns in order provided he
     heading: Cras vitae metus aliNuam
     byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
-        - icon: cogs
+        - icon: info
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: wrench
+        - icon: shield
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: leaf
+        - icon: gavel
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
-        - icon: cogs
+        - icon: check
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: wrench
+        - icon: times
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: leaf
+        - icon: exclamation-triangle
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
-        - icon: cogs
+        - icon: exclamation
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: wrench
+        - icon: lightbulb-o
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: leaf
+        - icon: map-marker
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'

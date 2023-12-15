@@ -7,8 +7,18 @@ visible: false
 #### 4 Überschrift V.i.S.d.P.
 
 <small>
-#### Credits
-OpenSans[wdth,wght].ttf: Copyright 2020 The Open Sans Project Authors ([https://github.com/googlefonts/opensans](https://github.com/googlefonts/opensans)) (self-hosted)
+#### Attribution
+
+Design [Solarize by Templated](https://templated.co/solarize) under its [CCA 3.0 license](https://templated.co/license)
+
+Font Awesome 4.7.0 by @davegandy - [https://fontawesome.io](http://fontawesome.io) - @fontawesome
+License - [https://fontawesome.io/license](http://fontawesome.io/license) (Font: SIL OFL 1.1, CSS: MIT License)
+
+OpenSans[wdth,wght].ttf: Copyright 2020 The Open Sans Project Authors [https://github.com/googlefonts/opensans](https://github.com/googlefonts/opensans)
+
+
+
+
 </small>
 
 Angaben gemäß § 5 TMG

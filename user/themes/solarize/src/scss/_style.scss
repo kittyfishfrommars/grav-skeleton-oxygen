@@ -12,7 +12,7 @@ body.loading * {
 }
 
 body, input, select, textarea {
-    color: #1f1f1f;
+    color: config.$color-text;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     line-height: 1.65em;
@@ -271,10 +271,6 @@ ul.icons li {
     display: inline-block;
     line-height: 1em;
     padding: 0.5em 1em;
-}
-
-ul.icons li:first-child {
-    padding-left: 0;
 }
 
 ul.icons li span {

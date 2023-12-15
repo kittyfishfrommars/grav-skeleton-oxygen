@@ -3,8 +3,12 @@
 
 1. [](#improvement)
     * Remove IE8 support
-    * Host Google Fonts locally for ([GDPR-compliance](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/))
+    * Improve JS/CSS loading strategy
     * Increase font-size to improve readability
+    * Host Google Fonts locally for ([GDPR-compliance](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/))
+    * Load FontAwesome 4.0.3 as woff2 to improve perfomance
+    * Add FontAwesome to elements page
+    * Add attributions to imprint page
     * Introduce SASS to /src/scss folder
     * JS files into /src/js for to compo 
     * /vendor folder for use as-is
