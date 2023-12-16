@@ -1,0 +1,52 @@
+@use "_config.scss" as config;
+
+/* COLORS */
+
+.color-primary {
+    color: config.$color-primary;
+}
+
+.color-secondary {
+    color: config.$color-secondary;
+}
+
+.color-text {
+    color: config.$color-text;
+}
+
+/* grey */
+
+.color-disabled {
+    color: config.$color-disabled;
+}
+
+/* green */
+
+.color-success {
+    color: config.$color-success;
+}
+
+/* yellow */
+
+.color-warning {
+    color: config.$color-warning;
+}
+
+/* red */
+
+.color-danger {
+    color: config.$color-danger;
+}
+
+/* blue */
+
+.color-info {
+    color: config.$color-primary;
+}
+
+/* PADDINGS */
+
+.pt-3 {
+    padding-top: 3rem;
+}
+

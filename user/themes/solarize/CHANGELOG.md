@@ -8,11 +8,14 @@
     * Host Google Fonts locally for ([GDPR-compliance](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/))
     * Load FontAwesome 4.0.3 as woff2 to improve perfomance
     * Add FontAwesome to elements page
-    * Add attributions to imprint page
+    * Add default imprint page with attributions
+    * Add copyright notice to footer, auto-linking to page via taxonomy.tag: imprint 
+    * Site-wide footer content can be maintained in site.yaml
     * Introduce SASS to /src/scss folder
     * JS files into /src/js for to compo 
     * /vendor folder for use as-is
     * Add banner URL to .md pages
+    * Add color css classes to style icons (notices)
 
 # v0.2.0
 ##  19-02-2022

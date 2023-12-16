@@ -36,7 +36,7 @@ Musterweg
 12345 Musterstadt
 
 
-### Attribution {#attribution}
+### Attribution {#attribution .pt-3}
 
 * Design [Solarize by Templated](https://templated.co/solarize) under its [CCA 3.0 license](https://templated.co/license), for modifications see [CHANGELOG.md](https://github.com/hughbris/grav-theme-solarize)
 * Font Awesome 4.0.3 by @davegandy - [https://fontawesome.io](http://fontawesome.io) - @fontawesome
@@ -44,6 +44,6 @@ License - [https://fontawesome.io/license](http://fontawesome.io/license) (Font:
 * OpenSans[wdth,wght].ttf: Copyright 2020 The Open Sans Project Authors [https://github.com/googlefonts/opensans](https://github.com/googlefonts/opensans)
 
 
-### Privacy Policy {#privacy}
+### Privacy Policy {#privacy .pt-3}
 
 A [privacy policy](https://en.wikipedia.org/wiki/Privacy_policy) is a statement that discloses some or all of the ways a party gathers, uses, discloses, and manages visitors data.

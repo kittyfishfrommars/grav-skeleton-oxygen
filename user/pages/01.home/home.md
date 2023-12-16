@@ -22,43 +22,47 @@ cta:
     button:
         text: 'Nulla aluctus eleifend'
         target: '#'
-notices: # NB. these will be rendered vertically in columns in order provided here
+
+# NB. these will be rendered vertically in columns in order provided here
+notices:
     heading: Cras vitae metus aliNuam
     byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
-        - icon: info
+        - icon: info color-info
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: shield
+        - icon: shield color-primary
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: gavel
+        - icon: gavel color-info
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
-        - icon: check
+
+        - icon: check color-success
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: times
+        - icon: times color-danger
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: exclamation-triangle
+        - icon: exclamation-triangle color-warning
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
-        - icon: exclamation
+
+        - icon: exclamation color-primary
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: lightbulb-o
+        - icon: lightbulb-o color-warning
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: map-marker
+        - icon: map-marker color-danger
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
