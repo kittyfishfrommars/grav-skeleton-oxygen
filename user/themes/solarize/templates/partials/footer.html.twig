@@ -2,23 +2,21 @@
 	<div id="footer">
 		<section class="container">
 			<header class="major">
-				<h2>Connect with us</h2>
-				<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+				<h2>{{ site.footer.social.title }}</h2>
+				<span class="byline">{{ site.footer.social.byline }}</span>
 			</header>
 			<ul class="icons">
-				<li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
-				<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
-				<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
-				<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+			{% for item in site.footer.social.items %}
+					<li><a href="{{ item.url }}" class="{{ item.icon }}"><span>{{ item.title }}</span></a></li>
+			{% endfor %}
 			</ul>
 			<hr />
 		</section>
 
 		<!-- Copyright -->
 		{% for post in taxonomy.findTaxonomy({'tag':'imprint'}) %}
-			{% set legal = post %}
 			<div id="copyright">
-				<a href="{{ legal.url ~ site.footer.legal.imprint.id }}">{{ site.footer.legal.imprint.title|e }}</a> | <a href="{{ legal.url ~ site.footer.legal.attribution.id }}">{{ site.footer.legal.attribution.title|e }}</a> | <a href="{{ legal.url ~ site.footer.legal.privacy.id }}">{{ site.footer.legal.privacy.title|e }}</a>
+				<a href="{{ post.url ~ site.footer.legal.attribution.id }}">{{ site.footer.legal.attribution.title|e }}</a> | <a href="{{ post.url ~ site.footer.legal.privacy.id }}">{{ site.footer.legal.privacy.title|e }}</a> | <a href="{{ post.url ~ site.footer.legal.imprint.id }}">{{ site.footer.legal.imprint.title|e }}</a>
 			</div>
 		{% endfor %}
 	</div>

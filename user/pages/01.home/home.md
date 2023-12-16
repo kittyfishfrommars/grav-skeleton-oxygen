@@ -41,11 +41,13 @@ notices:
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
-        - icon: check color-success
+        - icon: check-circle color-success
+          # icon: check color-success
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: times color-danger
+        - icon: times-circle color-danger
+          # icon: times color-danger
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
@@ -58,7 +60,8 @@ notices:
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: lightbulb-o color-warning
+        - icon: user
+          # icon: lightbulb-o color-warning
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
