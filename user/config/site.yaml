@@ -4,4 +4,18 @@ author:
   email: 'joe@example.com'
 metadata:
     description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
+# define copyright links in footer on every page
+# id matches with markdown, see ### headlines below
+footer:
+  legal:
+    imprint:
+      title: 'Imprint'
+      id: ''
+    attribution:
+      title: 'Attribution'
+      id: '#attribution'
+    privacy:
+      title: 'Privacy Policy'
+      id: '#privacy'
+# do not remove taxonomy tag, it is used as an identifier in footer.html.twig
+taxonomies: [tag]

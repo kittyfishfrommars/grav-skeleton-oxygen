@@ -1,5 +1,12 @@
 @use "_config.scss" as config;
 
+
+/* COLOR HELPERS */
+
+
+
+/* BLOCKQUOTE */
+
 blockquote {
     border-left: solid 0.5em config.$color-primary;
     font-style: italic;

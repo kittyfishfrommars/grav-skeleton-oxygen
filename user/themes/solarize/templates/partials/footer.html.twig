@@ -15,7 +15,10 @@
 		</section>
 
 		<!-- Copyright -->
-		<div id="copyright">
-			<a href="{{ base_url }}/impressum">Impressum</a> | <a href="{{ base_url }}/impressum#datenschutz">Datenschutz</a>
-		</div>
+		{% for post in taxonomy.findTaxonomy({'tag':'imprint'}) %}
+			{% set legal = post %}
+			<div id="copyright">
+				<a href="{{ legal.url ~ site.footer.legal.imprint.id }}">{{ site.footer.legal.imprint.title|e }}</a> | <a href="{{ legal.url ~ site.footer.legal.attribution.id }}">{{ site.footer.legal.attribution.title|e }}</a> | <a href="{{ legal.url ~ site.footer.legal.privacy.id }}">{{ site.footer.legal.privacy.title|e }}</a>
+			</div>
+		{% endfor %}
 	</div>
