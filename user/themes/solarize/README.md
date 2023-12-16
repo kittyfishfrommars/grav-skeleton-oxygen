@@ -1,6 +1,6 @@
 # Solarize Theme
 
-The **Solarize** Theme is for [Grav CMS](http://github.com/getgrav/grav). It's a port of [Solarize](https://templated.co/solarize) by Templated under its [CCA 3.0 license](https://templated.co/license).
+The **Solarize** Theme is for [Grav CMS](http://github.com/getgrav/grav). It's a modified port of [Solarize](https://templated.co/solarize) by Templated under its [CCA 3.0 license](https://templated.co/license). For additional modifications see CHANGELOG.md included in this release.
 
 The Grav port includes an additional [Elements page](_demo/pages/90.elements/default.md) as per many Templated themes, to allow you to identify gaps in the theme's styling. There are a few.
 
