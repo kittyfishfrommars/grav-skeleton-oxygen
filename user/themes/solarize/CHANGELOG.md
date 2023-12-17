@@ -4,7 +4,7 @@
 1. [](#improvement)
     * Remove IE8 support
     * Improve JS/CSS loading strategy
-    * Increase font-size to improve readability
+    * Increase font-size, simplify line-height to improve readability
     * Host Google Fonts locally for ([GDPR-compliance](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/))
     * Load FontAwesome 4.0.3 as woff2 to improve perfomance
     * Add FontAwesome to elements page

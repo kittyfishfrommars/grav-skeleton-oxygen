@@ -25,7 +25,7 @@ cta:
 
 # NB. these will be rendered vertically in columns in order provided here
 notices:
-    heading: Cras vitae metus aliNuam
+    heading: Cras vitae metus alinuam elementum vestibulum
     byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
         - icon: info color-info

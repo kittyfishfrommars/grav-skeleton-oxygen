@@ -13,9 +13,11 @@ body.loading * {
 
 body, input, select, textarea {
     color: config.$color-text;
-    font-family: "Open Sans", sans-serif;
+    font-family: config.$font-family;
     font-weight: 300;
+
     line-height: 1.65em;
+    /* line-height: config.$line-height; */
 }
 
 body, p, input, select, textarea {
@@ -25,6 +27,7 @@ body, p, input, select, textarea {
 h1, h2, h3, h4, h5, h6 {
     color: inherit;
     font-weight: 700;
+    line-height: config.$line-height;
     margin-bottom: config.$margin-bottom;
 }
 
@@ -37,9 +40,7 @@ h3 {
 }
 
 a {
-    color: #0000ee;
-
-    /* color: config.$color-primary; */
+    color: config.$color-link-default;
     text-decoration: underline;
 }
 
@@ -49,7 +50,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 a:visited {
-    color: #551a8b;
+    color: config.$color-link-visited;
+}
+
+.a-color-text a {
+    color: config.$color-text;
 }
 
 strong, b {
@@ -331,6 +336,7 @@ ul.special-icons > li:first-child {
 }
 
 ul.special-icons h3 {
+    display: inline-block;
     font-size: 1.2em;
     font-weight: 700;
     margin-bottom: 0.5em;
@@ -340,9 +346,6 @@ ul.special-icons h3 {
 
 ul.special-icons span {
     line-height: 190%;
-}
-
-ul.special-icons .fa {
     display: inline-block;
     float: left;
     font-size: 1.4em;
@@ -476,7 +479,6 @@ input[type = "button"].small,
     font-size: 1.8em;
     font-weight: 400;
     letter-spacing: 1px;
-    line-height: 1.4em;
     margin-bottom: 0.70em;
     text-transform: uppercase;
 }
@@ -485,7 +487,7 @@ input[type = "button"].small,
 .wrapper.evenpart .major .byline {
     font-size: 1.4em;
     letter-spacing: normal;
-    line-height: 1.5em;
+    line-height: config.$line-height;
     text-transform: capitalize;
 }
 
@@ -495,7 +497,6 @@ input[type = "button"].small,
     font-size: 1.6em;
     font-weight: 400;
     letter-spacing: 1px;
-    line-height: 1.4em;
     text-transform: uppercase;
 }
 
@@ -681,6 +682,7 @@ input[type = "button"].small,
     display: inline-block;
     font-size: 3em;
     font-weight: 400;
+    line-height: 0.5em;
     padding: 0.50em 0.30em;
 }
 
@@ -726,7 +728,6 @@ input[type = "button"].small,
     font-size: 1.8em;
     font-weight: 400;
     letter-spacing: 1px;
-    line-height: 1.4em;
     text-transform: uppercase;
 }
 
@@ -735,7 +736,6 @@ input[type = "button"].small,
     font-size: 1.6em;
     font-weight: 400;
     letter-spacing: 1px;
-    line-height: 1.4em;
     text-transform: uppercase;
 }
 
