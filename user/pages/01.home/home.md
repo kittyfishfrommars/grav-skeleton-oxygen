@@ -26,47 +26,47 @@ cta:
 
 # NB. these will be rendered vertically in columns in order provided here
 notices:
-    heading: Cras vitae metus alinuam elementum vestibulum
+    heading: 'Cras vitae metus'
     byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
-        - icon: info color-info
+        - icon: fa-phone color-primary
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: shield color-primary
+        - icon: fa-shield color-primary
           # target: '#'
-          heading: 'Etiam posuere augue eleifend Fusce ultrices fringilla'
+          heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: gavel color-info
+        - icon: fa-gavel color-primary
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
-        - icon: check-circle color-success
+        - icon: fa-check-circle color-success
           # icon: check color-success
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: times-circle color-danger
+        - icon: fa-times-circle color-danger
           # icon: times color-danger
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: exclamation-triangle color-warning
+        - icon: fa-exclamation-triangle color-warning
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
-        - icon: exclamation color-primary
+        - icon: fa-info color-info
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: user
+        - icon: fa-exclamation color-warning
           # icon: lightbulb-o color-warning
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: map-marker color-danger
+        - icon: fa-map-marker color-danger
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'

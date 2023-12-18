@@ -16,7 +16,7 @@
 						<ul class="special-icons">
 						{% for item in notices.items|slice(row_num, columns) %}
 							<li>
-								<span class="fa fa-{{ item.icon }}"></span>
+								<span class="fa {{ item.icon }}"></span>
 								<h3>{% spaceless %}
 									{% if item.target %}
 										<a href="{{ item.target }}">{{ item.heading }}</a>
