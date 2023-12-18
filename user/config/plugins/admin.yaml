@@ -1,2 +1,5 @@
 # mask login url
-# route: '/config'
+route: '/config'
+# disable tracking
+popularity:
+  enabled:
