@@ -5,6 +5,9 @@ dist/
 assets/
 cache/
 
+# specifically allow folders
+!images/
+
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
 !.htaccess

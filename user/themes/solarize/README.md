@@ -15,6 +15,7 @@ in /user/theme/solaris/
 
 * Run `gulp serve` for development 
 * Run `gulp build` for production build
+* Run `gulp fix` for linting with the --fix option
 
 (Developers) How-to [update](https://stackoverflow.com/a/69537863)
 

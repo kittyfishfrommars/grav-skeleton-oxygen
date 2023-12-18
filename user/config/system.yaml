@@ -1,12 +1,11 @@
 absolute_urls: false
-timezone: ''
-default_locale: null
+timezone: null
 param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
 force_ssl: false
 force_lowercase_urls: true
-custom_base_url: ''
+custom_base_url: null
 username_regex: '^[a-z0-9_-]{3,16}$'
 pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
 intl_enabled: true
@@ -16,7 +15,7 @@ http_x_forwarded:
   port: true
   ip: true
 languages:
-  supported: {  }
+  supported: null
   default_lang: null
   include_default_lang: true
   include_default_lang_file_extension: true
@@ -25,7 +24,6 @@ languages:
   session_store_active: false
   http_accept_language: false
   override_locale: false
-  content_fallback: {  }
   pages_fallback_only: false
   debug: false
 home:
@@ -40,7 +38,7 @@ pages:
     by: default
     dir: asc
   list:
-    count: 20
+    count: 50
   dateformat:
     default: null
     short: 'jS M Y'
@@ -76,13 +74,13 @@ pages:
     - json
     - rss
     - atom
-  append_url_extension: ''
+  append_url_extension: null
   expires: 604800
   cache_control: null
   last_modified: false
   etag: true
   vary_accept_encoding: false
-  redirect_default_code: 302
+  redirect_default_code: '302'
   redirect_trailing_slash: 1
   redirect_default_route: 0
   ignore_files:
@@ -113,9 +111,17 @@ cache:
   gzip: false
   allow_webserver_gzip: false
   redis:
-    socket: false
+    socket: '0'
     password: null
     database: null
+    server: null
+    port: null
+  memcache:
+    server: null
+    port: null
+  memcached:
+    server: null
+    port: null
 twig:
   cache: true
   debug: true
@@ -145,8 +151,8 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-3.x.min.js'
 errors:
-  display: true
-  log: true
+  display: 1
+  log: false
 log:
   handler: file
   syslog:
@@ -160,7 +166,7 @@ debugger:
     close_connection: true
   twig: true
 images:
-  default_image_quality: 85
+  default_image_quality: 100
   cache_all: false
   cache_perms: '0755'
   debug: false
@@ -169,7 +175,7 @@ images:
   cls:
     auto_sizes: false
     aspect_ratio: false
-    retina_scale: 1
+    retina_scale: '1'
   defaults:
     loading: auto
   watermark:
@@ -180,15 +186,15 @@ images:
     watermark_all: false
 media:
   enable_media_timestamp: false
-  unsupported_inline_types: {  }
-  allowed_fallback_types: {  }
+  unsupported_inline_types: null
+  allowed_fallback_types: null
   auto_metadata_exif: false
   upload_limit: 2097152
 session:
   enabled: true
   initialize: false
   timeout: 1800
-  name: grav-site
+  name: site
   uniqueness: path
   secure: false
   secure_https: true
