@@ -11,6 +11,7 @@ npm-debug.log
 *.css.map
 .DS_Store
 config.codekit
+*.code-workspace
 
 # ignore tempoary folders and subfolders
 logs/

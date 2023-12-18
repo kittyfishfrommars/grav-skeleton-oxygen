@@ -134,30 +134,25 @@
     }
 
     #titleBar .toggle:before {
-        content: "\f0c9";
-
-        /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-        font-family: FontAwesome;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
+        background: url("../../images/icon_hamburger.svg") center center no-repeat;
+        background-size: 28px 28px;
+        color: config.$color-secondary;
+        content: "";
+        display: block;
         font-style: normal;
         font-weight: normal;
-        text-transform: none !important;
-    }
-
-    #titleBar .toggle:before {
-        background: none;
-        color: config.$color-secondary;
-        display: block;
         height: 44px;
         line-height: 44px;
         text-align: center;
+        text-transform: none !important;
         width: 44px;
+
+        /* stylelint-disable-next-line order/properties-alphabetical-order */
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
     }
 
     #titleBar .toggle:after {
-
-        /* background: url("../../images/toggle.svg") 0 0 no-repeat; */
         content: "";
         display: block;
         height: 13px;

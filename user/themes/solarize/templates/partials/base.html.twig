@@ -20,7 +20,7 @@
 		{# head: with loading parameter #}		
 		{{ assets.css('delay')|raw }}
 
-		<link rel="preload" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<link rel="stylesheet" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css" media="print" onload="this.onload=null;this.media='all'">
 		<noscript>
 			<link rel="stylesheet" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css">
 		</noscript>

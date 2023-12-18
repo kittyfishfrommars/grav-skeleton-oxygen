@@ -12,6 +12,7 @@
     * Host Google Fonts locally for ([GDPR-compliance](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/))
     * Load FontAwesome 4.0.3 as woff2 to improve perfomance
     * Add FontAwesome to elements page
+    * Use custom image for hamburger menu to be iconfont agnostic
     * Add licenses
     * Add default imprint page with attribution
     * Add copyright notice to footer, auto-linking to page via taxonomy.tag: imprint 
