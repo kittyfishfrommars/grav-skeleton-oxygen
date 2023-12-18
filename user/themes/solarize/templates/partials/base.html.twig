@@ -15,20 +15,22 @@
 	{% block stylesheets %}
 		{% do assets.addCss('theme://fonts/opensans/opensans.css', {group: 'init'}) %}
 		{% do assets.addCss('theme://dist/css/main.css', {group: 'init'}) %}
-		{% do assets.addCss('theme://fonts/fontawesome/font-awesome.min.css', {group: 'delay', loading: 'defer'}) %}		
 		{# head: blocking scripts #}		
 		{{ assets.css('init')|raw }}
 		{# head: with loading parameter #}		
 		{{ assets.css('delay')|raw }}
+
+		<link rel="preload" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript>
+			<link rel="stylesheet" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css">
+		</noscript>
 	{% endblock %}
 
 	{% block javascripts %}
-		{# TODO: test if necessary, eslint #}		
 		{% do assets.addJs('theme://vendor/js/jquery-1.11.custom.min.js', {group: 'delay', loading: 'defer'}) %}
 		{% do assets.addJs('theme://vendor/js/jquery.dropotron.min.js', {group: 'delay', loading: 'defer'}) %}
 		{% do assets.addJs('theme://vendor/js/skel.min.js', {group: 'delay', loading: 'defer'}) %}
 		{% do assets.addJs('theme://vendor/js/skel-layers.min.js', {group: 'delay', loading: 'defer'}) %}
-		{# TODO: fix improve, rewrite #}		
 		{% do assets.addJs('theme://dist/js/scripts.js', {group: 'delay', loading: 'defer', 'data-theme-root': theme_url}) %}
 		{# head: blocking scripts #}		
 		{{ assets.js('init')|raw }}
