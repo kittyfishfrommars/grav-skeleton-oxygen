@@ -15,8 +15,8 @@ body, input, select, textarea {
     color: config.$color-text;
     font-family: config.$font-family;
     font-weight: 300;
-
     line-height: 1.65em;
+
     /* line-height: config.$line-height; */
 }
 
@@ -156,26 +156,17 @@ input[type = "text"] {
     line-height: 1em;
 }
 
-::input-placeholder {
-    color: inherit;
-    opacity: 0.5;
-    position: relative;
-    top: 3px;
-}
-
-:placeholder {
-    color: inherit;
-    opacity: 0.5;
-}
-
+:input-placeholder,
+::input-placeholder,
+:placeholder,
 ::placeholder {
     color: inherit;
     opacity: 0.5;
 }
 
-:input-placeholder {
-    color: inherit;
-    opacity: 0.5;
+::input-placeholder {
+    position: relative;
+    top: 3px;
 }
 
 .formerize-placeholder {
@@ -285,9 +276,9 @@ ul.icons li span {
 ul.icons li a {
     color: inherit;
     font-size: 2em;
-    opacity: 0.2;
+    opacity: 0.35;
     text-decoration: none;
-    transition: all 0.35s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 ul.icons li a:hover {
@@ -345,10 +336,10 @@ ul.special-icons h3 {
 }
 
 ul.special-icons span {
-    line-height: 190%;
     display: inline-block;
     float: left;
     font-size: 1.4em;
+    line-height: 190%;
     overflow: hidden;
     padding-right: 1em;
     width: 50px;
@@ -408,6 +399,13 @@ input[type = "button"],
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.35s ease-in-out;
+}
+
+input[type = "submit"]:visited,
+input[type = "reset"]:visited,
+input[type = "button"]:visited,
+.button:visited {
+    color: config.$color-primary;
 }
 
 input[type = "submit"]:hover,
@@ -759,7 +757,7 @@ input[type = "button"].small,
 
 #footer .major .byline {
     color: inherit;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 #footer .copyright {
@@ -771,7 +769,7 @@ input[type = "button"].small,
 
 #copyright {
     color: inherit;
-    opacity: 0.40;
+    opacity: 0.5;
     padding: 3em 0;
     position: relative;
     text-align: center;

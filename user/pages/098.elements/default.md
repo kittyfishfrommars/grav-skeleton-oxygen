@@ -8,7 +8,6 @@ title: Elements
 
 > This page uses [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/) and [Font Awesome 4.0.3](https://fontawesomelib.com/releases/4.0.3/list/all/index.html).
 
-<!-- Text stuff -->
 ## Text
 
 This is <b>bold</b> and this is **strong**. This is <i>italic</i> and this is _emphasized_.

@@ -7,7 +7,8 @@ banner:
     headline: Solarize
     follower: 'Design by Templated'
     blurb: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna.'
-    url: 'user/themes/solarize/images/placekitten_1680x600.jpg'
+    # url: 'user/themes/solarize/images/header_forest-1680x600.jpg'
+    url: 'user/themes/solarize/images/header_kitten-1680x600.jpg'
 
 hook:
     teaser: 'Pellentesque viverra vulputate enim. Aliquam volutpat. Pellentesque tristique Risus'
@@ -34,7 +35,7 @@ notices:
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
         - icon: shield color-primary
           # target: '#'
-          heading: 'Etiam posuere augue'
+          heading: 'Etiam posuere augue eleifend Fusce ultrices fringilla'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
         - icon: gavel color-info
           # target: '#'

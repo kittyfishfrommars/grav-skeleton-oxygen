@@ -1,1 +1,2 @@
-route: '/config'
+# mask login url
+# route: '/config'

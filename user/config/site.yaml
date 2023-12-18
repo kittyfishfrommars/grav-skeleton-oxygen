@@ -19,8 +19,8 @@ footer:
         url: '#'
       -
         title: Tickets
-        icon: fa fa-ticket
-        # icon: fa fa-tags
+        # icon: fa fa-ticket
+        icon: fa fa-tags
         url: '#'
   legal:
     attribution:
