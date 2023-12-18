@@ -450,7 +450,7 @@ input[type = "button"].small,
 /* Wrapper */
 
 .wrapper {
-    padding: 6em 0 4em;
+    padding: 5em 0 4em;
 }
 
 .wrapper.style1 {
@@ -661,7 +661,7 @@ input[type = "button"].small,
 /* Banner */
 
 #banner {
-    background: config.$color-disabled;
+    background-color: config.$color-disabled;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

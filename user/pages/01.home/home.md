@@ -6,12 +6,12 @@ body_classes: homepage
 banner:
     headline: Solarize
     follower: 'Design by Templated'
-    blurb: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna.'
+    # blurb: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna.'
     # url: 'user/themes/solarize/images/header_forest-1680x600.jpg'
     url: 'user/themes/solarize/images/header_kitten-1680x600.jpg'
 
 hook:
-    teaser: 'Pellentesque viverra vulputate enim. Aliquam volutpat. Pellentesque tristique Risus'
+    teaser: 'Pellentesque viverra vulputate enim. Aliquam volutpat quintesse.'
     byline: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Donec pulvinar ullamcorper metus.'
     button:
         text: 'Nulla aluctus eleifend'
