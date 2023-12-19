@@ -2,4 +2,4 @@
 route: '/config'
 # disable tracking
 popularity:
-  enabled:
+  enabled: false
