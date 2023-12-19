@@ -1,0 +1,52 @@
+# DOCUMENTATION: https://learn.getgrav.org/17/basics/grav-configuration
+# PRD SETTINGS: https://learn.getgrav.org/17/security/configuration
+
+assets:
+  css_pipeline: false   # concat from assets.addCss
+  # breaking change until skel.js is removed
+  js_pipeline: false    # concat from assets.addJs
+
+force_ssl: false       # Enable if env supports it: Use HTTPS only (redirect from HTTP -> HTTPS)
+
+session:
+  initialize: false   # GDPR-compliance for visitors
+  secure: false       # Enable if env supports it: Use this as your site should be using HTTPS only
+  httponly: true      # Protects session cookies against client side scripts and XSS
+  samesite: Strict    # Prevent all cross-site scripting attacks
+  split: true         # Separate admin session from the site session for added security
+
+cache:
+  enabled: true       # Greatly speeds up the site
+  check:
+    method: hash      # Optimization, disables file modification checks for pages
+  driver: auto        # auto|file|apc|xcache|memcache|wincache|redis
+  lifetime: 604800    # 0 = infinite
+  prefix: 'g'         # prevent cache conflicts
+  gzip: true          # compress files
+  allow_webserver_gzip: true # set headers
+
+images:
+  default_image_quality: 100  # assume images are already optimized
+  cache_all: false            # do not cache images
+  debug: false                # disabled
+  defaults:
+    loading: auto             # Let browser pick: auto, lazy or eager (Grav 1.7+)
+
+twig:
+  cache: true         # Greatly speeds up the site
+  debug: false        # We do not want to display debug messages
+  auto_reload: false  # Optimization, disables file modification checks for twig files
+  autoescape: true    # Protects from many XSS attacks, but requires twig updates if used in older sites/themes/plugins
+
+errors:
+  display: 0          # Display only a simple error
+  log: false          # Log errors for later inspection
+
+debugger:
+  enabled: false      # Never keep debugger enabled in a live site.
+  censored: true      # In case if you happen to enable debugger, avoid displaying sensitive information
+
+strict_mode:          # Test your site before changing these. Removes backward compatibility and improves site security.
+  yaml_compat: false
+  twig_compat: false
+  blueprint_compat: false
