@@ -52,6 +52,7 @@
     "stylelint-order": "^6.0.4"
   },
   "scripts": {
-    "build": "gulp build"
+    "serve": "NODE_ENV=dev gulp build",
+    "build": "NODE_ENV=prd gulp build"
   }
 }

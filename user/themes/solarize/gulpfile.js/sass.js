@@ -11,8 +11,12 @@ const cssnano = require('cssnano');
 // autoprefixer: get options from package.json
 // cssnano: PostCSS plugins
 function compileCSS(cb) {
+	let options = {
+		sourcemaps: process.env.NODE_ENV === 'dev' || false,
+	};
+
 	return src(config.path.scss, {
-			sourcemaps: true
+			sourcemaps: options.sourcemaps
 		})
 		.pipe(sass())
 		.pipe(postcss([

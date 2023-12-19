@@ -10,12 +10,12 @@ The Grav port includes an additional [Elements page](_demo/pages/90.elements/def
 
 in /user/theme/solaris/
 
-* Run `npm install`
-* Run `gulp` to run the default Gulp task (build)
+* Run `npm install` once to install packages
 
-* Run `gulp serve` for development 
-* Run `gulp build` for production build
-* Run `gulp fix` for linting with the --fix option
+* Run `gulp` or `gulp serve` or `npm run serve` for development 
+* Run `gulp fix` to automatically --fix code where possible
+
+* Run `npm run build` for production build
 
 (Developers) How-to [update](https://stackoverflow.com/a/69537863)
 

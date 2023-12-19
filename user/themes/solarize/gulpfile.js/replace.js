@@ -1,13 +1,11 @@
-// TODO: make target files configurable, if needed
-// const config = require('../gulp.config.json');
-// import packages
+const config = require('../gulp.config.json');
 const replace = require('gulp-replace');
 
 // Cachebuster
 function fingerprint() {
-	var cbString = new Date().getTime();
-	return src(['index.html'])
-		.pipe(replace(/cb=\d+/g, 'cb=' + cbString))
+	var fpString = new Date().getTime();
+	return src(['config.path.fingerprint'])
+		.pipe(replace(/fp=\d+/g, 'fp=' + fpString))
 		.pipe(dest('.'));
 }
 

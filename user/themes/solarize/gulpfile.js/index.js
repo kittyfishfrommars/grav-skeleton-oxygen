@@ -11,6 +11,9 @@ const { compileJS } = require('./concat.js');
 const { server } = require('./browsersync.js');
 const { watchHTML, watchCSS, watchJS } = require('./watch.js');
 
+// set environment
+process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
+
 // TODO: implement gulp-eslint
 function lintJS(cb) {
 	// dummy
@@ -18,12 +21,6 @@ function lintJS(cb) {
 };
 
 // TODO: fixJS
-
-// TODO: implement gulp-yaml-lint
-function lintYAML(cb) {
-	// dummy
-	cb();
-};
 
 
 // TODO: implement fixJS via gulp-eslint fix
@@ -33,33 +30,6 @@ exports.fix = series(
 		fixCSS,
 	),
 );
-
-// Spins up a local Browsersync server
-// Run "gulp watch" on the command line
-exports.serve = series(
-	cleanDist,
- 	parallel(
-		compileCSS,
-		compileJS
-	),
-	parallel(
-		server,
-		lintYAML,
-		lintCSSAll,
-		lintJS,	
-	),
-	parallel(
-		watchHTML,
-		watchCSS,
-		watchJS,
-	)
-);
-
-// 	parallel(
-//	compileSCSS,
-//	compileJS
-// ),
-// 
 
 // TODO: implement babel (if necessary) / concat / uglify etc., check built files (?)
 // Exports assets once
@@ -72,6 +42,26 @@ exports.build = series(
 	)
 );
 
-// mirror default task from build task
+// Spins up a local Browsersync server
+// Run "gulp serve" on the command line
+exports.serve = series(
+	cleanDist,
+ 	parallel(
+		compileCSS,
+		compileJS
+	),
+	parallel(
+		server,
+		lintCSSAll,
+		lintJS,	
+	),
+	parallel(
+		watchHTML,
+		watchCSS,
+		watchJS,
+	)
+);
+
+// mirror default task from serve task
 // Run "gulp" on the command line
-exports.default = exports.build;
+exports.default = exports.serve;

@@ -15,8 +15,5 @@ function cleanDist(cb) {
             cb();
        });
 }
-// /**/*.*
-/// /*/**/
-
 
 exports.cleanDist = cleanDist;
