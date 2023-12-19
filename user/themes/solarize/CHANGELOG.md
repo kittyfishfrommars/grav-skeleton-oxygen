@@ -7,10 +7,11 @@
     * Introduce SASS to /src/scss folder
     * JS files into /src/js for to compo 
     * /vendor folder for use as-is
-    * Increase font-size, simplify line-height to improve readability
+    * Disable popularity statistics to eliminate the need for a cookie banner
     * Host Google Fonts locally for ([GDPR-compliance](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/))
     * Load FontAwesome 4.0.3 as woff2 to improve perfomance
-    * Add FontAwesome to elements page
+    * Add FontAwesome overview to elements page
+    * Increase font-size, simplify line-height to improve readability
     * Use custom image for hamburger menu to be iconfont agnostic
     * Add banner URL to .md pages
     * Add default imprint page

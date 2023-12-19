@@ -17,9 +17,9 @@
 		{% do assets.addCss('theme://dist/css/main.css', {group: 'init'}) %}
 		{# head: blocking scripts #}		
 		{{ assets.css('init')|raw }}
-		{# head: with loading parameter #}		
+		{# head: with loading parameter #}
 		{{ assets.css('delay')|raw }}
-
+		{# head: deferred css #}
 		<link rel="stylesheet" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css" media="print" onload="this.onload=null;this.media='all'">
 		<noscript>
 			<link rel="stylesheet" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css">
