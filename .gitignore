@@ -20,6 +20,9 @@ assets/
 cache/
 tmp/
 images/
+user/data/feed/
+user/data/flex/
+user/data/notifications/
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
