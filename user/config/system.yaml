@@ -97,7 +97,7 @@ pages:
       - form
       - forms
 cache:
-  enabled: true
+  enabled: false
   check:
     method: file
   driver: auto
@@ -123,7 +123,7 @@ cache:
     server: null
     port: null
 twig:
-  cache: true
+  cache: false
   debug: true
   auto_reload: true
   autoescape: true
