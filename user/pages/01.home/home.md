@@ -42,6 +42,20 @@ notices:
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
+        - icon: fa-phone color-success
+          # target: '#'
+          heading: 'Nulla luctus eleifend'
+          point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
+        - icon: fa-map-marker color-danger        
+          # icon: lightbulb-o color-warning
+          # target: '#'
+          heading: 'Etiam posuere augue'
+          point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
+        - icon: fa-exclamation color-warning
+          # target: '#'
+          heading: 'Fusce ultrices fringilla'
+          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
+
         - icon: fa-check-circle color-success
           # icon: check color-success
           # target: '#'
@@ -53,20 +67,6 @@ notices:
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
         - icon: fa-exclamation-triangle color-warning
-          # target: '#'
-          heading: 'Fusce ultrices fringilla'
-          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
-
-        - icon: fa-phone color-primary
-          # target: '#'
-          heading: 'Nulla luctus eleifend'
-          point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: fa-exclamation color-warning
-          # icon: lightbulb-o color-warning
-          # target: '#'
-          heading: 'Etiam posuere augue'
-          point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: fa-map-marker color-danger
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
