@@ -7,7 +7,7 @@ const { cleanDist } = require('./clean.js');
 const { lintCSSAll, fixCSS } = require('./stylelint.js');
 const { compileCSS } = require('./sass.js');
 const { compileJS } = require('./concat.js');
-// const { fingerprint } = require('./replace.js');
+const { fingerprint } = require('./replace.js');
 const { server } = require('./browsersync.js');
 const { watchHTML, watchCSS, watchJS } = require('./watch.js');
 
@@ -20,29 +20,26 @@ function lintJS(cb) {
 	cb();
 };
 
-// TODO: fixJS
-
-
 // TODO: implement fixJS via gulp-eslint fix
-// automagically rewrites source files to be lint-compliant where possible
+// fix code style where possible
 exports.fix = series(
 	parallel(
 		fixCSS,
 	),
 );
 
-// TODO: implement babel (if necessary) / concat / uglify etc., check built files (?)
-// Exports assets once
-// Run "gulp build" on the command line
+// TODO: implement babel (if necessary) / concat / uglify
+// Run "npm run build" on the command line
 exports.build = series(
 	cleanDist,
 	parallel(
 		compileCSS,
-		compileJS
+		compileJS,
+		fingerprint
 	)
 );
 
-// Spins up a local Browsersync server
+// opens up a local browsersync server in a new tab
 // Run "gulp serve" on the command line
 exports.serve = series(
 	cleanDist,

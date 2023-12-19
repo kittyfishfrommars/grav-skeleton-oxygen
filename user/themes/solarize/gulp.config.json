@@ -2,10 +2,13 @@
     "host": "http://localhost/",
     "path": {
       "html": [
-               "../../pages/**/*.md",
-               "../../**/*.yaml",
-               "templates/**/*.twig"
-              ],
+          "../../pages/**/*.md",
+          "../../**/*.yaml",
+          "templates/**/*.twig"
+      ],
+      "base": [
+          "templates/partials/base.html.twig"
+      ],
       "scss": ["src/scss/**/*.scss"],
       "js": ["src/js/**/*.js"],
       "dist": "dist"
