@@ -152,7 +152,7 @@ assets:
     jquery: 'system://assets/jquery/jquery-3.x.min.js'
 errors:
   display: 1
-  log: false
+  log: true
 log:
   handler: file
   syslog:

@@ -2,15 +2,18 @@
 # PRD SETTINGS: https://learn.getgrav.org/17/security/configuration
 
 assets:
+  # enable if server does NOT support HTTTP/2
   css_pipeline: false   # concat from assets.addCss
-  # breaking change until skel.js is removed
+  # do not enable (breaking change until skel.js is removed)
   js_pipeline: false    # concat from assets.addJs
 
-force_ssl: false       # Enable if env supports it: Use HTTPS only (redirect from HTTP -> HTTPS)
+# Enable force_ssl if env supports it
+force_ssl: false       # Use HTTPS only (redirect from HTTP -> HTTPS)
 
 session:
-  initialize: false   # GDPR-compliance for visitors
-  secure: false       # Enable if env supports it: Use this as your site should be using HTTPS only
+  initialize: false   # Disables "cookies": GDPR-compliance for visitors
+  # Enable secure if env supports it
+  secure: false       # Use this as your site should be using HTTPS only
   httponly: true      # Protects session cookies against client side scripts and XSS
   samesite: Strict    # Prevent all cross-site scripting attacks
   split: true         # Separate admin session from the site session for added security
@@ -40,7 +43,7 @@ twig:
 
 errors:
   display: 0          # Display only a simple error
-  log: false          # Log errors for later inspection
+  log: true           # Log errors for later inspection
 
 debugger:
   enabled: false      # Never keep debugger enabled in a live site.

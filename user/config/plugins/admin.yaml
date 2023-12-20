@@ -1,5 +1,37 @@
-# mask login url
-route: '/config'
-# disable tracking
+enabled: true
+route: /admin
+cache_enabled: false
+twofa_enabled: false
+dashboard:
+  days_of_stats: 365
+widgets_display:
+  dashboard-maintenance: 'false'
+  dashboard-statistics: 'false'
+  dashboard-notifications: 'false'
+  dashboard-feed: 'false'
+  dashboard-pages: 'true'
+pages:
+  show_parents: both
+  show_modular: true
+  parents_levels: null
+session:
+  timeout: 3600
+edit_mode: normal
+frontend_preview_target: inline
+show_github_msg: false
+admin_icons: line-awesome
+enable_auto_updates_check: false
+notifications:
+  feed: false
+  dashboard: true
+  plugins: true
+  themes: true
 popularity:
   enabled: false
+  ignore:
+    - '/test*'
+    - /modular
+    - /
+show_beta_msg: null
+pagemedia:
+  resize_quality: 1
