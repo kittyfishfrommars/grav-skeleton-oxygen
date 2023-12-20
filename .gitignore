@@ -12,17 +12,19 @@ npm-debug.log
 .DS_Store
 config.codekit
 *.code-workspace
+security.yaml
 
-# ignore tempoary folders and subfolders
+# ignore temporary folders and subfolders
 logs/
 dist/
 assets/
 cache/
 tmp/
 images/
-user/data/feed/
-user/data/flex/
-user/data/notifications/
+user/data/
+
+# track this folder (i.e. do NOT ignore it)
+user/data/*.com/
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
@@ -63,7 +65,6 @@ Thumbs.db
 *.log
 
 # ignore compiled files
-*.com
 *.class
 *.dll
 *.exe
