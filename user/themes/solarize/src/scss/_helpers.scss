@@ -50,3 +50,11 @@
     padding-top: 3rem;
 }
 
+
+/* GRID */
+
+.grid-default {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+}

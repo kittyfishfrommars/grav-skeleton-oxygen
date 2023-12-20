@@ -18,6 +18,7 @@
     * Add licenses
     * Add copyright notice to footer, auto-linking to page via taxonomy.tag: imprint 
     * Site-wide footer content can be maintained in site.yaml
+    * Refactor special-icons for CSS grid, fix long texts
 
 
 # v0.2.0

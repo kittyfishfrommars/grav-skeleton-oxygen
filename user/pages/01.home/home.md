@@ -24,13 +24,14 @@ cta:
         text: 'Nulla aluctus eleifend'
         target: '#'
 
-# NB. these will be rendered vertically in columns in order provided here
+# Quilt/Notices: these will be rendered in a 3-column grid
 notices:
     heading: 'Cras vitae metus'
     byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
+        # first row
         - icon: fa-info color-info
-          # target: '#'
+          target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
         - icon: fa-shield color-primary
@@ -42,6 +43,7 @@ notices:
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
+        # second row
         - icon: fa-phone color-success
           # target: '#'
           heading: 'Nulla luctus eleifend'
@@ -56,6 +58,7 @@ notices:
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
+          # third row
         - icon: fa-check-circle color-success
           # icon: check color-success
           # target: '#'

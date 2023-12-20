@@ -36,6 +36,15 @@
         font-size: 1.6em;
     }
 
+    ul.special-icons li {
+        margin-bottom: config.$margin-bottom * 2;
+    }
+
+    .grid-default {
+        grid-gap: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     /* Main */
 
     #main #sidebar .major h2 {

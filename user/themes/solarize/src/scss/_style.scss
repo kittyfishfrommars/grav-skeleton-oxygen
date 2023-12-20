@@ -260,7 +260,7 @@ ul.special-icons {
     cursor: default;
     list-style-type: none;
     margin: 0;
-    padding-bottom: 2em;
+    margin-bottom: config.$margin-bottom * 2;
 }
 
 ul.icons li {
@@ -307,13 +307,21 @@ ul.actions.vertical li:first-child {
     padding: 0;
 }
 
-ul.special-icons > li {
-    padding: 0.50em 0;
-    position: relative;
+ul.special-icons {
+    margin: 0;
+    padding: 0 0 0 1.35em;
 }
 
-ul.special-icons > li:before {
-    background: none;
+ul.special-icons li {
+    margin-bottom: config.$margin-bottom * 1;
+    padding: 0;
+    padding-left: 1.40em;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+}
+
+ul.special-icons li:before {
     border-radius: 5px;
     display: block;
     font-size: 2em;
@@ -322,31 +330,33 @@ ul.special-icons > li:before {
     top: 2em;
 }
 
-ul.special-icons > li:first-child {
-    border-top: none;
+ul.special-icons span {
+    display: inline-block;
+    font-size: 1.35em;
+    left: -0.5em;
+    line-height: 190%;
+    overflow: hidden;
+    position: absolute;
+    top: -0.34em;
+    width: 1.4em;
 }
 
 ul.special-icons h3 {
-    display: inline-block;
+    margin-bottom: 1em;
     font-size: 1.2em;
+}
+
+ul.special-icons h3,
+ul.special-icons h3 a,
+ul.special-icons h3 a:visited {
+    color: config.$color-text;
+    display: block;
     font-weight: 700;
-    margin-bottom: 0.5em;
-    padding-top: 0.38em;
     text-transform: uppercase;
 }
 
-ul.special-icons span {
-    display: inline-block;
-    float: left;
-    font-size: 1.4em;
-    line-height: 190%;
-    overflow: hidden;
-    padding-right: 1em;
-    width: 50px;
-}
-
 ul.special-icons p {
-    padding-left: 50px;
+    margin: 0;
 }
 
 /* Tables */

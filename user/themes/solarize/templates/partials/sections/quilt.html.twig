@@ -6,31 +6,27 @@
 <!-- Section Three aka plain aka 'notices' (frontmatter) -->
 	<div class="wrapper style4 plain">
 		<section class="container">
-			<header class="major">
+			<header class="major pb-2">
 				<h2>{{ notices.heading }}</h2>
 				<span class="byline">{{ notices.byline }}</span>
 			</header>
-			<div class="row flush">
-				{% for row_num in 0..notices.items|length if (row_num % columns == 0) %}
-					<div class="{{ column_units }}u">
-						<ul class="special-icons">
-						{% for item in notices.items|slice(row_num, columns) %}
-							<li>
-								<span class="fa {{ item.icon }}"></span>
-								<h3>{% spaceless %}
-									{% if item.target %}
-										<a href="{{ item.target }}">{{ item.heading }}</a>
-									{% else %}
-										{{ item.heading }}
-									{% endif %}
-								{% endspaceless %}</h3>
-								<p>{{ item.point }}</p>
-							</li>
-						{% endfor %}
-						</ul>
-					</div>
-				{% endfor %}
-			</div>
+				<div class="clearfix">
+					<ul class="special-icons grid-default">
+					{% for item in notices.items %}
+						<li class="special-icons-{{ loop.index }}">
+							<span class="fa {{ item.icon }}"></span>
+							<h3>{% spaceless %}
+								{% if item.target %}
+									<a href="{{ item.target }}">{{ item.heading }}</a>
+								{% else %}
+									{{ item.heading }}
+								{% endif %}
+							{% endspaceless %}</h3>
+							<p>{{ item.point }}</p>
+						</li>
+					{% endfor %}			
+					</ul>
+				</div>
 		</section>
 	</div>
 {% endif %}
