@@ -1,5 +1,8 @@
 # ROOT .gitignore
 
+# ignore secret files
+user/data/accounts/
+
 # ignore package managers
 node_modules
 bower_components
