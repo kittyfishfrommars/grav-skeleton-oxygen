@@ -76,3 +76,9 @@ RewriteRule ^(LICENSE\.txt|composer\.lock|composer\.json|\.htaccess)$ error [F]
 Options -Indexes
 DirectoryIndex index.php index.html index.htm
 # End - Prevent Browsing and Set Default Resources
+
+# Begin - Webhost Provider
+#KONSOLEH AREA START - PLEASE DO NOT EDIT MANUALLY BETWEEN THESE LINES
+
+#KONSOLEH AREA END - PLEASE ADD MANUAL CHANGES BELOW
+# End - Webhost Provider
