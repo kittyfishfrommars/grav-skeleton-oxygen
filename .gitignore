@@ -1,6 +1,7 @@
 # ROOT .gitignore
 
 # ignore secret files
+user/accounts/
 user/data/accounts/
 
 # ignore package managers
@@ -27,10 +28,11 @@ images/
 user/data/
 
 # track this folder (i.e. do NOT ignore it)
-user/data/*.com/
+user/data/*.*/
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
+!.gitkeep
 
 # track .editorconfig file (i.e. do NOT ignore it)
 !.editorconfig
