@@ -21,10 +21,9 @@ security.yaml
 # ignore temporary folders and subfolders
 logs/
 dist/
-assets/
 cache/
 tmp/
-images/
+/images/
 user/data/
 
 # track this folder (i.e. do NOT ignore it)
