@@ -70,6 +70,10 @@ RewriteRule (^|/)\.(?!well-known) - [F]
 RewriteRule ^(LICENSE\.txt|composer\.lock|composer\.json|\.htaccess)$ error [F]
 ## End - Security
 
+# Begin - Sitemap
+Redirect 301 /sitemap /sitemap.xml
+# End - Sitemap
+
 </IfModule>
 
 # Begin - Prevent Browsing and Set Default Resources
