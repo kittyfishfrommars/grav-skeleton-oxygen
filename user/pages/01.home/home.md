@@ -6,22 +6,21 @@ body_classes: homepage
 banner:
     headline: Solarize
     follower: 'Design by Templated'
-    # blurb: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna.'
-    # url: 'user/themes/solarize/images/header_forest-1680x600.jpg'
-    url: 'user/themes/solarize/images/header_kitten-1680x600.jpg'
+    blurb: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio.'
+    url: 'user/themes/solarize/images/header_forest-1680x600.jpg'
 
 hook:
     teaser: 'Pellentesque viverra vulputate enim. Aliquam volutpat quintesse.'
     byline: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Donec pulvinar ullamcorper metus.'
     button:
-        text: 'Nulla aluctus eleifend'
+        text: 'Nulla aluctus'
         target: '#'
 
 cta:
     headline: 'Cras vitae metus aliNuam'
     copy: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     button:
-        text: 'Nulla aluctus eleifend'
+        text: 'Nulla eleifend'
         target: '#'
 
 # Quilt/Notices: these will be rendered in a 3-column grid
@@ -34,17 +33,21 @@ notices:
           target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-        - icon: fa-shield color-primary
+        - icon: fa-shield color-info
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: fa-gavel color-primary
+        - icon: fa-gavel color-info
           # target: '#'
           heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
         # second row
-        - icon: fa-phone color-success
+        - icon: fa-exclamation color-primary
+          # target: '#'
+          heading: 'Fusce ultrices fringilla'
+          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
+        - icon: fa-phone color-primary
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
@@ -53,10 +56,6 @@ notices:
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: fa-exclamation color-warning
-          # target: '#'
-          heading: 'Fusce ultrices fringilla'
-          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
           # third row
         - icon: fa-check-circle color-success
@@ -64,15 +63,15 @@ notices:
           # target: '#'
           heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
+        - icon: fa-exclamation-triangle color-warning
+          # target: '#'
+          heading: 'Fusce ultrices fringilla'
+          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
         - icon: fa-times-circle color-danger
           # icon: times color-danger
           # target: '#'
           heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-        - icon: fa-exclamation-triangle color-warning
-          # target: '#'
-          heading: 'Fusce ultrices fringilla'
-          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
 portals: # could be used for: key staff, testimonials, service previews, ...
     heading: Cras vitae metus aliNuam

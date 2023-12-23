@@ -342,8 +342,8 @@ ul.special-icons span {
 }
 
 ul.special-icons h3 {
-    margin-bottom: 1em;
     font-size: 1.2em;
+    margin-bottom: 1em;
 }
 
 ul.special-icons h3,
@@ -403,6 +403,7 @@ input[type = "button"],
     cursor: pointer;
     display: inline-block;
     font-size: 1.4em;
+    font-weight: 300;
     letter-spacing: 1px;
     padding: 0.90em 1.2em;
     text-align: center;
@@ -672,7 +673,7 @@ input[type = "button"].small,
 
 #banner {
     background-color: config.$color-disabled;
-    background-position: center top;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     color: config.$color-secondary;
@@ -685,22 +686,23 @@ input[type = "button"].small,
     padding: 0 8em;
 }
 
-#banner h2 {
-    background: config.$color-primary;
+#banner .container h2 {
+    background-color: config.$color-primary;
     display: inline-block;
-    font-size: 3em;
+    font-size: 2.4em;
     font-weight: 400;
     line-height: 0.5em;
-    padding: 0.50em 0.30em;
+    margin: 0;
+    padding: 0.5em 0.3em;
 }
 
-#banner span, #banner p {
+#banner .container span, #banner .container p {
     display: inline-block;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 300;
     letter-spacing: 1px;
-    margin: 0 0 0.5em;
-    padding: 1em;
+    margin: 1em 0;
+    padding: 0;
 }
 
 /* Main */
