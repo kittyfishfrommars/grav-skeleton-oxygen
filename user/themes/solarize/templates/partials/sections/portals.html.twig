@@ -11,7 +11,9 @@
 			<div class="row">
 				{% for portal in portals.items|slice(0, 4) %}
 				<div class="3u">
-					<a href="{{ portal.target }}" alt="{{ portal.alt|default('') }}" class="image"><img src="{{ data_source.media[portal.thumbnail].resize(162,162).url }}"></a>
+					<a href="{{ portal.target }}" class="image">
+						<img alt="{{ portal.alt|default('') }}" src="{{ data_source.media[portal.thumbnail].resize(162,162).url }}">
+					</a>
 					<h3>{{ portal.heading }}</h3>
 					<p>{{ portal.teaser|raw }}</p>
 				</div>

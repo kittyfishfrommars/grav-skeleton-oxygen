@@ -7,7 +7,7 @@
 			</header>
 			<ul class="icons">
 			{% for item in site.footer.social.items %}
-					<li><a href="{{ item.url }}" class="{{ item.icon }}"><span>{{ item.title }}</span></a></li>
+					<li><a href="{{ item.url }}" class="{{ item.icon }}" aria-label="{{ item.title }}"><span>{{ item.title }}</span></a></li>
 			{% endfor %}
 			</ul>
 			<hr />

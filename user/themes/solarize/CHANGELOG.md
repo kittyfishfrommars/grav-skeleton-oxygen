@@ -19,6 +19,7 @@
     * Add copyright notice to footer, auto-linking to page via taxonomy.tag: imprint 
     * Site-wide footer content can be maintained in site.yaml
     * Refactor special-icons for CSS grid, fix long texts
+    * Accessbility: Add aria-label to footer icons, add alt attribute to portal images
 
 
 # v0.2.0
