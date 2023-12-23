@@ -35,6 +35,16 @@ exports.build = series(
 	parallel(
 		compileCSS,
 		compileJS,
+	)
+);
+
+// TODO: implement ftp / git-sync, maybe github actions
+// Run "npm run build" on the command line
+exports.deploy = series(
+	cleanDist,
+	parallel(
+		compileCSS,
+		compileJS,
 		fingerprint
 	)
 );
