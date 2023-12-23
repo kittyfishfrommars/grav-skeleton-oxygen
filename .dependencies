@@ -31,6 +31,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-problems
         path: user/plugins/problems
         branch: master
+    sitemap:
+        url: https://github.com/getgrav/grav-plugin-sitemap
+        path: user/plugins/sitemap
+        branch: master
 links:
     admin:
         src: grav-plugin-admin
@@ -62,5 +66,9 @@ links:
         scm: github
     problems:
         src: grav-plugin-problems
+        path: user/plugins/problems
+        scm: github
+    sitemap:
+        src: grav-plugin-sitemap
         path: user/plugins/problems
         scm: github
