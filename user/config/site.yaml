@@ -29,8 +29,8 @@ footer:
     privacy:
       title: 'Privacy Policy'
       id: '#privacy'
-    imprint:
-      title: 'Imprint'
+    notice:
+      title: 'Legal Notice'
     #  id: ''
 # do not remove taxonomy tag (identifier required in templates/partials/footer.html.twig)
 taxonomies: [tag]

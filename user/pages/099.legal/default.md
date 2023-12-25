@@ -1,7 +1,7 @@
 ---
-title: 'Imprint'
+title: 'Legal Notice'
 # subtitle: 'Integer sit amet pede vel arcu aliquet pretium'
-slug: 'imprint'
+slug: 'legal'
 visible: false
 # disallow indexing via sitemap.xml plugin
 sitemap:
@@ -25,15 +25,16 @@ VAT ID: DE 000 000 009
 [//]: # (USt-ID: DE 000 000 009)
 
 **Responsible under Press Law:**
-[//]: # (**Verantwortlich für den Inhalt nach §18 Abs. 2 MStV:**)
+[//]: # (**Verantwortlich für den Inhalt nach §18 Abs. 2 MStV / V.i.S.d.P.:**)
 Julie Citizen, Hillside 9, 50555 Capitol City
 </div>
 
 ### Attribution {#attribution .pt-3}
 [//]: # (Attribution required: Please keep attributions below intact to stay compliant with the licensing agreements and to give back to the community)
 <div class="a-color-text" markdown="1">
-* Design Solarize by [Templated](https://templated.co) under the [CCA 3.0 license](https://templated.co/license), for modifications see [CHANGELOG.md](https://github.com/hughbris/grav-theme-solarize)
 * Header image by [Jonas Wimmerström](https://cupcake.nilssonlee.se/) under the [Creative Commons license CC0](https://creativecommons.org/public-domain/cc0/)
+* Design Solarize by [Templated](https://templated.co) under the [CCA 3.0 license](https://templated.co/license)
+* Based on the [Grav Port by hughbris](https://github.com/hughbris/grav-theme-solarize/tree/develop) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE), for modifications see [CHANGELOG.md](https://github.com/hughbris/grav-theme-solarize/blob/develop/CHANGELOG.md)
 * Font Awesome 4.0.3 by @davegandy - [https://fontawesome.io](http://fontawesome.io) - @fontawesome
 License - [https://fontawesome.io/license](http://fontawesome.io/license) (Font: SIL OFL 1.1, CSS: MIT License)
 * OpenSans[wdth,wght].woff2: Copyright 2020 The Open Sans Project Authors [https://github.com/googlefonts/opensans](https://github.com/googlefonts/opensans)
