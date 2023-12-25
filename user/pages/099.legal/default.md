@@ -3,8 +3,11 @@ title: 'Legal Notice'
 # subtitle: 'Integer sit amet pede vel arcu aliquet pretium'
 slug: 'legal'
 visible: false
-# disallow indexing via sitemap.xml plugin
+# grav-plugin-sitemap overrides
 sitemap:
+   changefreq: monthly
+   priority: !!float 0.4
+   # disallow indexing via sitemap.xml plugin
    ignore: true
 # do not change taxonomy definition
 # unique category is an identifier in templates/partials/footer.html.twig

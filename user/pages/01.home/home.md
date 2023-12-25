@@ -2,6 +2,10 @@
 title: 'Solarize by TEMPLATED'
 menu: Home
 body_classes: homepage
+# grav-plugin-sitemap overrides
+sitemap:
+  changefreq: daily
+  priority: !!float 1
 
 banner:
     headline: Solarize
