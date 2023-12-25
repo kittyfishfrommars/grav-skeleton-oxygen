@@ -23,7 +23,7 @@ cache:
   check:
     method: hash      # Optimization, disables file modification checks for pages
   driver: auto        # auto|file|apc|xcache|memcache|wincache|redis
-  lifetime: 604800    # 0 = infinite
+  lifetime: 36000     # 0 = infinite / 604800 = 7 days / 50400 = 24 hours / 36000 = 10 hours / 25200 = 7 hours
   prefix: 'g'         # prevent cache conflicts
   gzip: true          # compress files
   allow_webserver_gzip: true # set headers
