@@ -4,6 +4,8 @@ const { src, dest } = require('gulp');
 const eslint = require('gulp-eslint-new');
 const stylelintFormatter = require('stylelint-formatter-pretty');
 
+// TODO: implement eslint, below is just dummy code
+
 // JS Linter
 // Man: https://github.com/origin-1/gulp-eslint-new
 // ESlint Generator: https://maximgatilin.github.io/stylelint-config/

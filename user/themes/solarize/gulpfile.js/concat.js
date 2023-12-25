@@ -6,7 +6,7 @@ const terser = require('gulp-terser');
 
 // JS task: concatenates and uglifies JS files to script.js
 // concat: combine into single file
-// terser: minify and add sourcemaps, if environment is prd
+// terser: minify
 function compileJS() {
 	let options = {
 		sourcemaps: process.env.NODE_ENV === 'dev' || false,
