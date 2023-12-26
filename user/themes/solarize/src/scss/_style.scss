@@ -766,9 +766,10 @@ input[type = "button"].small,
     color: inherit;
 }
 
-#footer .major .byline {
+#footer .major .byline,
+#copyright {
     color: inherit;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 #footer .copyright {
@@ -779,8 +780,6 @@ input[type = "button"].small,
 /* Copyright */
 
 #copyright {
-    color: inherit;
-    opacity: 0.5;
     padding: 3em 0;
     position: relative;
     text-align: center;
