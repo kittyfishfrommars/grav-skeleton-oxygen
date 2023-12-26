@@ -2,8 +2,8 @@
 # PRD SETTINGS: https://learn.getgrav.org/17/security/configuration
 
 assets:
-  # enable if server does NOT support HTTTP/2
-  css_pipeline: false   # concat from assets.addCss
+  # depending on asset size HTTTP/2 may be a better option
+  css_pipeline: true   # concat from assets.addCss
   # do not enable (breaking change until skel.js is removed)
   js_pipeline: false    # concat from assets.addJs
 
@@ -23,7 +23,7 @@ cache:
   check:
     method: hash      # Optimization, disables file modification checks for pages
   driver: auto        # auto|file|apc|xcache|memcache|wincache|redis
-  lifetime: 36000     # 0 = infinite / 604800 = 7 days / 50400 = 24 hours / 36000 = 10 hours / 25200 = 7 hours
+  lifetime: 57600     # 0 = infinite / 2419200 = 1 month / 604800 = 7 days / 57600 = 16 hours / 36000 = 10 hours
   prefix: 'g'         # prevent cache conflicts
   gzip: true          # compress files
   allow_webserver_gzip: true # set headers
