@@ -7,12 +7,9 @@
         padding-top: 44px;
     }
 
-    body, p, input, select, textarea {
-        font-size: 1.1em;
-    }
-
-    p {
-        line-height: config.$line-height;
+    body, p, li, input, select, textarea {
+        font-size: 13pt;
+        line-height: 1.5em;
     }
 
     header.major h2 {
