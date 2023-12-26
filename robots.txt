@@ -3,6 +3,7 @@ Disallow: /impressum/
 Disallow: /imprint/
 Disallow: /legal/
 Disallow: /contact/
+Disallow: /elements/
 Disallow: /.github/
 Disallow: /.phan/
 Disallow: /assets/

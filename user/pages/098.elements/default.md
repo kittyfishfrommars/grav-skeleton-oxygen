@@ -1,5 +1,7 @@
 ---
 title: Elements
+sitemap:
+  ignore: true
 ---
 
 > README: This page is not part of this theme but is probably a useful reference device to see gaps in the theme's styling. If you see an unstyled element here, it will probably need to be styled by you to look half decent.
