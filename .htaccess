@@ -76,6 +76,15 @@ Redirect 301 /sitemap /sitemap.xml
 
 </IfModule>
 
+# Begin - Cache-Control Headers
+# 604800 = 7 days
+<IfModule mod_headers.c>
+<FilesMatch "\.(js|css|woff2|woff|ttf|jpeg|jpg|png|ico)$">
+Header set Cache-Control "public, max-age=604800, must-revalidate"
+</FilesMatch>
+</IfModule>
+# End - Cache-Control Headers
+
 # Begin - Prevent Browsing and Set Default Resources
 Options -Indexes
 DirectoryIndex index.php index.html index.htm
