@@ -20,6 +20,7 @@
     * Site-wide footer content can be maintained in site.yaml
     * Refactor special-icons for CSS grid, fix long texts
     * Accessbility: Add aria-label to footer icons, add alt attribute to portal images
+    * Change white background to light grey to help with eye-strain
 
 
 # v0.2.0

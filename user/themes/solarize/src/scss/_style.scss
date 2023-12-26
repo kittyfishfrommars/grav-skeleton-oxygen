@@ -3,7 +3,7 @@
 /* Basic */
 
 body {
-    background: #222222;
+    background: transparent;
 }
 
 body.loading * {
@@ -383,7 +383,7 @@ table.default th {
 
 table.default thead {
     background: #555555;
-    color: #ffffff;
+    color: config.$color-secondary;
 }
 
 /* Button */
@@ -472,7 +472,7 @@ input[type = "button"].small,
 
 .wrapper.style2,
 .wrapper.evenpart {
-    background: #f2f2f2;
+    background: config.$color-bg-primary;
 }
 
 .wrapper.style2 .major,
@@ -528,7 +528,7 @@ input[type = "button"].small,
 
 .wrapper.style4,
 .wrapper.plain {
-    background: config.$color-secondary;
+    background: config.$color-bg-primary;
 }
 
 .wrapper.style5,
@@ -750,6 +750,7 @@ input[type = "button"].small,
 /* Footer */
 
 #footer {
+    background-color: config.$color-bg-secondary;
     color: config.$color-secondary;
     padding: 6em 0 2em;
     text-align: center;

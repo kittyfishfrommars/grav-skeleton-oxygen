@@ -47,7 +47,6 @@
 
     .wrapper.style2,
     .wrapper.evenpart {
-        background: #f2f2f2;
         text-align: center;
     }
 
@@ -107,7 +106,7 @@
     /* Layers */
 
     #titleBar {
-        background: #000000;
+        background: config.$color-nav-bg;
         height: 44px;
         line-height: 44px;
     }
@@ -165,7 +164,7 @@
     }
 
     #navPanel {
-        background: #000000;
+        background: config.$color-nav-bg;
 
         /* hack to enable mobile menu scrolling on android chromium/firefox */
         border: 1px solid rgb(0 0 0 / 15%);
@@ -173,7 +172,7 @@
 
     #navPanel .link {
         border-top: solid 1px rgb(0 0 0 / 15%);
-        color: #888888;
+        color: config.$color-nav-link;
         display: block;
         height: 44px;
         line-height: 44px;
