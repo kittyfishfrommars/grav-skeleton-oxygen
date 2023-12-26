@@ -77,9 +77,9 @@ Redirect 301 /sitemap /sitemap.xml
 </IfModule>
 
 # Begin - Cache-Control Headers
-# 604800 = 7 days
+# 1209600 = 14 days / 604800 = 7 days
 <IfModule mod_headers.c>
-<FilesMatch "\.(js|css|woff2|woff|ttf|jpeg|jpg|png|ico)$">
+<FilesMatch "\.(js|css|woff2|woff|ttf|jpeg|jpg|png|svg|gif|ico)$">
 Header set Cache-Control "public, max-age=604800, must-revalidate"
 </FilesMatch>
 </IfModule>
