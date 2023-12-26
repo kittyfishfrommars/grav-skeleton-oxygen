@@ -136,7 +136,6 @@
     #titleBar .toggle:before {
         background: url("../../images/icon_hamburger.svg") center center no-repeat;
         background-size: 28px 28px;
-        color: config.$color-secondary;
         content: "";
         display: block;
         font-style: normal;
@@ -146,10 +145,6 @@
         text-align: center;
         text-transform: none !important;
         width: 44px;
-
-        /* stylelint-disable-next-line order/properties-alphabetical-order */
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
     }
 
     #titleBar .toggle:after {
