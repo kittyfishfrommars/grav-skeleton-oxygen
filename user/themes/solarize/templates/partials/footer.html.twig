@@ -16,7 +16,7 @@
 		<!-- Copyright -->
 		{% for post in taxonomy.findTaxonomy({'tag':'imprint'}) %}
 			<div id="copyright">
-				<a href="{{ post.url ~ site.footer.legal.attribution.id }}">{{ site.footer.legal.attribution.title|e }}</a> | <a href="{{ post.url ~ site.footer.legal.privacy.id }}">{{ site.footer.legal.privacy.title|e }}</a> | <a href="{{ post.url ~ site.footer.legal.notice.id }}">{{ site.footer.legal.notice.title|e }}</a>
+				<a href="{{ post.url ~ site.footer.legal.credits.id }}">{{ site.footer.legal.credits.title|e }}</a> | <a href="{{ post.url ~ site.footer.legal.privacy.id }}">{{ site.footer.legal.privacy.title|e }}</a> | <a href="{{ post.url ~ site.footer.legal.notice.id }}">{{ site.footer.legal.notice.title|e }}</a>
 			</div>
 		{% endfor %}
 	</div>
