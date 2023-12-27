@@ -36,8 +36,8 @@ Julie Citizen, Hillside 9, 50555 Capitol City
 [//]: # (Attribution required: Please keep attributions below intact to stay compliant with the licensing agreements and to give back to the community)
 <div class="a-color-text" markdown="1">
 * All content on this site is free to redistribute, given appropriate credit to the source, <br>indication of any changes and a link to the license - [mysite.com](https://mysite.com) / [CC by 4.0 Attribution](https://creativecommons.org/licenses/by/4.0/)
-* Header image by [Jonas Wimmerström](https://cupcake.nilssonlee.se/) under the [Creative Commons License CC0](https://creativecommons.org/public-domain/cc0/)
-* Design inspired by "Solarize" of [templated.co](https://templated.co) under the [CCA 3.0 License](https://templated.co/license)
+* Header image by [Jonas Wimmerström](https://cupcake.nilssonlee.se/) under the [Creative Commons CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
+* Design inspired by "Solarize" of [templated.co](https://templated.co) under the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/)
 * Based on the [Grav Port by hughbris](https://github.com/hughbris/grav-theme-solarize/tree/develop) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE), for modifications see [CHANGELOG.md](https://github.com/hughbris/grav-theme-solarize/blob/develop/CHANGELOG.md)
 * Font Awesome 4.0.3 by @davegandy - [https://fontawesome.io](http://fontawesome.io) - @fontawesome
 License - [https://fontawesome.io/license](http://fontawesome.io/license) (Font: SIL OFL 1.1, CSS: MIT License)
