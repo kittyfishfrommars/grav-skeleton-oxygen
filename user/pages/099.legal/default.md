@@ -12,7 +12,7 @@ sitemap:
 # do not change taxonomy definition
 # unique category is an identifier in templates/partials/footer.html.twig
 taxonomy:
-   tag: imprint
+   tag: unique-legal
 ---
 ### mysite.com
 <div class="a-color-text" markdown="1">
