@@ -3,35 +3,35 @@
 
 [](#release)
 
- This release is a major rework of [hughbris grav port](https://github.com/hughbris/grav-theme-solarize/tree/develop) to provide a more user-friendly basis for further development.
+ This release is a major rework of [hughbris grav port](https://github.com/hughbris/grav-theme-solarize/tree/develop) to provide a basis for further development.
+
+### Accessibility
+* Typography: increase font-size, unify line-height to improve readability
+* Footer icons: add aria-label for screenreaders to footer icons
+* Color scheme: change background from white to light grey to reduce eye-strain
+* Contrast: darken primary color to pass accessibility audit
 
 ### Performance
 * Remove IE8 support
 * Improve JS/CSS loading strategy
 * Refactor JS/CSS folders for easier automation
-* Convert Iconfont FontAwesome 4.0.3 to woff2
+* Convert iconfont to woff2
 * Introduce fingerprints to help with [Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) busting
-
-### Legal
-* Host fonts locally to comply with [GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/) in the EU
-* Disable popularity statistics to eliminate the need for a cookie banner
-* Add Legal Notice page by default, as required by [national law](https://secureprivacy.ai/blog/what-is-an-impressum)
-* Link to Legal Notice page in footer
-* Add credits and licenses
-* Add privacy policy placeholder, to be updated by yourself
-
-### Accessibility
-* Typography: increase font-size, unify line-height to improve readability
-* Footer icons: add aria-label to footer icons for screenreaders
-* Color scheme: change background from white to light grey to reduce eye-strain
-* Contrast: darken primary color to pass accessibility audit
 
 ### Maintenance
 * Define header banner on a per-page basis
 * Define footer links on a per-site basis
-* Refactor notices to CSS grid, maintain icons and icon colors from page, fix overlong texts
+* Refactor notices to CSS grid, set individual icons and colors in page, fix overlong texts
 * Add overview of FontAwesome 4.0.3 to elements page
 * Add svg to hamburger menu to become truly iconfont agnostic, allowing updates
+
+### Legal
+* Host fonts locally to comply with [GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/) in the EU
+* Disable popularity statistics to eliminate the need for a cookie banner
+* Add default Legal Notice page, as required by [national law](https://secureprivacy.ai/blog/what-is-an-impressum)
+* Link to Legal Notice in footer
+* Add credits and licenses
+* Add privacy policy placeholder, to be updated by yourself
 
 
 # v0.2.0 (hughbris)
