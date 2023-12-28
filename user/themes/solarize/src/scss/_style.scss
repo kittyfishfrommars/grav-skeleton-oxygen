@@ -574,28 +574,15 @@ input[type = "button"].small,
 /* Header */
 
 #header {
-    background: config.$color-nav-bg;
+    background-color: config.$color-nav-bg;
     color: config.$color-secondary;
     height: 4em;
+    width: 100%;
 }
 
 #header .container {
     position: relative;
 }
-
-/* disable home nav special case */
-
-/*
-.homepage #logo {
-    display: none;
-}
-
-.homepage #nav {
-    position: static;
-    right: none;
-    text-align: center;
-}
-*/
 
 #logo {
     color: config.$color-secondary;
@@ -693,10 +680,9 @@ input[type = "button"].small,
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: config.$color-secondary;
+    color: config.$color-nav-text;
     padding: 6em 0 3em;
     text-align: center;
-    text-transform: uppercase;
 }
 
 #banner .container {
@@ -711,15 +697,23 @@ input[type = "button"].small,
     line-height: 0.5em;
     margin: 0;
     padding: 0.5em 0.3em;
+    text-transform: uppercase;
 }
 
-#banner .container span, #banner .container p {
-    display: inline-block;
+#banner .container .follower, #banner .container .blurb {
     font-size: 1.2em;
     font-weight: 300;
     letter-spacing: 1px;
     margin: 1em 0;
-    padding: 0;
+    padding: 0.25em 1.3em;
+}
+
+#banner .container .follower {
+    display: inline-block;
+}
+
+#banner .container .blurb {
+    display: inline-block;
 }
 
 /* Main */

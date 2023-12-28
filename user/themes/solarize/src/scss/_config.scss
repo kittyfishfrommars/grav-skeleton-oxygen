@@ -1,36 +1,41 @@
-/* Background */
+/* BACKGROUND */
 
 $color-bg-primary: #eeeeee;
 $color-bg-secondary: #222222;
 
-/* Colors */
+/* COLORS */
 
 $color-primary: #536b33;
 $color-secondary: #eeeeee;
 $color-text: #1f1f1f;
-$color-nav-bg: rgb(0 0 0 / 100%);
+$color-nav-bg: rgba(0 0 0 / 100%);
 $color-nav-text: #f2f2f2;
 $color-nav-link: #888888;
 $color-disabled: #9e9d9d;
 
-/* Icons */
+/* ICONS */
 
 $color-success: #14a44d;
 $color-warning: #e4a11b;
 $color-danger: #dc4c64;
 $color-info: #54b4d3;
 
-/* Links */
+/* LINKS */
 
 $color-link-default: #0000ee;
 $color-link-visited: #551a8b;
 
-/* Typography */
+/* TYPOGRAPHY */
 
 $font-family: "Open Sans", sans-serif;
 $line-height-headlines: 1.4em;
 $line-height-text: 1.65em;
 
-/* Margins */
+/* MARGINS */
 
 $margin-bottom: 1em;
+
+/* TRANSPARENT BACKGROUND OVERLAY */
+
+$opacity-dark: rgb(0 0 0 / 80%);
+$opacity-light: rgb(255 255 255 / 80%);

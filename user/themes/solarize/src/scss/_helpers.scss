@@ -44,6 +44,37 @@
     color: config.$color-info;
 }
 
+/* TYPOGRAPHY */
+
+.text-uppercase {
+    text-transform: uppercase !important;;
+}
+
+.bold {
+    font-weight: 700 !important;
+}
+
+.italic {
+    font-style: italic !important;
+}
+
+.skew {
+    margin-top: -0.5rem !important;
+    transform: rotate(-3deg);
+}
+
+/* TRANSPARENT BACKGROUND OVERLAY */
+
+.opacity-dark {
+    background-color: config.$opacity-dark;
+    color: config.$color-nav-text;
+}
+
+.opacity-light {
+    background-color: config.$opacity-light;
+    color: config.$color-primary;
+}
+
 /* PADDINGS */
 
 .pt-3 {

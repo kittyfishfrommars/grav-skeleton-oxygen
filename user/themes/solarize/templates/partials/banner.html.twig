@@ -5,12 +5,12 @@
 			<h2>{{ page.header.banner.headline }}</h2>
 			{% if page.header.banner.follower %}
 			<div>
-				<span>{{ page.header.banner.follower }}</span>
+				<span class="follower {{ page.header.banner.follower.class }}">{{ page.header.banner.follower.text }}</span>
 			<div>	
 			{% endif %}
 			{% if page.header.banner.blurb %}
 			<div>
-				<p>{{ page.header.banner.blurb }}</p>
+				<span class="blurb {{ page.header.banner.blurb.class }}">{{ page.header.banner.blurb.text }}</span>
 			</div>
 			{% endif %}
 		</section>
