@@ -4,7 +4,7 @@ const { series, parallel } = require('gulp');
 
 // import functions from individual files
 const { cleanDist } = require('./clean.js');
-const { lintCSSAll, fixCSS } = require('./stylelint.js');
+const { lintCSS, fixCSS } = require('./stylelint.js');
 const { compileCSS } = require('./sass.js');
 const { compileJS } = require('./concat.js');
 const { fingerprint } = require('./replace.js');
@@ -13,12 +13,6 @@ const { watchHTML, watchCSS, watchJS } = require('./watch.js');
 
 // set environment
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
-
-// TODO: implement gulp-eslint
-function lintJS(cb) {
-	// dummy
-	cb();
-};
 
 // TODO: implement fixJS via gulp-eslint fix
 // fix code style where possible
@@ -57,15 +51,14 @@ exports.serve = series(
 		compileCSS,
 		compileJS
 	),
-	parallel(
+	series(
 		server,
-		lintCSSAll,
-		lintJS,	
+		lintCSS
 	),
 	parallel(
 		watchHTML,
 		watchCSS,
-		watchJS,
+		watchJS
 	)
 );
 

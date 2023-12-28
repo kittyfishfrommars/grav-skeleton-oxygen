@@ -11,8 +11,12 @@ const cssnano = require('cssnano');
 // autoprefixer: get options from package.json
 // cssnano: PostCSS plugins
 function compileCSS(cb) {
+	let isDev = (process.env.NODE_ENV === 'dev' || false);
 	let options = {
-		sourcemaps: process.env.NODE_ENV === 'dev' || false,
+		sourcemaps: isDev,
+		cssnano: {
+			mergeIdents: true
+		}
 	};
 
 	return src(config.path.scss, {
@@ -21,7 +25,7 @@ function compileCSS(cb) {
 		.pipe(sass())
 		.pipe(postcss([
 			autoprefixer(),
-			cssnano()
+			cssnano(options.cssnano)
 		]))
 		.pipe(dest(config.path.dist + '/css', {
 			sourcemaps: '.'

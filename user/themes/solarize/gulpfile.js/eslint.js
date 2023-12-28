@@ -2,38 +2,23 @@
 const config = require('../gulp.config.json');
 const { src, dest } = require('gulp');
 const eslint = require('gulp-eslint-new');
-const stylelintFormatter = require('stylelint-formatter-pretty');
+const cache = require('gulp-cached');
 
 // TODO: implement eslint, below is just dummy code
 
 // JS Linter
 // Man: https://github.com/origin-1/gulp-eslint-new
 // ESlint Generator: https://maximgatilin.github.io/stylelint-config/
-function lintCSS() {
-	return src(config.path.scss)
-		.pipe(stylelint({
-			failAfterError: false,
-			quietDeprecationWarnings: true,
-			reporters: [{
-				formatter: stylelintFormatter,
-				console: true
-			}]
-		}));
+// lint all css
+function lintJS() {
+	console.log('TODO: eslint');
 };
 
-exports.lintCSS = lintCSS;
+exports.lintJS = lintJS;
 
-// CSS Linter - invoke fixes where possible
-function fixCSS() {
-	return src(config.path.scss, {
-			base: './'
-		})
-		.pipe(stylelint({
-			fix: true,
-			failAfterError: false,
-			quietDeprecationWarnings: true,
-		}))
-		.pipe(dest('.'));
+// invoke fixes where possible
+function fixJS() {
+	console.log('TODO: eslin fixt');
 };
 
-exports.fixCSS = fixCSS;
+exports.fixCJS = fixJS;
