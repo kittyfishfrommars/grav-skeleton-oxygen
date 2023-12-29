@@ -8,6 +8,10 @@
         display: none;
     }
 
+    #banner {
+        height: 22.5em;
+    }
+
     .grid-default {
         grid-gap: 2em;
         grid-template-columns: repeat(2, 1fr);

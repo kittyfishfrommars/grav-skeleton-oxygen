@@ -3,6 +3,10 @@
 /* Basic */
 @media ( width <= 640px ) {
 
+    #banner {
+        height: 23.5em;
+    }
+
     header.major h2 {
         font-size: 1.6em;
     }

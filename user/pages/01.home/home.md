@@ -10,10 +10,10 @@ sitemap:
 banner:
     url: 'user/themes/solarize/images/header_forest-1680x600.jpg'
     headline: 'Solarize'
-    follower:
-      # bold | italic | text-uppercase | skew | opacity-dark | opacity-light
-      class: 'text-uppercase'
-      text: 'Redux'
+    # follower:
+      # values: bold | italic | text-uppercase | skew | opacity-dark | opacity-light
+      # class: 'text-uppercase'
+      # text: 'Redux'
     blurb:
       class: 'text-uppercase'
       text: 'a performant theme for Grav CMS'

@@ -681,12 +681,8 @@ input[type = "button"].small,
     background-repeat: no-repeat;
     background-size: cover;
     color: config.$color-nav-text;
-    padding: 6em 0 3em;
-    text-align: center;
-}
-
-#banner .container {
-    padding: 0 8em;
+    height: 24em;
+    overflow: hidden;
 }
 
 #banner .container h2 {
