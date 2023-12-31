@@ -1,0 +1,22 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block banner %}
+	{% include 'partials/banner.html.twig' %}
+{% endblock banner %}
+
+{% block body %}
+<!-- Main -->
+	<div id="main" class="wrapper style4 plain">
+
+		<!-- Content -->
+		<div id="content" class="container">
+			<section>
+				{% include 'partials/heading.html.twig' %}
+
+				<h1>{{ 'PLUGIN_ERROR.ERROR'|t }} {{ header.http_response_code }}</h1>
+                <p>{{ page.content|raw }}</p>
+			</section>
+		</div>
+	</div>
+
+{% endblock body %}

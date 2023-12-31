@@ -21,6 +21,7 @@
 ### Maintenance
 * Define header banner on a per-page basis
 * Define footer links on a per-site basis
+* Add custom error page via [grav-plugin error](https://github.com/getgrav/grav-plugin-error) dependency
 * Refactor notices to CSS grid, set individual icons and colors in page, fix overlong texts
 * Add overview of FontAwesome 4.0.3 to elements page
 * Add svg to hamburger menu to become truly iconfont agnostic, allowing updates

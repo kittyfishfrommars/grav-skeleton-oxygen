@@ -1,0 +1,10 @@
+en:
+  PLUGIN_ERROR:
+    ERROR: "Error"
+    ERROR_MESSAGE: 
+      We're sorry, the page you are looking isn't here.
+    ROUTE_404: "404 Route"
+de:
+  PLUGIN_ERROR:
+    ERROR: "Fehler"
+    ERROR_MESSAGE: "Diese Seite gibt es leider nicht." 
