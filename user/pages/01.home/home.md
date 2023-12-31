@@ -88,6 +88,7 @@ notices:
 portals: # could be used for: key staff, testimonials, service previews, ...
     heading: Cras vitae metus aliNuam
     byline:
+        # (values) uppercase | normal-case
         # class: 'normal-case'
         text: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
