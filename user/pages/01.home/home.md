@@ -11,11 +11,11 @@ banner:
     url: 'user/themes/solarize/images/header_forest-1680x600.jpg'
     headline: 'Solarize'
     # follower:
-      # values: bold | italic | text-uppercase | skew | opacity-dark | opacity-light
-      # class: 'text-uppercase'
+      # (values) bold | italic | uppercase | skew | opacity-dark | opacity-light
+      # class: 'uppercase'
       # text: 'Redux'
     blurb:
-      class: 'text-uppercase'
+      class: 'uppercase'
       text: 'a performant theme for Grav CMS'
 
 hook:
@@ -87,7 +87,9 @@ notices:
 
 portals: # could be used for: key staff, testimonials, service previews, ...
     heading: Cras vitae metus aliNuam
-    byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
+    byline:
+        # class: 'normal-case'
+        text: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
         - thumbnail: person.png
           alt: 'Molly Millions'

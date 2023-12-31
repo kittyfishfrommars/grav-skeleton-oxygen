@@ -46,8 +46,12 @@
 
 /* TYPOGRAPHY */
 
-.text-uppercase {
-    text-transform: uppercase !important;;
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.normal-case {
+    text-transform: none !important;
 }
 
 .text-center {
