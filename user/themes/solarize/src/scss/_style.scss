@@ -63,10 +63,6 @@ em, i {
     font-style: italic;
 }
 
-dl, table {
-    margin: 0 0 2em;
-}
-
 p {
     line-height: 1.5em;
     margin-bottom: config.$margin-bottom;
@@ -93,6 +89,39 @@ hr {
     border: 0;
     border-top: solid 1px config.$color-primary;
     margin-bottom: 1.5em;
+}
+
+/* Tables */
+
+dl, table {
+    margin: 0 0 2em;
+}
+
+table td, table th {
+    padding: 0em 1em 1em 0;
+}
+
+table.default {
+
+}
+
+table.default tbody tr {
+    border-bottom: solid 1px config.$color-primary;
+}
+
+table.default td {
+    padding: 0.5em 1em;
+}
+
+table.default th {
+    font-weight: 700;
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+table.default thead {
+    background-color: config.$color-primary;
+    color: config.$color-secondary;
 }
 
 section.special, article.special {
@@ -374,35 +403,6 @@ ul.special-icons h3 a:visited {
 
 ul.special-icons p {
     margin: 0;
-}
-
-/* Tables */
-
-table {
-    width: 100%;
-}
-
-table.default {
-    width: 100%;
-}
-
-table.default tbody tr {
-    border-bottom: solid 1px config.$color-primary;
-}
-
-table.default td {
-    padding: 0.5em 1em;
-}
-
-table.default th {
-    font-weight: 700;
-    padding: 0.5em 1em;
-    text-align: left;
-}
-
-table.default thead {
-    background: #555555;
-    color: config.$color-secondary;
 }
 
 /* Button */

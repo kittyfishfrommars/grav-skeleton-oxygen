@@ -14,7 +14,10 @@
 				{% include 'partials/heading.html.twig' %}
 
 				<h1>{{ 'PLUGIN_ERROR.ERROR'|t }} {{ header.http_response_code }}</h1>
-                <p>{{ page.content|raw }}</p>
+
+				{% set sitemap = pages.find('/sitemap') %}
+				{{ page.content|replace({'%SITEMAP%': '<a href="' ~ sitemap.url ~ '">' ~ sitemap.title ~ '</a>'})|raw }}
+
 			</section>
 		</div>
 	</div>

@@ -3,6 +3,7 @@ title: 'Legal Notice'
 # subtitle: 'Integer sit amet pede vel arcu aliquet pretium'
 slug: 'legal'
 visible: false
+robots: noindex,nofollow
 # grav-plugin-sitemap overrides
 sitemap:
    changefreq: monthly
