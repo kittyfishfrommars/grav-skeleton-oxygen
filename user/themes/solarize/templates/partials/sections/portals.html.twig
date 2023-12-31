@@ -6,7 +6,7 @@
 		<section id="team" class="container">
 			<header class="major">
 				<h2>{{ portals.heading }}</h2>
-				<span class="byline {{ portals.byline.class }}">{{ portals.byline.text }}</span>
+				<span class="byline {{ portals.byline.class }}">{{ portals.byline.text|raw }}</span>
 			</header>
 			<div class="row">
 				{% for portal in portals.items|slice(0, 4) %}
