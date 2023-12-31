@@ -16,14 +16,14 @@ pages:
   parents_levels: null
 session:
   timeout: 3600
-edit_mode: normal
+edit_mode: expert
 frontend_preview_target: inline
 show_github_msg: false
 admin_icons: line-awesome
 enable_auto_updates_check: false
 notifications:
   feed: false
-  dashboard: true
+  dashboard: false
   plugins: true
   themes: true
 popularity:
