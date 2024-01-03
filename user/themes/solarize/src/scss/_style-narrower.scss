@@ -12,6 +12,14 @@
         line-height: 1.5em;
     }
 
+    .small { 
+        font-size: 90%; 
+    }
+
+    .normal { 
+        font-size: 1.1em;
+    }
+
     header.major h2 {
         font-size: 1.8em;
     }
@@ -43,16 +51,6 @@
         margin: 0 auto;
         max-width: 350px;        
         width: 100%;
-    }
-
-    .wrapper.style2,
-    .wrapper.evenpart {
-        text-align: center;
-    }
-
-    .wrapper.style2 .major,
-    .wrapper.evenpart .major {
-        text-align: center !important;
     }
 
     .wrapper.style2 .major h2,

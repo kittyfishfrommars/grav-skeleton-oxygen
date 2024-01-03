@@ -436,7 +436,8 @@ input[type = "button"]:visited,
 input[type = "submit"]:hover,
 input[type = "reset"]:hover,
 input[type = "button"]:hover,
-.button:hover {
+.button:hover,
+.button:active {
     background: config.$color-primary;
     color: config.$color-secondary;
 }
@@ -464,18 +465,24 @@ input[type = "button"].fit,
     width: 100%;
 }
 
-small,
-input[type = "submit"].small,
-input[type = "reset"].small,
-input[type = "button"].small,
-.button.small {
-    font-size: 0.8em;
+.button.button-secondary,
+.button.button-secondary:visited {
+    border-color: config.$color-secondary;
+    color: config.$color-secondary;
+    opacity: 0.6;
+}
+
+.button.button-secondary:hover,
+.button.button-secondary:active {
+    background: config.$color-secondary;
+    color: config.$color-bg-secondary;
+    opacity: 1;
 }
 
 /* Wrapper */
 
 .wrapper {
-    padding: 5em 0 5em;
+    padding: 5em 0;
 }
 
 .wrapper.style1 {
@@ -786,7 +793,7 @@ input[type = "button"].small,
 /* Copyright */
 
 #copyright {
-    padding: 3em 0;
+    padding: 2em 0;
     position: relative;
     text-align: center;
     text-transform: none;

@@ -66,6 +66,15 @@
     font-style: italic !important;
 }
 
+.small { 
+    font-size: 80%; 
+    line-height: 1.5em; 
+}
+
+.normal {
+    font-size: 1.4em;
+}
+
 .skew {
     margin-top: -0.5rem !important;
     transform: rotate(-3deg);
@@ -81,6 +90,12 @@
 .opacity-light {
     background-color: config.$opacity-light;
     color: config.$color-text;
+}
+
+/* MARGIN */
+
+.mb-3 {
+    margin-bottom: 3rem;
 }
 
 /* PADDING */

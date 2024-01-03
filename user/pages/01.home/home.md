@@ -11,7 +11,8 @@ banner:
     url: 'user/themes/solarize/images/header_forest-1680x600.jpg'
     headline: 'Solarize'
     # follower:
-      # (values) bold | italic | uppercase | skew | opacity-dark | opacity-light
+      # (values) bold | italic | uppercase | normal-case | small | skew
+      # ... opacity-dark | opacity-light
       # class: 'uppercase'
       # text: 'Redux'
     blurb:
@@ -88,9 +89,9 @@ notices:
 portals: # could be used for: key staff, testimonials, service previews, ...
     heading: Cras vitae metus aliNuam
     byline:
-        # (values) uppercase | normal-case
-        # class: 'normal-case'
-        text: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
+        # (values) uppercase | normal-case | small
+        # class: 'normal-case small'
+        text: 'Pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
         - thumbnail: person.png
           alt: 'Molly Millions'
