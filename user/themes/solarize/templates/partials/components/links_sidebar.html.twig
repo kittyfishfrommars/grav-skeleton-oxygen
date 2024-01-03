@@ -3,7 +3,7 @@
 	{% set front =  page.find('/components/links/' ~ sidebar).header %}
 	<section>
 		<header class="major">
-			<h2>{{ front.title }}</h2>
+			<h2>{{ front.title|raw }}</h2>
 		</header>
 		<ul class="default">
 			{% for link in front.links %}

@@ -5,7 +5,7 @@
 	<div class="wrapper style5 portals">
 		<section id="team" class="container">
 			<header class="major">
-				<h2>{{ portals.heading }}</h2>
+				<h2>{{ portals.heading|raw }}</h2>
 				<span class="byline {{ portals.byline.class }}">{{ portals.byline.text|raw }}</span>
 			</header>
 			<div class="row">
@@ -14,7 +14,7 @@
 					<a href="{{ portal.target }}" class="image">
 						<img alt="{{ portal.alt|default('') }}" src="{{ data_source.media[portal.thumbnail].resize(162,162).url }}">
 					</a>
-					<h3>{{ portal.heading }}</h3>
+					<h3>{{ portal.heading|raw }}</h3>
 					<p>{{ portal.teaser|raw }}</p>
 				</div>
 				{% endfor %}

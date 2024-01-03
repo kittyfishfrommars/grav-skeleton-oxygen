@@ -7,7 +7,7 @@
 	<div class="wrapper style4 plain">
 		<section class="container">
 			<header class="major pb-2">
-				<h2>{{ notices.heading }}</h2>
+				<h2>{{ notices.heading|raw }}</h2>
 				<span class="byline">{{ notices.byline }}</span>
 			</header>
 				<div class="clearfix">
@@ -19,10 +19,10 @@
 								{% if item.target %}
 									<a href="{{ item.target }}">{{ item.heading }}</a>
 								{% else %}
-									{{ item.heading }}
+									{{ item.heading|raw }}
 								{% endif %}
 							{% endspaceless %}</h3>
-							<p>{{ item.point }}</p>
+							<p>{{ item.point|raw }}</p>
 						</li>
 					{% endfor %}			
 					</ul>
