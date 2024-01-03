@@ -1,5 +1,5 @@
 ---
-title: 'Home / Solarize'
+title: 'Home'
 menu: Home
 body_classes: homepage
 # grav-plugin-sitemap overrides
@@ -22,7 +22,7 @@ banner:
 hook:
     teaser: 'Pellentesque viverra vulputate enim. Aliquam volutpat quintesse.'
     byline:
-        In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Donec pulvinar ullamcorper metus.
+        In posuere eleifend odio. Quisque <a href="#">semper augue mattis</a> wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Donec pulvinar ullamcorper metus.
         Quisque semper augue mattis.
     button:
         text: 'Nulla aluctus'
@@ -30,8 +30,9 @@ hook:
 
 cta:
     headline: Cras vitae metus aliNuam
+    class: color-link-secondary
     copy:
-       Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar      mollis.  Vestibulum sem magna, elementum vestibulum arcu.
+       Pellentesque pede. <a href="#">Donec pulvinar</a> ullamcorper metus. In eu odio at lectus pulvinar mollis.  Vestibulum sem magna, elementum vestibulum arcu.
     button:
         text: Nulla eleifend
         target: '#'
@@ -45,7 +46,7 @@ notices:
         - icon: fa-info color-info
           target: '#'
           heading: 'Nulla luctus eleifend'
-          point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
+          point: 'In posuere eleifend odio. Quisque semper augue <a href="#">mattis wisi</a>. Maecenas ligula pellentesque.'
         - icon: fa-shield color-info
           # target: '#'
           heading: 'Etiam posuere augue'
@@ -90,8 +91,8 @@ portals: # could be used for: key staff, testimonials, service previews, ...
     heading: Cras vitae metus aliNuam
     byline:
         # (values) uppercase | normal-case | small
-        # class: 'normal-case small'
-        text: 'Pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
+        class: 'color-link-secondary normal-case small'
+        text: 'Pulvinar mollis. Vestibulum <a href="#">sem magna</a>, elementum vestibulum arcu.'
     items:
         - thumbnail: person.png
           alt: 'Molly Millions'
@@ -118,4 +119,4 @@ portals: # could be used for: key staff, testimonials, service previews, ...
 
 ### Suspendisse dictum porta
 
-Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet, magna nec eleifend semper augue mattis wisi maecenas ligula nunc lectus vestibulum euismod lacinia quam nisl.
+Donec leo. Vivamus fermentum nibh in augue. <a href="#">Praesent a lacus</a> at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet, magna nec eleifend semper augue mattis wisi maecenas ligula nunc lectus vestibulum euismod lacinia quam nisl.

@@ -16,7 +16,7 @@ taxonomy:
    tag: unique-legal
 ---
 ### mysite.com
-<div class="a-color-text" markdown="1">
+<div class="color-link-text" markdown="1">
 Jane Q. Public
 Main Road 555
 50555 Capitol City
@@ -35,7 +35,7 @@ Julie Citizen, Hillside 9, 50555 Capitol City
 
 ### Credits {#credits .pt-3}
 [//]: # (Attribution required: Please keep attributions below intact to stay compliant with the licensing agreements and to give back to the community)
-<div class="a-color-text" markdown="1">
+<div class="color-link-text" markdown="1">
 * All content on this site is free to redistribute, given appropriate credit to the source, <br>indication of any changes and a link to the license - [mysite.com](https://mysite.com) / [CC by 4.0 Attribution](https://creativecommons.org/licenses/by/4.0/)
 * Header image by [Jonas Wimmerström](https://cupcake.nilssonlee.se/) under the [Creative Commons CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
 * Design inspired by "Solarize" of [templated.co](https://templated.co) under the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/)
@@ -47,7 +47,7 @@ License - [https://fontawesome.io/license](http://fontawesome.io/license) (Font:
 </div>
 
 ### Privacy Policy {#privacy .pt-3}
-<div class="a-color-text" markdown="1">
+<div class="color-link-text" markdown="1">
 A [privacy policy](https://en.wikipedia.org/wiki/Privacy_policy) is a statement that discloses the ways a party gathers and uses visitors data.
 
 By default this theme does not set cookies. It does not collect IP-addresses or other visitors data. All assets incl. fonts are loaded locally. No third-party connections are established. Your hosting provider may gather necessary statistics, the details shall be disclosed here.

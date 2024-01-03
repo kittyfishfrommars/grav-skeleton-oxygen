@@ -52,8 +52,16 @@ a:visited {
     color: config.$color-link-visited;
 }
 
-.a-color-text a {
+a.color-link-text,
+.color-link-text a {
     color: config.$color-text;
+
+
+}
+
+a.color-link-secondary,
+.color-link-secondary a {
+    color: config.$color-secondary;
 }
 
 strong, b {
@@ -441,6 +449,22 @@ input[type = "button"]:hover,
 .button:active {
     background: config.$color-primary;
     color: config.$color-secondary;
+}
+
+input[type = "submit"].alt,
+input[type = "reset"].alt,
+input[type = "button"].alt,
+.button.alt {
+    border-color: inherit;
+    color: inherit;
+}
+
+input[type = "submit"].alt:hover,
+input[type = "reset"].alt:hover,
+input[type = "button"].alt:hover,
+.button.alt:hover {
+    background: config.$color-secondary;
+    color: config.$color-primary;
 }
 
 input[type = "submit"].fit,
