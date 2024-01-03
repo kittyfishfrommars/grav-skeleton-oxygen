@@ -91,7 +91,7 @@ portals: # could be used for: key staff, testimonials, service previews, ...
     heading: Cras vitae metus aliNuam
     byline:
         # (values) uppercase | normal-case | small
-        class: 'color-link-secondary normal-case small'
+        class: 'color-link-secondary'
         text: 'Pulvinar mollis. Vestibulum <a href="#">sem magna</a>, elementum vestibulum arcu.'
     items:
         - thumbnail: person.png

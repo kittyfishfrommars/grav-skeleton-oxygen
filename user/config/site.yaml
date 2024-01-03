@@ -11,7 +11,7 @@ footer:
     byline:
       # (values) bold | italic | uppercase | normal-case | small
       # class: 'normal-case'
-      text: In posuere eleifend odio quisque semper.
+      text: In posuere eleifend <span class="nowrap">odio quisque</span> semper.
     button:
       # (values) bold | italic | uppercase | normal-case | small | normal
       class: 'normal icon fa-envelope-o'

@@ -25,7 +25,7 @@
 * Add XML sitemap and custom HTML sitemap via [grav-plugin-sitemap](https://github.com/getgrav/grav-plugin-sitemap)
 * Auto-link to sitemap from error page
 * Add languages.yaml in theme root to customize plugin messages
-* Introduce optional classes to style some components via yaml/md
+* Introduce optional helper classes to style some components via yaml
 * Refactor notices to CSS grid, set individual icons and colors in page, fix overlong texts
 * Add overview of FontAwesome 4.0.3 to elements page
 * Add svg to hamburger menu to become truly iconfont agnostic, allowing updates
