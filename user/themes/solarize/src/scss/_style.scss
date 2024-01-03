@@ -1,4 +1,5 @@
 @use "_config.scss" as config;
+@use "sass:color";
 
 /* Basic */
 
@@ -442,22 +443,6 @@ input[type = "button"]:hover,
     color: config.$color-secondary;
 }
 
-input[type = "submit"].alt,
-input[type = "reset"].alt,
-input[type = "button"].alt,
-.button.alt {
-    border-color: inherit;
-    color: inherit;
-}
-
-input[type = "submit"].alt:hover,
-input[type = "reset"].alt:hover,
-input[type = "button"].alt:hover,
-.button.alt:hover {
-    background: config.$color-secondary;
-    color: config.$color-primary;
-}
-
 input[type = "submit"].fit,
 input[type = "reset"].fit,
 input[type = "button"].fit,
@@ -467,7 +452,7 @@ input[type = "button"].fit,
 
 .button.button-secondary,
 .button.button-secondary:visited {
-    border-color: config.$color-secondary;
+    border-color: color.adjust(config.$color-secondary, $lightness: - 50%);
     color: config.$color-secondary;
     opacity: 0.6;
 }
