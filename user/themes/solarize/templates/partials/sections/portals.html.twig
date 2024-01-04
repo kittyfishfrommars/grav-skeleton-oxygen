@@ -5,8 +5,12 @@
 	<div class="wrapper style5 portals">
 		<section id="team" class="container">
 			<header class="major">
-				<h2>{{ portals.heading|raw }}</h2>
-				<span class="byline {{ portals.byline.class }}">{{ portals.byline.text|raw }}</span>
+				{% if portals.heading %}
+					<h2>{{ portals.heading|raw }}</h2>
+				{% endif %}
+				{% if portals.byline.text %}
+					<span class="byline {{ portals.byline.class }}">{{ portals.byline.text|raw }}</span>
+				{% endif %}
 			</header>
 			<div class="row">
 				{% for portal in portals.items|slice(0, 4) %}
