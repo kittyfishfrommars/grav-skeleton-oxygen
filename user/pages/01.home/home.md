@@ -88,9 +88,9 @@ notices:
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
 
 portals: # could be used for: key staff, testimonials, service previews, ...
-    # heading: Cras vitae metus aliNuam
+    heading: Cras vitae metus alinuam
     byline:
-        # (values) uppercase | normal-case | small | md-align-left
+        # (values) uppercase | normal-case | small | align-left-md
         class: 'color-link-secondary'
         text: 'Pulvinar mollis. Vestibulum <a href="#">sem magna</a>, elementum vestibulum arcus.'
     items:

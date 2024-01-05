@@ -27,6 +27,7 @@
 * Add languages.yaml in theme root to customize plugin messages
 * Introduce optional helper classes to style some components via yaml
 * Refactor notices to CSS grid, set individual icons and colors in page, fix overlong texts
+* Configurable grid
 * Add overview of FontAwesome 4.0.3 to elements page
 * Add svg to hamburger menu to become truly iconfont agnostic, allowing updates
 * Rewrite sidebar for multiple markdown sections

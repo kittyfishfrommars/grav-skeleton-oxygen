@@ -37,6 +37,12 @@ $line-height-text: 1.65em;
 
 $margin-bottom: 1em;
 
+/* GRID */
+$grid-gap: 2em;
+$grid-columns-xl: 3, 1fr;
+$grid-columns-lg: 1, 1fr;
+$grid-columns-md: 1, 1fr;
+
 /* TRANSPARENT BACKGROUND OVERLAY */
 
 $opacity-dark: rgb(0 0 0 / 80%);

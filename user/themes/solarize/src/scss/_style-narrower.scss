@@ -20,7 +20,7 @@
         font-size: 1.1em;
     }
 
-    .md-align-left {
+    .align-left-md {
         text-align: left;
     }
 
@@ -46,8 +46,7 @@
     }
 
     .grid-default {
-        grid-gap: 2em;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(config.$grid-columns-md);
     }
 
     /* Button */

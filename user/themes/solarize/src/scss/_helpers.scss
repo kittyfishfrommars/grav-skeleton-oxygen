@@ -132,8 +132,8 @@
 
 .grid-default {
     display: grid;
-    grid-gap: 2em;
-    grid-template-columns: repeat(3, 1fr);
+    grid-gap: config.$grid-gap;
+    grid-template-columns: repeat(config.$grid-columns-xl);
 }
 
 /* ALIGN */
