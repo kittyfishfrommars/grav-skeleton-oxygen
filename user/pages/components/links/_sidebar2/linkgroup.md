@@ -1,18 +1,16 @@
 ---
-title: Mauris vulputate
+title: Links
+# (values) list-none | list-disc | list-decimal
+class: 'list-disc'
 links:
     - target: '#'
-      text: 'Pellentesque lectus gravida blandit'
+      text: 'First Pellentesque lectus gravida blandit'
+      description: >
+        Maecenas vitae  congue pharetra ipsum
     - target: '#'
-      text: 'Lorem ipsum consectetuer adipiscing'
+      text: 'Second ipsum'
+      description: >
+        Maecenas vitae orci feugiat pharetra 
     - target: '#'
-      text: 'Phasellus nibh pellentesque congue'
-    - target: '#'
-      text: 'Cras vitae metus aliquam pharetra'
-    - target: '#'
-      text: 'Maecenas vitae orci feugiat eleifend'
-    - target: '#'
-      text: 'Phasellus nibh pellentesque congue'
-    - target: '#'
-      text: 'Cras vitae metus aliquam pharetra'
+      text: 'Third Phasellus nibh congue'
 ---

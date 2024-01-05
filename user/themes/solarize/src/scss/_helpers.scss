@@ -84,6 +84,25 @@
     transform: rotate(-3deg);
 }
 
+/* LISTS */
+
+.list-none { 
+    list-style-type: none !important;
+    margin-left: 0 !important;
+
+    li {
+        padding-left: 0 !important;
+    }
+}
+
+.list-disc {
+    list-style-type: disc !important;
+}
+
+.list-decimal {
+    list-style-type: decimal !important;
+}
+
 /* TRANSPARENT BACKGROUND OVERLAY */
 
 .opacity-dark {

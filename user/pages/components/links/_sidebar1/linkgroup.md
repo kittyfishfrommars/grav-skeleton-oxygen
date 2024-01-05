@@ -1,18 +1,28 @@
 ---
-title: Etiam malesuada
+title: Index
+# (values) list-none | list-disc | list-decimal
+class: 'list-decimal'
 links:
     - target: '#'
-      text: 'Pellentesque lectus gravida blandit'
+      text: 'First Pellentesque lectus gravida blandit'
+      description: >
+        Maecenas vitae orci feugiat congue pharetra
     - target: '#'
-      text: 'Lorem ipsum consectetuer adipiscing'
+      text: 'Second ipsum'
+      description: >
+        Maecenas vitae orci pharetra ipsum
     - target: '#'
-      text: 'Phasellus nibh pellentesque congue'
+      text: 'Third Phasellus nibh pellentesque congue'
     - target: '#'
-      text: 'Cras vitae metus aliquam pharetra'
+      text: 'Fourth Cras vitae metus aliquam pharetra'
+      description: >
+        Maecenas vitae orci  congue pharetra ipsum
     - target: '#'
-      text: 'Maecenas vitae orci feugiat eleifend'
+      text: 'Fifth Maecenas vitae orci feugiat eleifend'
+      description: >
+        Maecenas vitae orci feugiat pharetra
     - target: '#'
-      text: 'Phasellus nibh pellentesque congue'
+      text: 'Sixth Phasellus'
     - target: '#'
-      text: 'Cras vitae metus aliquam pharetra'
+      text: 'Seventh Cras vitae metus aliquam pharetra'
 ---

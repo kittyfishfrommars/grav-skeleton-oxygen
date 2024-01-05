@@ -29,6 +29,8 @@
 * Refactor notices to CSS grid, set individual icons and colors in page, fix overlong texts
 * Add overview of FontAwesome 4.0.3 to elements page
 * Add svg to hamburger menu to become truly iconfont agnostic, allowing updates
+* Rewrite sidebar for multiple markdown sections
+* Add optional classes list-disc (default) | list-decimal | list-none to sidebar links
 
 ### Legal
 * Host fonts locally to comply with [GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/) in the EU

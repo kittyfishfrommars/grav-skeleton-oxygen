@@ -5,9 +5,12 @@
 		<header class="major">
 			<h2>{{ front.title|raw }}</h2>
 		</header>
-		<ul class="default">
+		<ul class="default {{ front.class }}">
 			{% for link in front.links %}
-				<li><a href="{{ link.target }}">{{ link.text }}</a></li>
+				<li>
+					<a href="{{ link.target }}">{{ link.text|raw }}</a><br/>
+					{{ link.description|raw }}
+				</li>
 			{% endfor %}
 		</ul>
 	</section>

@@ -94,7 +94,7 @@ sup {
 
 hr {
     border: 0;
-    border-top: solid 1px config.$color-primary;
+    border-top: solid 1px config.$color-text;
     margin-bottom: 1.5em;
 }
 
@@ -489,7 +489,7 @@ input[type = "button"].fit,
 /* Wrapper */
 
 .wrapper {
-    padding: 5em 0;
+    padding: 4em 0;
 }
 
 .wrapper.style1 {
@@ -555,6 +555,8 @@ input[type = "button"].fit,
 .wrapper.cta p {
     font-size: 1.6em;
 }
+
+/* Sidebar */
 
 .wrapper.style4,
 .wrapper.plain {
@@ -742,7 +744,7 @@ input[type = "button"].fit,
 }
 
 #main #sidebar .major {
-    padding-bottom: 2em;
+    padding-top: 0.35em;
 }
 
 #main #sidebar .major h2 {
