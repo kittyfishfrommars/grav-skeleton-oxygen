@@ -46,21 +46,21 @@ notices:
         - icon: fa-info color-info
           target: '#'
           heading: 'Nulla luctus eleifend'
-          point: 'In posuere eleifend odio. Quisque semper augue <a href="#">mattis wisi</a>. Maecenas ligula pellentesque.'
+          point: 'In posuere eleifend odio. Quisque semper augue. Maecenas ligula... <a href="#">read more</a>'
         - icon: fa-shield color-info
           # target: '#'
           heading: 'Etiam posuere augue'
-          point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
+          point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat... <a href="#">read more</a>'
         - icon: fa-gavel color-info
           # target: '#'
           heading: 'Fusce ultrices fringilla'
-          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
+          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin orci... <a href="#">read more</a>'
 
         # second row
         - icon: fa-exclamation color-primary
           # target: '#'
           heading: 'Fusce ultrices fringilla'
-          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
+          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Gravida orci... <a href="#">read more</a>'
         - icon: fa-phone color-primary
           # target: '#'
           heading: 'Nulla luctus eleifend'
