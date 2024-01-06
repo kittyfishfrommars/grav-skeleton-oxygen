@@ -10,6 +10,9 @@ bower_components
 node_modules
 npm-debug.log
 
+# ignore generated files
+assets/admin-preset.css
+
 # ignore temporary files
 .sass-cache
 *.css.map

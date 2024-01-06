@@ -15,10 +15,12 @@ http_x_forwarded:
   port: true
   ip: true
 languages:
-  supported: null
-  default_lang: null
-  include_default_lang: true
-  include_default_lang_file_extension: true
+  supported:
+    - en
+    - de
+  default_lang: 'en'
+  include_default_lang: false
+  include_default_lang_file_extension: false
   translations: true
   translations_fallback: true
   session_store_active: false

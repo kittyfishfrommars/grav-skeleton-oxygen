@@ -13,10 +13,10 @@
 			<section>
 				{% include 'partials/heading.html.twig' %}
 
-				<h1>{{ 'PLUGIN_ERROR.ERROR'|t }} {{ header.http_response_code }}</h1>
+				<h1>{{ 'PLUGIN_ERROR.ERROR'|t|e }} {{ header.http_response_code }}</h1>
 
 				{% set sitemap = pages.find('/sitemap') %}
-				{{ page.content|replace({'%SITEMAP%': '<a href="' ~ sitemap.url ~ '">' ~ sitemap.title ~ '</a>'})|raw }}
+				{{ page.content|replace({'%SITEMAP%': '<a href="' ~ sitemap.url ~ '">' ~ sitemap.title ~ '</a>'})|t|raw }}
 
 			</section>
 		</div>

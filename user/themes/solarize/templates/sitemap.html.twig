@@ -17,18 +17,18 @@
       <table class="sitemap">
         <thead class="bold">
           <tr>
-            <th>{{ 'PLUGIN_SITEMAP.TITLE_TITLE'|t }}</th>
+            <th>{{ 'PLUGIN_SITEMAP.TITLE_TITLE'|t|e }}</th>
             <!--
-            <th>{{ 'PLUGIN_SITEMAP.TITLE_LOCATION'|t }}</th>
+            <th>{{ 'PLUGIN_SITEMAP.TITLE_LOCATION'|t|e }}</th>
             -->
-            <th>{{ 'PLUGIN_SITEMAP.TITLE_LASTMOD'|t }}</th>
+            <th>{{ 'PLUGIN_SITEMAP.TITLE_LASTMOD'|t|e }}</th>
           </tr>
         </thead>
         <tbody>
           {% for entry in sitemap %}
           {% if lang is null or entry.lang == lang %}
           <tr>
-            <td><a href="{{ entry.location }}">{{ entry.title ?: 'PLUGIN_SITEMAP.UNTITLED'|t }}</a></td>
+            <td><a href="{{ entry.location }}">{{ entry.title ?: 'PLUGIN_SITEMAP.UNTITLED'|t|e }}</a></td>
             <!--
             <td><a href="{{ entry.location }}">{{ entry.location }}</a></td>
             !-->
