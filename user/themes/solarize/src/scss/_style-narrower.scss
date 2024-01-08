@@ -168,11 +168,11 @@
         background: config.$color-nav-bg;
 
         /* hack to enable mobile menu scrolling on android chromium/firefox */
-        border: 1px solid rgb(0 0 0 / 15%);
+        /* border: 1px solid config.$color-nav-border; */
     }
 
     #navPanel .link {
-        border-top: solid 1px rgb(0 0 0 / 15%);
+        border-top: solid 1px config.$color-nav-border;
         color: config.$color-nav-link;
         display: block;
         height: 44px;
