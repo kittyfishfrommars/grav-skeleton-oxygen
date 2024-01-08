@@ -167,17 +167,19 @@
     #navPanel {
         background: config.$color-nav-bg;
 
-        /* hack to enable mobile menu scrolling on android chromium/firefox */
-        /* border: 1px solid config.$color-nav-border; */
+        /* hack to enable mobile menu scrolling on android chromium */
+
+        /* note: possibly caused by skel.js inline-style overflow: hidden auto; */
+        border: 1px solid transparent;
     }
 
     #navPanel .link {
         border-top: solid 1px config.$color-nav-border;
         color: config.$color-nav-link;
         display: block;
-        height: 44px;
-        line-height: 44px;
-        padding: 0 1em;
+        line-height: 1.5rem;
+        min-height: 44px;
+        padding: 0.6rem;
         text-decoration: none;
     }
 
@@ -189,29 +191,14 @@
         color: config.$color-nav-text;
     }
 
-    #navPanel .link .indent-1 {
-        display: inline-block;
-        width: 1em;
+    #navPanel .link.depth-1 {
+        padding-left: 1.4rem;
+
     }
 
-    #navPanel .link .indent-2 {
-        display: inline-block;
-        width: 2em;
-    }
+    #navPanel .link.depth-2 {
+        padding-left: 2.3rem;
 
-    #navPanel .link .indent-3 {
-        display: inline-block;
-        width: 3em;
-    }
-
-    #navPanel .link .indent-4 {
-        display: inline-block;
-        width: 4em;
-    }
-
-    #navPanel .link .indent-5 {
-        display: inline-block;
-        width: 5em;
     }
 
     /* Banner */
