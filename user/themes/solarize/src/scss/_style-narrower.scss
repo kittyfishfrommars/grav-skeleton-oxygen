@@ -168,9 +168,8 @@
         background: config.$color-nav-bg;
 
         /* hack to enable mobile menu scrolling on android chromium */
-
-        /* note: possibly caused by skel.js inline-style overflow: hidden auto; */
-        border: 1px solid transparent;
+        border-top: 5px solid transparent;
+        -webkit-overflow-scrolling: touch;
     }
 
     #navPanel .link {

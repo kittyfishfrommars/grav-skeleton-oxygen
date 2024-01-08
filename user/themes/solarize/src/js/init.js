@@ -56,11 +56,17 @@
 			$body.removeClass('loading');
 		});
 
-		// Dropdowns
+		// Submenus
+		// Documentation: https://github.com/ajlkn/jquery.dropotron
 		$('#nav > ul').dropotron({
 			offsetY: -47,
 			offsetX: -58,
-			hoverDelay: 0
+			expandMode: 'hover',
+			hoverDelay: 0,
+			hideDelay: 50,
+			mode: 'slide',
+			speed: 0,
+			noOpenerFade: true,
 		});
 
 	
