@@ -12,6 +12,7 @@ npm-debug.log
 
 # ignore generated files
 assets/admin-preset.css
+user/images/multiavatar/
 
 # ignore temporary files
 .sass-cache

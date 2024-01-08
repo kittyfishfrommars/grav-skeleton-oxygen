@@ -220,7 +220,7 @@ http:
 accounts:
   type: regular
   storage: file
-  avatar: gravatar
+  avatar: multiavatar
 flex:
   cache:
     index:

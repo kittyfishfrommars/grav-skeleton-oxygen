@@ -1,4 +1,6 @@
 title: 'Solarize'
+# html lang only
+default_lang: 'en'
 author:
   name: Joe Bloggs
   email: 'joe@example.com'
