@@ -1,15 +1,16 @@
 ---
 title: 'Legal Notice'
 # subtitle: 'Integer sit amet pede vel arcu aliquet pretium'
+menu: 'Contact'
 slug: 'legal'
-visible: false
+visible: true
 robots: noindex,nofollow
 # grav-plugin-sitemap overrides
 sitemap:
    changefreq: monthly
    priority: !!float 0.4
    # disallow indexing via sitemap.xml plugin
-   ignore: true
+   ignore: false
 # do not change taxonomy definition
 # unique category is an identifier in templates/partials/footer.html.twig
 taxonomy:
@@ -33,10 +34,12 @@ VAT ID: DE 000 000 009
 Julie Citizen, Hillside 9, 50555 Capitol City
 </div>
 
+### Free Content {#free .pt-3}
+* All content on this site is free to redistribute, given appropriate credit to the source, indication of any changes and a link to the license - [mysite.com](https://mysite.com) / [CC by 4.0 Attribution](https://creativecommons.org/licenses/by/4.0/)
+
 ### Credits {#credits .pt-3}
 [//]: # (Attribution required: Please keep attributions below intact to stay compliant with the licensing agreements and to give back to the community)
 <div class="color-link-text" markdown="1">
-* All content on this site is free to redistribute, given appropriate credit to the source, <br>indication of any changes and a link to the license - [mysite.com](https://mysite.com) / [CC by 4.0 Attribution](https://creativecommons.org/licenses/by/4.0/)
 * Header image by [Jonas Wimmerström](https://cupcake.nilssonlee.se/) under the [Creative Commons CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
 * Design inspired by "Solarize" of [templated.co](https://templated.co) under the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/)
 * Based on the [Grav Port by hughbris](https://github.com/hughbris/grav-theme-solarize/tree/develop) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE), for modifications see [CHANGELOG.md](https://github.com/hughbris/grav-theme-solarize/blob/develop/CHANGELOG.md)

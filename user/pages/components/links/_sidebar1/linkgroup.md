@@ -1,26 +1,26 @@
 ---
 title: Index
 # (values) list-none | list-disc | list-decimal
-class: 'list-decimal'
+class: 'list-none'
 links:
-    - target: '#'
-      text: 'First Pellentesque lectus gravida blandit'
+    - target: '../sidebars/left-sidebar'
+      text: 'Left Sidebar'
       description: >
         Maecenas vitae orci feugiat congue pharetra
-    - target: '#'
-      text: 'Second ipsum'
+    - target: '../sidebars/right-sidebar'
+      text: 'Right Sidebar'
       description: >
         Maecenas vitae orci pharetra ipsum
-    - target: '#'
-      text: 'Third Phasellus nibh pellentesque congue'
-    - target: '#'
-      text: 'Fourth Cras vitae metus aliquam pharetra'
+    - target: '../sidebars/no-sidebar'
+      text: 'No Sidebar (default)'
+      description: >
+        Maecenas vitae orci  congue pharetra ipsum
+    - target: '../sidebars/submenu'
+      text: 'Submenu'
       description: >
         Maecenas vitae orci  congue pharetra ipsum
     - target: '#'
       text: 'Fifth Maecenas vitae orci feugiat eleifend'
-      description: >
-        Maecenas vitae orci feugiat pharetra
     - target: '#'
       text: 'Sixth Phasellus'
     - target: '#'
