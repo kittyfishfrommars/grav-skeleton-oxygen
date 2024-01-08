@@ -13,6 +13,7 @@ const { lintCSS } = require('./stylelint.js');
 // watch HTML separately
 function watchHTML() {
 	watch(config.path.html, {
+			delay: 500,
 			interval: 1000,
 			usePolling: true
 		},
@@ -26,8 +27,9 @@ exports.watchHTML = watchHTML;
 // watch CSS separately
 function watchCSS() {
  	return watch(config.path.scss, {
+			delay: 500,
 			interval: 1000,
-			usePolling: true
+			usePolling: false
 		},						
 		series(
 			compileCSS,
@@ -43,8 +45,9 @@ exports.watchCSS = watchCSS;
 // TODO: add eslint
 function watchJS() {
 	watch(config.path.js, {
+			delay: 500,
 			interval: 1000,
-			usePolling: true
+			usePolling: false
 		},
 		series(
 			parallel(
