@@ -657,21 +657,27 @@ input[type = "button"].fit,
     background: config.$color-nav-bg;
     border-radius: 4px;
     color: config.$color-secondary;
-    list-style-type: none;
-    margin: 0;
-    min-width: 12em;
-    padding: 1em 0;
+    list-style-type: none !important;
+    margin: 0 0 0 -3rem;
+    min-width: 20rem;
+    padding: 0 0 0.5rem;
     top: 2em;
 }
 
 .dropotron > li {
-    line-height: 2em;
-    padding: 0 1em;
+    border-top: solid 1px config.$color-nav-border;
+    line-height: 1.5em;
+    padding: 0.6rem 1rem;
+    list-style-type: none !important;
+}
+
+.dropotron > li:first-child {
+    border-top: 0;
 }
 
 .dropotron > li > a {
     color: inherit;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-decoration: none;
     text-transform: none;
 }
@@ -680,10 +686,10 @@ input[type = "button"].fit,
     color: inherit;
 }
 
-.dropotron.level-0 {
+.dropotron.level-0,
+.dropotron.level-1 {
     border-radius: 0 0 4px 4px;
     font-size: 1em;
-    margin-left: -0.5em;
 }
 
 /* Banner */

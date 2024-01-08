@@ -49,18 +49,19 @@
 		var	$window = $(window),
 			$body = $('body');
 
-		// Disable animations/transitions until page has loaded.
-			$body.addClass('loading');
+		// Disable animations/transitions until page has loaded
+		$body.addClass('loading');
 
-			$window.on('load', function() {
-				$body.removeClass('loading');
-			});
+		$window.on('load', function() {
+			$body.removeClass('loading');
+		});
 
-		// Dropdowns.
-			$('#nav > ul').dropotron({
-				offsetY: -15,
-				hoverDelay: 0
-			});
+		// Dropdowns
+		$('#nav > ul').dropotron({
+			offsetY: -47,
+			offsetX: -58,
+			hoverDelay: 0
+		});
 
 	
 
