@@ -173,17 +173,13 @@
     }
 
     #navPanel .link {
-        border-top: solid 1px config.$color-nav-border;
+        border-bottom: solid 1px config.$color-nav-border;
         color: config.$color-nav-link;
         display: block;
         line-height: 1.5rem;
         min-height: 44px;
         padding: 0.6rem;
         text-decoration: none;
-    }
-
-    #navPanel .link:first-child {
-        border-top: 0;
     }
 
     #navPanel .link.depth-0 {
