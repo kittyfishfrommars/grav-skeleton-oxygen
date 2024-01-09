@@ -16,7 +16,7 @@ footer:
     button:
       # (values) bold | italic | uppercase | normal-case | small | normal
       class: 'normal icon fa-envelope-o'
-      text: 'Quisque Semper'
+      text: 'Newsletter'
       url: '#'
     items:
       -
@@ -35,7 +35,7 @@ footer:
   legal:
     credits:
       title: 'Credits'
-      id: '#credits'
+      id: '#libre'
     privacy:
       title: 'Privacy Policy'
       id: '#privacy'

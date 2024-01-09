@@ -4,11 +4,10 @@ sitemap:
   ignore: true
 ---
 
-> README: This page is not part of this theme but is probably a useful reference device to see gaps in the theme's styling. If you see an unstyled element here, it will probably need to be styled by you to look half decent.
+> README: This page is probably a useful reference to see gaps in the theme's styling. If you see an unstyled element here, it will probably need to be styled by you to look half decent.
 
-> The elements markup has been adapted from the [HTML5UP Massively theme elements page](https://html5up.net/massively "oops, resource not directly linkable").
 
-> This page uses [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/) and [Font Awesome 4.0.3](https://fontawesomelib.com/releases/4.0.3/list/all/index.html).
+> <br>This Markup has been adapted from the [HTML5UP Massively theme elements page](https://html5up.net/massively "oops, resource not directly linkable") using [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/) and [Font Awesome 4.0.3](https://fontawesomelib.com/releases/4.0.3/list/all/index.html).
 
 ## Text
 
