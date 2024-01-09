@@ -8,8 +8,8 @@ sitemap:
   priority: !!float 1
 
 banner:
-    url: 'user/themes/solarize/images/header_forest-1680x600.jpg'
-    headline: 'Solarize'
+    url: 'user/themes/solstice/images/header_forest-1680x600.jpg'
+    headline: 'solstice'
     # follower:
       # (values) bold | italic | uppercase | normal-case | small | skew
       # ... opacity-dark | opacity-light

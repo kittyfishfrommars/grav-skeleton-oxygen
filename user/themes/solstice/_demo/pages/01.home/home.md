@@ -1,11 +1,11 @@
 ---
-title: 'Solarize by TEMPLATED'
+title: 'Solstice
 menu: Home
 body_classes: homepage
 
 banner:
-    headline: Solarize
-    follower: 'Design by Templated'
+    headline: Solstice
+    follower: 'a performant theme for grav'
     blurb: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna.'
 
 hook:

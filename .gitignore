@@ -30,17 +30,19 @@ dist/
 /images/
 /user/data/
 
-# track this folder (i.e. do NOT ignore it)
-user/data/*.*/
+# explicitly track this folder (i.e. do NOT ignore it)
+# !user/data/*.*/
+!user/themes/solstice/dist
+!user/themes/solstice/vendor
 
-# track this file .gitignore (i.e. do NOT ignore it)
+# explicitly track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
 !.gitkeep
 
-# track .editorconfig file (i.e. do NOT ignore it)
+# explicitly track .editorconfig file (i.e. do NOT ignore it)
 !.editorconfig
 
-# track readme.md in the root (i.e. do NOT ignore it)
+# explicitly track readme.md in the root (i.e. do NOT ignore it)
 !readme.md
 
 # ignore all files that start with ~
