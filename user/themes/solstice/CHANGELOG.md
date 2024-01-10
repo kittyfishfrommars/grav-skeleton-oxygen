@@ -32,7 +32,8 @@
 * Configurable grid
 * Add overview of FontAwesome 4.0.3 to elements page
 * Add svg to hamburger menu to become truly iconfont agnostic, allowing updates
-* Rewrite sidebar for multiple markdown sections
+* Add page lookup logic for url entries in sidebar
+* Add descriptions to sidebar entries
 * Add optional classes list-disc (default) | list-decimal | list-none to sidebar links
 
 ### Legal

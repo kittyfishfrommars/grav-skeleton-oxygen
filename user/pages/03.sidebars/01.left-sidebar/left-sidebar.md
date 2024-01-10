@@ -4,7 +4,7 @@ subtitle: 'Nullam non wisi a sem semper eleifend'
 sidebars:
   links:
     - '_sidebar1'
-    # - '_sidebar2'
+    - '_sidebar2'
 ---
 
 (First paragraph - content next to sidebar) - Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. Pellentesque adipiscing purus ac magna. Pellentesque habitant morbi.

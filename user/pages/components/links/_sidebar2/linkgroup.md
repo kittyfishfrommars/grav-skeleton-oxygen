@@ -1,16 +1,18 @@
 ---
-title: Links
+title: Sidebar list-disc
 # (values) list-none | list-disc | list-decimal
 class: 'list-disc'
 links:
-    - target: '#'
+    - url: '#'
       text: 'First Pellentesque lectus gravida blandit'
       description: >
         Maecenas vitae  congue pharetra ipsum
-    - target: '#'
+    - url: '#'
       text: 'Second ipsum'
       description: >
         Maecenas vitae orci feugiat pharetra 
-    - target: '#'
+    - url: '#'
       text: 'Third Phasellus nibh congue'
+      description: >
+        Maecenas vitae orci feugiat pharetra
 ---
