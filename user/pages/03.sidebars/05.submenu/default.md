@@ -1,10 +1,6 @@
 ---
 title: 'Submenu'
-subtitle: 'Nullam non wisi a sem semper eleifend'
-sidebars:
-  links:
-    - '_sidebar1'
-    - '_sidebar2'
+subtitle: 'This is a subtitle'
 ---
 
 This is a demo of a dropdown and its submenu.
