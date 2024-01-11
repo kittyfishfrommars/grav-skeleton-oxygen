@@ -12,7 +12,7 @@
 					{% if link.url %}
 						<a href="{{ getUrl(link.url) }}">{{ link.text|raw }}</a>
 					{% else %}
-						{{ link.text|raw }}
+						<span class="italic">{{ link.text|raw }}</span>
 					{% endif %}
 					<br>{{ link.description|raw }}
 				</li>

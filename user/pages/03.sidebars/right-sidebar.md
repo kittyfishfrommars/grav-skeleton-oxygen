@@ -5,6 +5,7 @@ sidebars:
   links:
     - '_sidebar1'
     - '_sidebar2'
+    - '_sidebar3'
 ---
 
 This is a demo of a dropdown and its submenu.

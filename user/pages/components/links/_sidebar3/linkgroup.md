@@ -1,7 +1,7 @@
 ---
-title: list-disc
+title: list-decimal
 # (values) list-none | list-disc | list-decimal
-class: 'list-disc'
+class: 'list-decimal'
 links:
     - url: '#'
       text: 'First Pellentesque lectus gravida blandit'
