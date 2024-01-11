@@ -4,7 +4,7 @@ The **Solstice** Theme is for [Grav CMS](http://github.com/getgrav/grav). It's i
 
 There's an additional [Elements page](_demo/pages/90.elements/default.md) included to allow you to identify gaps in the theme's styling. There are a few.
 
-This theme also includes a contact or [Legal page](_demo/pages/99.legal/default.md), with mandatory data pre-filled, as required by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and [Press Regulations](https://www.iubenda.com/en/help/7816-impressum-what-is-it-and-when-is-it-needed). Please make sure to update your personal data and privacy statement to your specific use case. National laws apply.
+This theme also includes a contact or [Legal page](_demo/pages/99.contact/default.md), with mandatory data pre-filled, as required by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and [Press Regulations](https://secureprivacy.ai/blog/what-is-an-impressum). Please make sure to update your personal data and privacy statement to your specific use case. National laws apply.
 
 ![Solstice](screenshot.jpg)
 

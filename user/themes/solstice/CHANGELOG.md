@@ -39,7 +39,7 @@
 ### Legal
 * Host fonts locally to comply with [GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/) in the EU
 * Disable popularity statistics to eliminate the need for a cookie banner
-* Add default Legal Notice page, as required by [national law](https://secureprivacy.ai/blog/what-is-an-impressum)
+* Add default Contact/Legal Notice page, as required by [national law](https://secureprivacy.ai/blog/what-is-an-impressum)
 * Link to Legal Notice in footer
 * Add credits and licenses
 * Add privacy policy placeholder, to be updated by yourself
