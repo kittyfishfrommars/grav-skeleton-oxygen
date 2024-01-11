@@ -1,5 +1,4 @@
 {% if page.header.hook %}
-<!-- Section One aka Even(ly)Part(ed) aka 'hook' (frontmatter) -->
 	<div class="wrapper style2 evenpart">
 		<section class="container">
 			<div class="row double">
@@ -12,7 +11,7 @@
 				<div class="6u">
 					{{ (text_copy|default(page.content))|raw }}
 					{% if page.header.hook.button %}
-						<a href="{{ header.hook.button.target }}" class="button">{{ header.hook.button.text }}</a>
+						<a href="{{ header.hook.button.url }}" class="button">{{ header.hook.button.text|raw }}</a>
 					{% endif %}
 				</div>
 			</div>

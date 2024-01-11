@@ -1,14 +1,12 @@
 {% set columns = columns ?: 3 %}
 {% set column_units = column_units ?: (12 // columns) %}
-
 {% if page.header.notices %}
 {% set notices = page.header.notices %}
-<!-- Section Three aka plain aka 'notices' (frontmatter) -->
 	<div class="wrapper style4 plain">
 		<section class="container">
 			<header class="major pb-2">
 				<h2>{{ notices.heading|raw }}</h2>
-				<span class="byline">{{ notices.byline }}</span>
+				<span class="byline">{{ notices.byline|raw }}</span>
 			</header>
 				<div class="clearfix">
 					<ul class="special-icons grid-default">
@@ -16,8 +14,8 @@
 						<li class="special-icons-{{ loop.index }}">
 							<span class="fa {{ item.icon }}"></span>
 							<h3>{% spaceless %}
-								{% if item.target %}
-									<a href="{{ item.target }}">{{ item.heading }}</a>
+								{% if item.url %}
+									<a href="{{ item.url }}">{{ item.heading|raw }}</a>
 								{% else %}
 									{{ item.heading|raw }}
 								{% endif %}

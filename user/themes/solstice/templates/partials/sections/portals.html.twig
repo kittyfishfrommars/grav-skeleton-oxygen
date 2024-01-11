@@ -1,6 +1,5 @@
 {% set data_source = data_source|default(page) %}
 {% if data_source.header.portals %}
-<!-- Team aka 'portals' (CSS and frontmatter) -->
 	{% set portals = data_source.header.portals %}
 	<div class="wrapper style5 portals">
 		<section id="team" class="container">
@@ -15,7 +14,7 @@
 			<div class="row">
 				{% for portal in portals.items|slice(0, 4) %}
 				<div class="3u">
-					<a href="{{ portal.target }}" class="image">
+					<a href="{{ portal.url }}" class="image">
 						<img alt="{{ portal.alt|default('') }}" src="{{ data_source.media[portal.thumbnail].resize(162,162).url }}">
 					</a>
 					<h3>{{ portal.heading|raw }}</h3>
