@@ -1,9 +1,6 @@
 # DOCUMENTATION: https://learn.getgrav.org/17/basics/grav-configuration
 # PRD SETTINGS: https://learn.getgrav.org/17/security/configuration
 
-debugger:
-  enabled: false
-
 assets:
   # depending on asset size HTTTP/2 may be a better option
   css_pipeline: true   # concat from assets.addCss
@@ -12,6 +9,9 @@ assets:
 
 # Enable force_ssl if env supports it
 force_ssl: false       # Use HTTPS only (redirect from HTTP -> HTTPS)
+
+debugger:
+  enabled: false      # disable development helper, if set
 
 session:
   initialize: false   # Disables "cookies": GDPR-compliance for visitors

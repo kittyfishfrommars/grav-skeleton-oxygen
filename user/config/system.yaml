@@ -151,7 +151,7 @@ assets:
   enable_asset_timestamp: false
   enable_asset_sri: false
   collections:
-    jquery: 'system://assets/jquery/jquery-3.x.min.js'
+    # jquery: 'system://assets/jquery/jquery-3.x.min.js'
 errors:
   display: 1
   log: true
@@ -161,8 +161,8 @@ log:
     facility: local6
     tag: grav
 debugger:
-  enabled: true
-  provider: clockwork
+  enabled: false
+  provider: debugbar
   censored: false
   shutdown:
     close_connection: true

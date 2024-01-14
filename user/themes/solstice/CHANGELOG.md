@@ -35,6 +35,7 @@
 * Add page lookup logic for url entries in sidebar
 * Add descriptions to sidebar entries
 * Add optional classes list-disc (default) | list-decimal | list-none to sidebar links
+* Predefined settings for `user/env/config/localhost` and `user/env/config/mysite.com` environments
 
 ### Legal
 * Host fonts locally to comply with [GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/) in the EU
