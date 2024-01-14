@@ -16,12 +16,12 @@ sitemap:
 # do not change taxonomy definition
 # unique category is an identifier in templates/partials/footer.html.twig
 taxonomy:
-   tag: unique-legal
+   tag: 'unique-legal'
 ---
 ### Legal Notice
 <div class="color-link-text" markdown="1">
 Joan Q. Public
-Main Road 555
+Main Road 505
 50555 Capitol City
 
 Phone: 0555 - 555 555 55
