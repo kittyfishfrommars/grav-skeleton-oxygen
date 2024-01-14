@@ -3,7 +3,7 @@
 
 [](#release)
 
- Located at: (github.com/kittyfishfrommars)[https://github.com/kittyfishfrommars]
+ Located at: [github.com/kittyfishfrommars](https://github.com/kittyfishfrommars)
 
  This release is a major rework of [hughbris grav port](https://github.com/hughbris/grav-theme-solstice/tree/develop) to provide a basis for further development.
 
