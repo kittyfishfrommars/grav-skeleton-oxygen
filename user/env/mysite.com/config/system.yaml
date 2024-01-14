@@ -1,6 +1,9 @@
 # DOCUMENTATION: https://learn.getgrav.org/17/basics/grav-configuration
 # PRD SETTINGS: https://learn.getgrav.org/17/security/configuration
 
+debugger:
+  enabled: false
+
 assets:
   # depending on asset size HTTTP/2 may be a better option
   css_pipeline: true   # concat from assets.addCss
