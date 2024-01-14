@@ -3,12 +3,12 @@ version: 1.0.0
 description: A performant theme for Grav
 icon: rebel
 author:
-  name: kitty fish from mars?!
+  name: Kittyfish from Mars
   email: kittfishfrommars@gmail.com
 homepage: https://github.com/kittyfishfrommars/grav-skeleton-solstice
-demo: https://github.com/kittyfishfrommars
+demo: https://kittyfishfrommars.github.io/grav/grav-skeleton-solstice
 keywords: grav, theme, accessiblity, performance, maintenance, legal
-bugs: https://github.com/kittyfishfrommars
-readme: https://github.com/kittyfishfrommars
-docs: https://github.com/kittyfishfrommars
+bugs: https://github.com/kittyfishfrommars/issues
+readme: https://github.com/kittyfishfrommars/blob/main/user/themes/solstice/CHANGELOG.md
+docs: https://github.com/kittyfishfrommars/blob/main/user/themes/solstice/README.md
 license: MIT
