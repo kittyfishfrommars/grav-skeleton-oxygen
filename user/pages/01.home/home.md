@@ -83,7 +83,10 @@ notices:
           icon: fa-times-circle color-danger
 
 portals: # could be used for: key staff, testimonials, service previews, ...
-    heading: Cras vitae metus alinuam
+    heading:
+      # (values) uppercase | normal-case | small | align-left-md
+      # class: 'align-left-md'
+      text: Cras vitae metus alinuam
     byline:
         # (values) uppercase | normal-case | small | align-left-md
         class: 'color-link-secondary'
