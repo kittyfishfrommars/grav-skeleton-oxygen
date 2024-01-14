@@ -6,41 +6,5 @@ author:
   email: 'joe@example.com'
 metadata:
     description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-footer:
-  social:
-    title: Connect with us
-    byline:
-      # (values) bold | italic | uppercase | normal-case | small
-      # class: 'normal-case'
-      text: In posuere eleifend <span class="nowrap">odio quisque</span> semper.
-    button:
-      # (values) bold | italic | uppercase | normal-case | small | normal
-      class: 'normal icon fa-envelope-o'
-      text: 'Newsletter'
-      url: '#'
-    items:
-      -
-        title: YouTube
-        icon: fa fa-youtube-play
-        url: '#'
-      -
-        title: Facebook
-        icon: fa fa-facebook
-        url: '#'
-      -
-        title: Tickets
-        # icon: fa fa-ticket
-        icon: fa fa-tags
-        url: '#'
-  legal:
-    credits:
-      title: 'Credits'
-      id: '#libre'
-    privacy:
-      title: 'Privacy Policy'
-      id: '#privacy'
-    notice:
-      title: 'Legal Notice'
-    #  id: ''
 # do not remove taxonomy tag (identifier required in templates/partials/footer.html.twig)
 taxonomies: [tag]
