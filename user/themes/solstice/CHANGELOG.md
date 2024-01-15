@@ -25,7 +25,7 @@
 * Define footer links on a per-site basis
 * Add custom error page via [grav-plugin-error](https://github.com/getgrav/grav-plugin-error) dependency
 * Add XML sitemap and custom HTML sitemap via [grav-plugin-sitemap](https://github.com/getgrav/grav-plugin-sitemap)
-* Auto-link to sitemap from error page
+* Dynamically refer to sitemap from error page
 * Add languages.yaml in theme root to customize plugin messages
 * Introduce optional helper classes to style some components via yaml
 * Refactor notices to CSS grid, set individual icons and colors in page, fix overlong texts
@@ -34,7 +34,7 @@
 * Add svg to hamburger menu to become truly iconfont agnostic, allowing updates
 * Add page lookup logic for url entries in sidebar
 * Add descriptions to sidebar entries
-* Add optional classes list-disc (default) | list-decimal | list-none to sidebar links
+* Add optional classes list-disc (default) | list-decimal | list-none to sidebar entries
 * Predefined settings for `user/env/config/localhost` and `user/env/config/mysite.com` environments
 
 ### Legal

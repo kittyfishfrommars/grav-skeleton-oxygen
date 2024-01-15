@@ -1,11 +1,10 @@
 {% extends 'partials/base.html.twig' %}
 
-{% block content %}
+{% block body %}
   {% set language = grav.language %}
   {% set lang = language.enabled ? (language.active ?: language.default) : null %}
   {% set count = 1 %}
 
-{% block body %}
 <!-- Main -->
 <div id="main" class="wrapper style4 plain">
   <!-- Content -->
@@ -14,34 +13,61 @@
       {% include 'partials/heading.html.twig' %}
 
       <!-- Sitemap -->
-      <table class="sitemap">
-        <thead class="bold">
-          <tr>
-            <th>{{ 'PLUGIN_SITEMAP.TITLE_TITLE'|t|e }}</th>
-            <!--
-            <th>{{ 'PLUGIN_SITEMAP.TITLE_LOCATION'|t|e }}</th>
-            -->
-            <th>{{ 'PLUGIN_SITEMAP.TITLE_LASTMOD'|t|e }}</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for entry in sitemap %}
-          {% if lang is null or entry.lang == lang %}
-          <tr>
-            <td><a href="{{ entry.location }}">{{ entry.title ?: 'PLUGIN_SITEMAP.UNTITLED'|t|e }}</a></td>
-            <!--
-            <td><a href="{{ entry.location }}">{{ entry.location }}</a></td>
-            !-->
-            <td>{{ entry.lastmod }}</td>
-          </tr>
-          {% set count = count + 1 %}
-          {% endif %}
-          {% endfor %}
-        </tbody>
-      </table>
+      {% import _self as macros %}
+
+        {% macro loop(page) %}
+        {% import _self as macros %}
+            {% for p in page.children.visible %}
+                {% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
+                {% if p.children.visible.count > 0 %}
+                    <li class="has-children {{ current_page }}">
+                        <a href="{{ p.url }}">
+                            {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+                            {{ p.menu }}
+                            <span></span>
+                        </a>
+                        <ul>
+                            {{ macros.loop(p) }}
+                        </ul>
+                    </li>
+                {% else %}
+                    <li class="{{ current_page }}">
+                        <a href="{{ p.url }}">
+                            {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+                            {{ p.menu }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        {% endmacro %}
+
+        <div class="sitemap">
+            <ul>
+                {% if config.theme.dropdown.enabled %}
+                    {{ macros.loop(pages) }}
+                {% else %}
+                    {% for page in pages.children.visible %}
+                        {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+                        <li class="{{ current_page }}">
+                            <a href="{{ page.url }}">
+                                {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+                                {{ page.menu }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                {% endif %}
+                {% for mitem in site.menu %}
+                    <li>
+                        <a href="{{ mitem.url }}">
+                            {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
+                            {{ mitem.text }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+
     </section>
   </div>
 </div>
 {% endblock body %}
-
-{% endblock %}

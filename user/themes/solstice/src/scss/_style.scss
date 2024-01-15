@@ -304,6 +304,29 @@ ol ol li {
     list-style-type: lower-latin;
 }
 
+
+.alt ul ul,
+.alt ol ol,
+.sitemap ul ul,
+.sitemap ol ol {
+    margin-top: 1em;
+}
+
+.alt ul li,
+.alt ul li li,
+.sitemap ul li,
+.sitemap ul li li {
+    list-style-type: disc;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1em;
+    padding-top: 0;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+
 ul.actions,
 ul.icons,
 ul.special-icons {
