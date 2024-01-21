@@ -1,4 +1,4 @@
-{% for module in page.collection( {'items':{'@taxonomy.tag': 'links'}} ) %}
+{% for module in page.collection('links') %}
 	{% for item in module.header.items %}
 		<section>
 			{% if item.title %}
