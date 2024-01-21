@@ -4,11 +4,6 @@ subtitle: 'Nullam non wisi a sem semper eleifend'
 
 links:
   items: '@self.modules'
-  order:
-    by: default
-    dir: asc
-    custom:
-      - '_links'
 ---
 
 This is a demo of a dropdown and its submenu.

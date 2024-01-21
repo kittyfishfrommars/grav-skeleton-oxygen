@@ -18,7 +18,7 @@ items:
         text: 'Right Sidebar'
         description: >
           Right sidebar sits below content on mobile
-      - url: '/sidebars/no-sidebar#headline-3'
+      - url: '/default#headline-3'
         text: 'No Sidebar (default)'
         description: >
           Link to an #anchor
