@@ -695,7 +695,7 @@ input[type = "button"].fit,
 }
 
 .dropotron > li:first-child {
-    border-top: 0;
+    border-top: solid 1px transparent;
 }
 
 .dropotron > li > a {
