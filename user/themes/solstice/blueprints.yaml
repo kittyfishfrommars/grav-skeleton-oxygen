@@ -1,14 +1,17 @@
 name: Solstice
 version: 1.0.0
 description: A performant theme for Grav
-icon: rebel
+icon: sun-o
 author:
   name: Kittyfish from Mars
   email: kittfishfrommars@gmail.com
+keywords: grav, theme, accessiblity, performance, maintenance, legal
 homepage: https://github.com/kittyfishfrommars/grav-skeleton-solstice
 demo: https://kittyfishfrommars.github.io/grav/grav-skeleton-solstice
-keywords: grav, theme, accessiblity, performance, maintenance, legal
+readme: https://github.com/kittyfishfrommars/blob/main/user/themes/solstice/README.md
 bugs: https://github.com/kittyfishfrommars/issues
-readme: https://github.com/kittyfishfrommars/blob/main/user/themes/solstice/CHANGELOG.md
-docs: https://github.com/kittyfishfrommars/blob/main/user/themes/solstice/README.md
+changelog: https://github.com/kittyfishfrommars/blob/main/user/themes/solstice/CHANGELOG.md
 license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.7.0' }
