@@ -7,33 +7,33 @@
 {% block body %}
 
 	<!-- Main -->
-		<div id="main" class="wrapper style4 plain">
-			<div class="container">
-				<div class="row">
+	<div id="main" class="wrapper style4 plain">
+		<div class="container">
+			<div class="row">
 
-					<!-- Left Sidebar -->
-					<div id="sidebar" class="4u">
-						{% include 'partials/components/links_sidebar.html.twig' %}
-					</div>
-
-					{% set delimiter = '<hr />' %}
-					<!-- Content besides Sidebar -->
-					<div id="content" class="8u skel-cell-important">
-						<section>
-							{% include 'partials/heading.html.twig' %}
-							{{ page.content|split(delimiter)[0]|raw }}
-						</section>
-					</div>
-
-					<!-- Content below Sidebar -->
-					<div id="content" class="12u">
-						<section>
-							{{ page.content|split('<hr />')|slice(1)|join('<hr />')|raw }}
-						</section>
-					</div>
-
+				<!-- Left Sidebar -->
+				<div id="sidebar" class="4u">
+					{% include 'modular/links.html.twig' %}
 				</div>
+
+				{% set delimiter = '<hr />' %}
+				<!-- Content besides Sidebar -->
+				<div id="content" class="8u skel-cell-important">
+					<section>
+						{% include 'partials/heading.html.twig' %}
+						{{ page.content|split(delimiter)[0]|raw }}
+					</section>
+				</div>
+
+				<!-- Content below Sidebar -->
+				<div id="content" class="12u">
+					<section>
+						{{ page.content|split('<hr />')|slice(1)|join('<hr />')|raw }}
+					</section>
+				</div>
+
 			</div>
 		</div>
+	</div>
 
 {% endblock body %}

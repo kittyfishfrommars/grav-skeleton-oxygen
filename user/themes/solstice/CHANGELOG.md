@@ -23,6 +23,7 @@
 ### Maintenance
 * Define header banner on a per-page basis
 * Define footer links on a per-site basis
+* Refactor sidebar to customizable modules on a per-page basis
 * Add custom error page via [grav-plugin-error](https://github.com/getgrav/grav-plugin-error) dependency
 * Add XML sitemap and custom HTML sitemap via [grav-plugin-sitemap](https://github.com/getgrav/grav-plugin-sitemap)
 * Dynamically refer to sitemap from error page
@@ -32,9 +33,6 @@
 * Configurable grid
 * Add overview of FontAwesome 4.0.3 to elements page
 * Add svg to hamburger menu to become truly iconfont agnostic, allowing updates
-* Add page lookup logic for url entries in sidebar
-* Add descriptions to sidebar entries
-* Add optional classes list-disc (default) | list-decimal | list-none to sidebar entries
 * Predefined settings for `user/env/config/localhost` and `user/env/config/mysite.com` environments
 
 ### Legal
