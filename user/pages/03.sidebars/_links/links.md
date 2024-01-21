@@ -10,14 +10,14 @@ items:
     description: >
         This is an optional description text above a collection of a links.
     links:
-      - url: '/sidebars/left-sidebar#iamahash'
-        text: 'Left Sidebar'
+      - url: '/sidebars/sidebar-left'
+        text: 'Sidebar Left'
         description: >
-          Left sidebar sits above content on mobile
-      - url: '/sidebars/right-sidebar'
-        text: 'Right Sidebar'
+          Sidebar Left sits above content on mobile
+      - url: '/sidebars/sidebar-right'
+        text: 'Sidebar Right'
         description: >
-          Right sidebar sits below content on mobile
+          Sidebar Right sits below content on mobile
       - url: '/default#headline-3'
         text: 'No Sidebar (default)'
         description: >

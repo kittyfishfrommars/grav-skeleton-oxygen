@@ -5,18 +5,19 @@
 {% endblock banner %}
 
 {% block body %}
+{% set delimiter = '<hr />' %}
 
 	<!-- Main -->
 	<div id="main" class="wrapper style4 plain">
 		<div class="container">
 			<div class="row">
 
-				<!-- Left Sidebar -->
-				<div id="sidebar" class="4u">
-					{% include 'modular/links.html.twig' %}
-				</div>
+				{% if page.header.sidebar.position|lower  == 'left' %}
+					<div id="sidebar" class="4u">
+						{% include 'modular/links.html.twig' %}
+					</div>
+				{% endif %}
 
-				{% set delimiter = '<hr />' %}
 				<!-- Content besides Sidebar -->
 				<div id="content" class="8u skel-cell-important">
 					<section>
@@ -24,6 +25,12 @@
 						{{ page.content|split(delimiter)[0]|raw }}
 					</section>
 				</div>
+
+				{% if page.header.sidebar.position|lower  == 'right' %}
+					<div id="sidebar" class="4u">
+						{% include 'modular/links.html.twig' %}
+					</div>
+				{% endif %}
 
 				<!-- Content below Sidebar -->
 				<div id="content" class="12u">
