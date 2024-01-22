@@ -18,6 +18,7 @@ sitemap:
 taxonomy:
    tag: 'unique-legal'
 ---
+
 ### Legal Notice
 <div class="color-link-text" markdown="1">
 Joan Q. Public
@@ -38,7 +39,7 @@ Julie Citizen, Hillside 9, 50555 Capitol City
 
 ### Libre Software {#libre .pt-3}
 <div class="color-link-text" markdown="1">
-Everything on this site, including its source code, is free to modify and share, as long as the modified work is redistributed under the same license. Credits, though <span class="nowrap">non-mandatory</span>, are always appreciated. - [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io) / [MIT](https://opensource.org/license/mit/) / [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+Everything on this site, including its source code, is free to modify and share, as long as the modified work is redistributed under the same license. Credits, though <span class="nowrap">non-mandatory</span>, are always appreciated. - [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io) / [MIT](https://opensource.org/license/mit/)
 </div>
 
 ### Credits {#credits .pt-3}
