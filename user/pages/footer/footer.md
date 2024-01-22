@@ -16,23 +16,23 @@ social:
     text: In posuere eleifend <span class="nowrap">odio quisque</span> semper.
   button:
     # (values) bold | italic | uppercase | normal-case | small | normal
-    class: 'normal icon fa-envelope-o'
     text: 'Newsletter'
-    url: '#'
+    class: 'normal icon fa-envelope-o'
+    url: 'https://kittyfishfrommars.github.io'
   items:
     -
       title: YouTube
       icon: fa fa-youtube-play
-      url: '#'
+      url: 'https://youtube.com'
     -
       title: Facebook
       icon: fa fa-facebook
-      url: '#'
+      url: 'https://facebook.com'
     -
       title: Tickets
       # icon: fa fa-ticket
       icon: fa fa-tags
-      url: '#'
+      url: 'https://github.com/kittyfishfrommars'
   legal:
     credits:
       title: 'Credits'

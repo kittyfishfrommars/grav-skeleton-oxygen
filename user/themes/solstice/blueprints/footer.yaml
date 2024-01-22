@@ -1,0 +1,124 @@
+title: Footer
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        footer:
+          type: tab
+          title: Footer
+
+          fields:
+            headline:
+              type: section
+              title: Headline
+              underline: true
+              fields:
+                header.social.title:
+                  type: text
+                  label: Headline
+                  default: Connect with Us
+
+                header.social.byline:
+                  type: editor
+                  label: Byline
+                  size: 'small'
+
+            button:
+              type: section
+              title: Button
+              underline: true
+              fields:
+
+                header.social.button.text:
+                  type: text
+                  label: Text
+                  help: 'Button Text'
+                  default: 'Newsletter'
+
+                header.social.button.class:
+                  type: text
+                  label: Class
+                  help: 'Refer to Elements page for available icons'
+                  default: 'normal icon fa-envelope-o'
+
+                header.social.button.url:
+                  type: url
+                  label: Url
+                  help: 'Button target'
+                  default: 'https://kittyfishfrommars.github.io'
+
+            items:
+              type: section
+              title: Social
+              underline: true
+              fields:
+                header.social.items:
+                  type: list
+                  style: vertical
+                  fields:
+                    .title:
+                      type: text
+                      label: Title
+                      help: 'Aria-label for accessibility'
+                      default: ''
+                    .icon:
+                      type: text
+                      label: Icon
+                      help: 'Refer to Elements page for available icons'
+                      default: 'fa fa-cogs'
+                    .url:
+                      type: url
+                      label: Url
+                      help: 'Outgoing link'
+                      default: ''
+
+            legal:
+              type: section
+              title: Legal
+              underline: true
+              fields:
+                header.social.legal.credits.title:
+                  type: string
+                  label: Title (Credits)
+                  help: 'Displayed name of link'
+                  default: Credits
+                  validate:
+                    required: true
+
+                header.social.legal.credits.id:
+                  type: string
+                  label: 'Anchor #id (Credits)'
+                  help: 'Subsection of contact page to link to'
+                  default: '#credits'
+
+                header.social.legal.privacy.title:
+                  type: string
+                  label: Title (Privacy Policy)
+                  help: 'Displayed name of link'
+                  default: 'Privacy Policy'
+                  validate:
+                    required: true
+
+                header.social.legal.privacy.id:
+                  type: string
+                  label: 'Anchor #id (Privacy Policy)'
+                  help: 'Subsection of contact page to link to'
+                  default: '#privacy'
+
+                header.social.legal.notice.title:
+                  type: string
+                  label: Title (Legal Notice)
+                  help: 'Displayed name of link'
+                  default: 'Legal Notice'
+                  validate:
+                    required: true
+
+                header.social.legal.notice.id:
+                  type: string
+                  label: 'Anchor #id (Legal Notice)'
+                  help: 'Subsection of contact page to link to, leave empty for top'
+                  default: ''

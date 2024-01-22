@@ -1,5 +1,5 @@
 # v1.0.0 (s-be)
-##  16-01-2024
+##  01-02-2024
 
 [](#release)
 
@@ -22,7 +22,7 @@
 
 ### Maintenance
 * Define header banner on a per-page basis
-* Define footer links on a per-site basis
+* Define footer links on a per-site basis via blueprint
 * Refactor sidebar to customizable modules on a per-page basis
 * Add custom error page via [grav-plugin-error](https://github.com/getgrav/grav-plugin-error) dependency
 * Add XML sitemap and custom HTML sitemap via [grav-plugin-sitemap](https://github.com/getgrav/grav-plugin-sitemap)
