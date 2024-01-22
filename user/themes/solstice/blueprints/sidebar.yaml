@@ -1,0 +1,21 @@
+title: Sidebar
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          fields:
+            header.sidebar.position:
+              type: select
+              label: Sidebar Position
+              default: right
+              options:
+                right: right
+                left: left
