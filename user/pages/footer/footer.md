@@ -9,7 +9,7 @@ sitemap:
 
 # custom fields
 social:
-  title: Connect with us
+  headline: Connect with us
   byline:
     # (values) bold | italic | uppercase | normal-case | small
     # class: 'normal-case'
@@ -49,5 +49,3 @@ social:
 taxonomy:
    tag: 'unique-footer'
 ---
-
-This is my footer text
