@@ -34,4 +34,4 @@ popularity:
     - /
 show_beta_msg: null
 pagemedia:
-  resize_quality: 1
+  resize_quality: 0.99
