@@ -1,0 +1,45 @@
+title: Default
+extends@:
+  type: default
+  context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+          content:
+            fields:
+              header.banner:
+                type: fieldset
+                title: Header image
+                # help: 'optional'
+                info: click to expand
+                # text: 'Leave text fields blank'
+                icon: camera
+                collapsed: true
+                collapsible: true
+                ordering@: header.title
+                fields:
+                  .url:
+                    type: url
+                    label: URL
+                    help: 'Refer to demo for image dimensions'
+
+                  .headline:
+                    type: text
+                    label: Headline
+                    help: 'Leave blank for none'
+
+                  .blurb.text:
+                    type: text
+                    label: Blurb text
+                    help: 'Leave blank for none'
+
+                  .blurb.class:
+                    type: text
+                    label: Blurb class
+                    help: 'Custom CSS'
+                    class: 'uppercase'
