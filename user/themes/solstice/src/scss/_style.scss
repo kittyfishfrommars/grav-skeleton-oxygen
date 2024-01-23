@@ -719,6 +719,8 @@ input[type = "button"].fit,
 
 #banner {
     background-color: config.$color-disabled;
+
+    /* background-position will be overwritten by yaml, if set */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

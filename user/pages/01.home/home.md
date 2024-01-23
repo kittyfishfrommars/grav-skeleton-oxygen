@@ -10,6 +10,7 @@ sitemap:
 banner:
     url: 'header_forest-1680x600.jpg'
     headline: 'solstice'
+    position: 'center bottom'
     # follower:
       # (values) bold | italic | uppercase | normal-case | small | skew
       # ... opacity-dark | opacity-light

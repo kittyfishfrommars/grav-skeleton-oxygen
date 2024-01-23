@@ -14,7 +14,7 @@ form:
             fields:
               header.banner:
                 type: fieldset
-                title: Header image
+                title: Banner
                 # help: 'optional'
                 info: click to expand
                 # text: 'Leave text fields blank'
@@ -27,6 +27,12 @@ form:
                     type: url
                     label: URL
                     help: 'Refer to demo for image dimensions'
+
+                  .position:
+                    type: text
+                    label: Position
+                    help: 'CSS values for background-position'
+                    default: 'center bottom'
 
                   .headline:
                     type: text

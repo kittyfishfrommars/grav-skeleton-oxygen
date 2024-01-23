@@ -1,6 +1,6 @@
 {% if page.header.banner %}
 <!-- Banner -->
-	<div id="banner" class="height-100" style="background-image:url('{{ (base_url) ~ "/" ~ page.header.banner.url }}?fp=04711')">
+	<div id="banner" class="height-100" style="background-position: {{ page.header.banner.position }}; background-image:url('{{ (base_url) ~ "/" ~ page.header.banner.url }}?fp=04711')">
 		<section class="container relative text-center height-100">
 			<div class="center-vh width-100">
 				<h2>{{ page.header.banner.headline|raw }}</h2>
