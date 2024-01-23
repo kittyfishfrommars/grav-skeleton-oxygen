@@ -14,8 +14,8 @@ form:
             fields:
               header.sidebar:
                 type: section
-                title: Sidebar
-                underline: true
+                # title: Sidebar
+                # underline: true
                 ordering@: content
                 fields:
                   .position:
