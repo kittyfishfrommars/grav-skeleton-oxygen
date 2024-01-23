@@ -8,7 +8,7 @@ sitemap:
   priority: !!float 1
 
 banner:
-    url: 'user/themes/solstice/images/header_forest-1680x600.jpg'
+    url: 'header_forest-1680x600.jpg'
     headline: 'solstice'
     # follower:
       # (values) bold | italic | uppercase | normal-case | small | skew
