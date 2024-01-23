@@ -5,6 +5,7 @@ icon: sun-o
 author:
   name: Kittyfish from Mars
   email: kittfishfrommars@gmail.com
+  url: https://github.com/kittyfishfrommars
 keywords: grav, theme, accessiblity, performance, maintenance, legal
 homepage: https://github.com/kittyfishfrommars/grav-skeleton-solstice
 demo: https://kittyfishfrommars.github.io/grav/grav-skeleton-solstice
