@@ -12,38 +12,42 @@ form:
       fields:
           content:
             fields:
+              spacer:
+                type: spacer
+                # title: A title
+                # text: Some text
+                underline: true
+                ordering@: content
               header.banner:
                 type: fieldset
                 title: Banner
                 # help: 'optional'
-                info: click to expand
+                info: ' click to expand'
                 # text: 'Leave text fields blank'
                 icon: camera
                 collapsed: true
                 collapsible: true
-                ordering@: header.title
+                ordering@: spacer
                 fields:
                   .url:
-                    type: url
-                    label: URL
-                    help: 'Refer to demo for image dimensions'
-
+                    type: mediapicker
+                    folder: 'self@'
+                    label: Image
+                    help: 'Please refer to demo for image dimensions'
+                    preview_images: true
                   .position:
                     type: text
                     label: Position
                     help: 'CSS values for background-position'
                     default: 'center bottom'
-
                   .headline:
                     type: text
                     label: Headline
                     help: 'Leave blank for none'
-
                   .blurb.text:
                     type: text
                     label: Blurb text
                     help: 'Leave blank for none'
-
                   .blurb.class:
                     type: text
                     label: Blurb class
