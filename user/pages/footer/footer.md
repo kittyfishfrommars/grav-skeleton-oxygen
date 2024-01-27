@@ -36,7 +36,7 @@ social:
   legal:
     credits:
       title: 'Credits'
-      id: '#libre'
+      id: '#credits'
     privacy:
       title: 'Privacy Policy'
       id: '#privacy'
