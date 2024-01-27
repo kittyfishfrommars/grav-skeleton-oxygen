@@ -1,0 +1,65 @@
+title: Footer
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        footer:
+          type: tab
+          title: Footer
+
+          fields:
+            header.items:
+              type: section
+              title: Links
+              underline: true
+              fields:
+                header.items:
+                  type: list
+                  style: vertical
+                  fields:
+                    .title:
+                      type: text
+                      label: Title
+                      help: 'Headline of this section'
+                      default: ''
+                    .class:
+                      type: select
+                      label: Class
+                      help: 'Displays a dot, a number or nothing before a list item'
+                      default: 'list-disc'
+                      options:
+                        'list-disc': 'list-disc'
+                        'list-decimal': 'list-decimal'
+                        'list-none': 'list-none'
+                    .description:
+                      type: text
+                      label: '(Optional) Description'
+                      help: 'Headline of this section'
+                      default: ''
+                    .links:
+                      type: list
+                      style: horizontal
+                      label: List of multiple links
+                      collapsed: false
+                      collapsible: true
+                      fields:
+                        .text:
+                          type: text
+                          label: Title
+                          help: 'Link text'
+                          default: ''
+                        .url:
+                          type: url
+                          label: URL
+                          help: 'Link'
+                          default: ''
+                        .description:
+                          type: text
+                          label: '(Optional) Description'
+                          help: 'Text underneath link'
+                          default: 'fa fa-cogs'
+                          
