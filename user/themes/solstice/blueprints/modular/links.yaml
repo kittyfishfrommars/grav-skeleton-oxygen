@@ -21,9 +21,9 @@ form:
                   type: list
                   style: vertical
                   fields:
-                    .title:
+                    .headline:
                       type: text
-                      label: Title
+                      label: Headline
                       help: 'Headline of this section'
                       default: ''
                     .class:
@@ -43,7 +43,7 @@ form:
                     .links:
                       type: list
                       style: horizontal
-                      label: List of multiple links
+                      label: List of links
                       collapsed: false
                       collapsible: true
                       fields:

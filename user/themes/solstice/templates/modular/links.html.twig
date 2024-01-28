@@ -1,9 +1,9 @@
 {% for module in page.collection('links') %}
 	{% for item in module.header.items %}
 		<section>
-			{% if item.title %}
+			{% if item.headline %}
 				<header class="major">
-					<h2>{{ item.title|raw }}</h2>
+					<h2>{{ item.headline|raw }}</h2>
 				</header>
 			{% endif %}
 

@@ -24,6 +24,7 @@
 * Set header banner on a per-page basis in admin panel
 * Define footer content on a per-site basis in admin panel
 * Configure sidebars on a per-page basis in admin panel
+* Add modular links to be configured in admin panel
 * Add custom error page via [grav-plugin-error](https://github.com/getgrav/grav-plugin-error) dependency
 * Add XML sitemap and custom HTML sitemap via [grav-plugin-sitemap](https://github.com/getgrav/grav-plugin-sitemap)
 * Dynamically refer to sitemap from error page

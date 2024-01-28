@@ -4,7 +4,7 @@ routable: false
 taxonomy:
   tag: 'links'
 items:
-  - title: 'list-none'
+  - headline: 'list-none'
     # (values) list-none | list-disc | list-decimal
     class: 'list-none'
     description: >
@@ -31,7 +31,7 @@ items:
         description: >
           Just in case you need the sidebar for something else
 
-  - title: list-disc
+  - headline: list-disc
     # (values) list-none | list-disc | list-decimal
     class: 'list-disc'
     links:
@@ -48,7 +48,7 @@ items:
         description: >
           Maecenas vitae orci feugiat pharetra
 
-  - title: list-decimal
+  - headline: list-decimal
     # (values) list-none | list-disc | list-decimal
     class: 'list-decimal'
     links:
