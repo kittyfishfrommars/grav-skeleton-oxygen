@@ -468,7 +468,7 @@ input[type = "reset"]:hover,
 input[type = "button"]:hover,
 .button:hover,
 .button:active {
-    background: config.$color-primary;
+    background-color: config.$color-primary;
     color: config.$color-secondary;
 }
 
@@ -484,7 +484,7 @@ input[type = "submit"].alt:hover,
 input[type = "reset"].alt:hover,
 input[type = "button"].alt:hover,
 .button.alt:hover {
-    background: config.$color-secondary;
+    background-color: config.$color-secondary;
     color: config.$color-primary;
 }
 
@@ -504,7 +504,7 @@ input[type = "button"].fit,
 
 .button.button-secondary:hover,
 .button.button-secondary:active {
-    background: config.$color-secondary;
+    background-color: config.$color-secondary;
     color: config.$color-bg-secondary;
     opacity: 1;
 }
@@ -525,7 +525,7 @@ input[type = "button"].fit,
 
 .wrapper.style2,
 .wrapper.evenpart {
-    background: config.$color-bg-primary;
+    background-color: config.$color-bg-primary;
 }
 
 .wrapper.style2 .major,
@@ -562,7 +562,7 @@ input[type = "button"].fit,
 
 .wrapper.style3,
 .wrapper.cta {
-    background: config.$color-primary;
+    background-color: config.$color-primary;
     color: config.$color-secondary;
     padding-bottom: 6em;
     text-align: center;
@@ -583,12 +583,12 @@ input[type = "button"].fit,
 
 .wrapper.style4,
 .wrapper.plain {
-    background: config.$color-bg-primary;
+    background-color: config.$color-bg-primary;
 }
 
 .wrapper.style5,
 .wrapper.portals {
-    background: config.$color-primary;
+    background-color: config.$color-primary;
     color: config.$color-secondary;
     text-align: center;
 }
@@ -677,7 +677,7 @@ input[type = "button"].fit,
 /* Dropotron */
 
 .dropotron {
-    background: config.$color-nav-bg;
+    background-color: config.$color-nav-bg;
     border-radius: 4px;
     color: config.$color-secondary;
     list-style-type: none !important;
