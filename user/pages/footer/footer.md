@@ -9,7 +9,7 @@ sitemap:
 
 # custom fields
 social:
-  headline: Connect with us
+  headline: Stay in touch
   byline:
     # (values) bold | italic | uppercase | normal-case | small
     # class: 'normal-case'

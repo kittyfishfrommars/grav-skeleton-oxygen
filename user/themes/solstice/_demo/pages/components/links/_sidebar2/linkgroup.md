@@ -8,11 +8,11 @@ links:
     - target: '#'
       text: 'Phasellus nibh pellentesque congue'
     - target: '#'
-      text: 'Cras vitae metus aliquam pharetra'
+      text: 'Curio vitae metus aliquam pharetra'
     - target: '#'
       text: 'Maecenas vitae orci feugiat eleifend'
     - target: '#'
       text: 'Phasellus nibh pellentesque congue'
     - target: '#'
-      text: 'Cras vitae metus aliquam pharetra'
+      text: 'Curio vitae metus aliquam pharetra'
 ---
