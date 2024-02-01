@@ -2,7 +2,7 @@
 {% import 'macros/loop.html.twig' as macros %}
 
 <ul>
-    {% if config.theme.dropdown.enabled %}
+    {% if config.theme.dropdown %}
         {{ macros.loop(pages) }}
     {% else %}
         {% for page in pages.children.visible %}
