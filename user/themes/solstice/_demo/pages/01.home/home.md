@@ -16,13 +16,13 @@ hook:
         target: '#'
 
 cta:
-    headline: 'Cras vitae metus aliNuam'
+    headline: 'Curio vitae metus semper'
     copy: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     button:
         text: 'Nulla aluctus eleifend'
         target: '#'
 notices: # NB. these will be rendered vertically in columns in order provided here
-    heading: Cras vitae metus aliNuam
+    heading: Curio vitae metus semper
     byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
         - icon: cogs
@@ -63,7 +63,7 @@ notices: # NB. these will be rendered vertically in columns in order provided he
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
 
 portals: # could be used for: key staff, testimonials, service previews, ...
-    heading: Cras vitae metus aliNuam
+    heading: Curio vitae metus semper
     byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
         - thumbnail: person.png

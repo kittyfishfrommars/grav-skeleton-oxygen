@@ -8,9 +8,11 @@ sitemap:
   priority: !!float 1
 
 banner:
-    url: 'header_forest-1680x600.jpg'
-    headline: 'solstice'
-    position: 'center bottom'
+    # leave url empty to disable banner
+    # 01 02 05 06 09 11 needs a bit work 12
+    url: 'header_home-1600x1024.webp'
+    # headline: 'solstice'
+    position: 'center center'
     # follower:
       # (values) bold | italic | uppercase | normal-case | small | skew
       # ... opacity-dark | opacity-light
@@ -18,104 +20,104 @@ banner:
       # text: 'Redux'
     blurb:
       class: 'uppercase'
-      text: 'a performant theme for Grav CMS'
+      # text: 'a performant theme for Grav CMS'
 
 hook:
-    teaser: 'Pellentesque viverra vulputate enim. Aliquam volutpat quintesse.'
+    teaser: "Look, It's Kittyfish from Mars."
     byline:
         In posuere eleifend odio. Quisque <a href="#">semper augue mattis</a> wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Donec pulvinar ullamcorper metus.
-        Quisque semper augue mattis.
+        Quisque semper augue mattis. In augue quaestor est.
     button:
-        text: 'Nulla aluctus'
+        text: 'Button'
         url: '#'
 
 cta:
-    headline: Cras vitae metus aliNuam
+    headline: Curio vitae metus semper
     class: color-link-secondary
     copy:
        Pellentesque pede. <a href="#">Donec pulvinar</a> ullamcorper metus. In eu odio at lectus pulvinar mollis.  Vestibulum sem magna, elementum vestibulum arcu.
     button:
-        text: Nulla eleifend
+        text: Button
         url: '#'
 
 # Notices: these will be rendered in a 3-column grid, confiurable by SCSS
 notices:
-    heading: 'Cras vitae metus'
+    heading: 'Curio vitae metus semper'
     byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
     items:
         - heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue. Maecenas ligula... <a href="#">read more</a>'
           url: '#'
-          icon: fa-info color-info
+          icon: fa-info color-primary
         - heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat... <a href="#">read more</a>'
-          icon: fa-shield color-info
+          icon: fa-phone color-primary
           url: '#'
         - heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin orci... <a href="#">read more</a>'
+          icon: fa-volume-up color-primary
           url: '#'
-          icon: fa-gavel color-info
 
         - heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Gravida orci... <a href="#">read more</a>'
           url: '#'
-          icon: fa-exclamation color-primary
+          icon: fa-cogs color-primary
         - heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
+          icon: fa-shield color-primary
           url: '#'
-          icon: fa-phone color-primary
         - heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-          # url: '#'
           # icon: lightbulb-o color-warning
           icon: fa-map-marker color-danger        
+          # url: '#'
 
         - heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-          # url: '#'
           icon: fa-check-circle color-success
+          # url: '#'
         - heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
           icon: fa-exclamation-triangle color-warning
           # url: '#'
         - heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-          # url: '#'
           icon: fa-times-circle color-danger
+          # url: '#'
 
 portals: # could be used for: key staff, testimonials, service previews, ...
     heading:
       # (values) uppercase | normal-case | small | align-left-md
       # class: 'align-left-md'
-      text: Cras vitae metus alinuam
+      text: Curio vitae metus semper
     byline:
         # (values) uppercase | normal-case | small | align-left-md
         class: 'color-link-secondary'
         text: 'Pulvinar mollis. Vestibulum <a href="#">sem magna</a>, elementum vestibulum arcus.'
     items:
         - thumbnail: person.png
-          alt: 'Molly Millions'
+          heading: 'Joan Q Public'
+          alt: 'Joan Q Public'
           url: '#'
-          heading: 'Molly Millions'
           teaser: 'In posuere eleifend odio quisque semper augue wisi ligula.'
         - thumbnail: person.png
-          alt: 'Henry Dorsett Case'
+          heading: 'Julie Citizen'
+          alt: 'Julie Citizen'
           url: '#'
-          heading: 'Henry Dorsett Case'
           teaser: 'In posuere eleifend odio quisque semper augue wisi ligula.'
         - thumbnail: person.png
-          alt: 'Willis Corto'
+          heading: 'Dr. Zarah Quinn'
+          alt: 'Dr. Zarah Quinn'
           url: '#'
-          heading: 'Willis Corto'
           teaser: 'In posuere eleifend odio quisque semper augue wisi ligula.'
         - thumbnail: person.png
-          alt: 'Linda Lee'
+          heading: 'Ming the Merciless'
+          alt: 'Emperor Ming, Ruler of the Universe'
           url: '#'
-          heading: 'Linda Lee'
           teaser: 'In posuere eleifend odio quisque semper augue wisi ligula.'
 
 ---
 
-### Suspendisse dictum porta
+### Libre Software for GRAV CMS
 
-Donec leo. Vivamus fermentum nibh in augue. <a href="#">Praesent a lacus</a> at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet, magna nec eleifend semper augue mattis wisi maecenas ligula nunc lectus vestibulum euismod lacinia quam nisl.
+Donec leo. Vivamus fermentum nibh in augue. <a href="#">Praesent a lacus</a> at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet, magna nec eleifend semper.

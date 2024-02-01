@@ -1,5 +1,5 @@
 # v1.0.0 (s-be)
-##  01-02-2024
+##  14-02-2024
 
 [](#release)
 
@@ -11,7 +11,7 @@
 * Typography: increase font-size, unify line-height to improve readability
 * Footer icons: add aria-label for screenreaders to footer icons
 * Color scheme: change background from white to light grey to reduce eye-strain
-* Contrast: darken primary color to pass accessibility audit
+* Contrast: new color scheme to pass accessibility audit
 
 ### Performance
 * Remove IE8 support
