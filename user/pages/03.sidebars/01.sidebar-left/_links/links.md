@@ -4,7 +4,7 @@ routable: false
 taxonomy:
   tag: 'links'
 items:
-  - headline: 'list-none'
+  - headline: Links
     # (values) list-none | list-disc | list-decimal
     class: 'list-none'
     description: >
@@ -18,20 +18,12 @@ items:
         text: 'Sidebar Right'
         description: >
           Sidebar Right sits below content on mobile
-      - url: '/default#headline-3'
-        text: 'No Sidebar (default)'
-        description: >
-          Link to an #anchor
-      - url: https://kittyfishfrommars.github.io
-        text: 'kittyfishfrommars.github.io'
-        description: >
-          External link to developer site
       - # url: '#'
         text: 'An entry without a link'
         description: >
           Just in case you need the sidebar for something else
 
-  - headline: list-disc
+  - headline: Disc
     # (values) list-none | list-disc | list-decimal
     class: 'list-disc'
     links:
@@ -48,7 +40,7 @@ items:
         description: >
           Maecenas vitae orci feugiat pharetra
 
-  - headline: list-decimal
+  - headline: Decimal
     # (values) list-none | list-disc | list-decimal
     class: 'list-decimal'
     links:

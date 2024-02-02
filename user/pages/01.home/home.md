@@ -9,7 +9,6 @@ sitemap:
 
 banner:
     # leave url empty to disable banner
-    # 01 02 05 06 09 11 needs a bit work 12
     url: 'header_home-1600x1024.webp'
     # headline: 'solstice'
     position: 'center center'
@@ -20,27 +19,28 @@ banner:
       # text: 'Redux'
     blurb:
       class: 'uppercase'
+      # comment-out line below to disable blurb
       # text: 'a performant theme for Grav CMS'
 
 hook:
     teaser: "Look, It's Kittyfish from Mars."
     byline:
-        In posuere eleifend odio. Quisque <a href="#">semper augue mattis</a> wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Donec pulvinar ullamcorper metus.
-        Quisque semper augue mattis. In augue quaestor est.
+        This theme is crazy fast, accessible and GDPR-compliant out of the box. The source code is available at <a href="https://github.com/kittyfishfrommars" target="_blank">github.com/kittyfishfrommars</a>. Provided as-is and free for personal and commercial use. No strings attached. Have fun!
     button:
-        text: 'Button'
-        url: '#'
+      # comment-out line below to disable button
+      text: 'Button'
+      url: '#'
 
 cta:
     headline: Curio vitae metus semper
     class: color-link-secondary
     copy:
-       Pellentesque pede. <a href="#">Donec pulvinar</a> ullamcorper metus. In eu odio at lectus pulvinar mollis.  Vestibulum sem magna, elementum vestibulum arcu.
+       Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis.  Vestibulum sem magna, elementum vestibulum arcu.
     button:
         text: Button
         url: '#'
 
-# Notices: these will be rendered in a 3-column grid, confiurable by SCSS
+# rendered in a 3-column grid, confiurable by SCSS
 notices:
     heading: 'Curio vitae metus semper'
     byline: 'pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.'
@@ -59,9 +59,9 @@ notices:
           url: '#'
 
         - heading: 'Fusce ultrices fringilla'
-          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Gravida orci... <a href="#">read more</a>'
+          point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Gravida orci.'
           url: '#'
-          icon: fa-cogs color-primary
+          icon: fa-comments-o color-primary
         - heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
           icon: fa-shield color-primary
@@ -74,18 +74,19 @@ notices:
 
         - heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-          icon: fa-check-circle color-success
+          # icon: fa-exclamation-triangle color-warning
+          icon: fa-bolt color-warning
           # url: '#'
         - heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor.'
-          icon: fa-exclamation-triangle color-warning
+          icon: fa-check-circle-o color-success
           # url: '#'
         - heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
-          icon: fa-times-circle color-danger
+          icon: fa-times-circle-o color-danger
           # url: '#'
 
-portals: # could be used for: key staff, testimonials, service previews, ...
+portals:
     heading:
       # (values) uppercase | normal-case | small | align-left-md
       # class: 'align-left-md'
@@ -96,8 +97,8 @@ portals: # could be used for: key staff, testimonials, service previews, ...
         text: 'Pulvinar mollis. Vestibulum <a href="#">sem magna</a>, elementum vestibulum arcus.'
     items:
         - thumbnail: person.png
-          heading: 'Joan Q Public'
-          alt: 'Joan Q Public'
+          heading: 'Joan Q. Public'
+          alt: 'Joan Q. Public'
           url: '#'
           teaser: 'In posuere eleifend odio quisque semper augue wisi ligula.'
         - thumbnail: person.png
@@ -118,6 +119,6 @@ portals: # could be used for: key staff, testimonials, service previews, ...
 
 ---
 
-### Libre Software for GRAV CMS
+### Curio vitae metus semper
 
-Donec leo. Vivamus fermentum nibh in augue. <a href="#">Praesent a lacus</a> at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet, magna nec eleifend semper.
+Donec leo. Vivamus fermentum nibh in augue. <a href="#">Praesent a lacus</a> at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet, magna nec eleifend semper. Vestibulum elementum.

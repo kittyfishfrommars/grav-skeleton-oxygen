@@ -40,10 +40,10 @@ Julie Citizen, Hillside 9, 50555 Capitol City
 ### Credits {#credits .pt-3}
 <div class="color-link-text" markdown="1">
 * Theme "Solstice" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://opensource.org/license/mit/), for modifications see [CHANGELOG](https://github.com/Kittyfishfrommars/grav-skeleton-solstice/blob/main/user/themes/solstice/CHANGELOG.md)
-* Based on the Grav port by [hughbris](https://github.com/hughbris/grav-theme-solarize/tree/develop) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE)
-* Developed with [Grav CMS](https://getgrav.org/) under the [MIT License](https://github.com/getgrav/grav/blob/master/LICENSE.txt)
+* Based on the "Solarize" Grav port by [hughbris](https://github.com/hughbris/grav-theme-solarize/tree/develop) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE)
+* Developed for [Grav CMS](https://getgrav.org/) under the [MIT License](https://github.com/getgrav/grav/blob/master/LICENSE.txt)
 * Header image created by [DeepAI](https://deepai.org/machine-learning-model/text2img) under its [Generated Content License](https://deepai.org/terms-of-service/terms-of-service)
-* Design inspired by "Solarize" of [templated.co](https://templated.co) under the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/)
+* Design inspired by [templated.co](https://templated.co) under the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/)
 * Font Awesome 4.0.3 by @davegandy - [fontawesome.io](http://fontawesome.io) - @fontawesome
 License - [fontawesome.io/license](https://fontawesome.io/license) (Font: SIL OFL 1.1, CSS: MIT License)
 * OpenSans[wdth,wght].woff2: Copyright 2020 The Open Sans Project Authors [github.com/googlefonts/opensans](https://github.com/googlefonts/opensans) (SIL OFL 1.1)
