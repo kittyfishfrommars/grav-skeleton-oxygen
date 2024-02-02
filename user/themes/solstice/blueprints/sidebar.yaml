@@ -21,7 +21,7 @@ form:
                   .position:
                     type: toggle
                     label: Sidebar Position
-                    help: 'Sidebar will be populated by modules'
+                    help: 'Sidebar will be populated by modules.'
                     default: right
                     options:
                       left: left

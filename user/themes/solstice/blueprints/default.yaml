@@ -33,23 +33,23 @@ form:
                     type: mediapicker
                     folder: 'self@'
                     label: Image
-                    help: 'Please refer to demo for image dimensions'
+                    help: 'Leave blank for none. Please refer to demo for image dimensions.'
                     preview_images: true
                   .position:
                     type: text
                     label: Position
                     help: 'CSS values for background-position'
-                    default: 'center bottom'
+                    default: 'center center'
                   .headline:
                     type: text
-                    label: Headline
-                    help: 'Leave blank for none'
+                    label: (Optional) Headline
+                    help: 'Leave blank for none.'
                   .blurb.text:
                     type: text
-                    label: Blurb text
-                    help: 'Leave blank for none'
+                    label: (Optional) Blurb text
+                    help: 'Leave blank for none.'
                   .blurb.class:
                     type: text
-                    label: Blurb class
-                    help: 'Custom CSS'
+                    label: (Optional) Blurb class
+                    help: 'Custom pre-defined CSS classes.'
                     class: 'uppercase'

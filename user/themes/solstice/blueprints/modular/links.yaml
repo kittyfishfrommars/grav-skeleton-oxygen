@@ -24,42 +24,39 @@ form:
                     .headline:
                       type: text
                       label: Headline
-                      help: 'Headline of this section'
+                      help: 'Large text, preferably one short word.'
+                      default: ''
+                    .description:
+                      type: text
+                      label: '(Optional) Subline'
+                      help: 'A short text below the headline. Leave blank for none.'
                       default: ''
                     .class:
                       type: select
-                      label: Class
-                      help: 'Displays a dot, a number or nothing before a list item'
+                      label: List style type
+                      help: 'Displays a dot, a number or nothing before a list item.'
                       default: 'list-disc'
                       options:
                         'list-disc': 'list-disc'
                         'list-decimal': 'list-decimal'
                         'list-none': 'list-none'
-                    .description:
-                      type: text
-                      label: '(Optional) Description'
-                      help: 'Headline of this section'
-                      default: ''
                     .links:
                       type: list
                       style: horizontal
-                      label: List of links
+                      label: List of link items
                       collapsed: false
                       collapsible: true
                       fields:
                         .text:
                           type: text
                           label: Title
-                          help: 'Link text'
-                          default: ''
+                          help: 'The title text is clickable, if URL is provided.'
                         .url:
                           type: url
                           label: URL
-                          help: 'Link'
-                          default: ''
+                          help: 'The link target. Leave blank if your title should not be clickable.'
                         .description:
                           type: text
                           label: '(Optional) Description'
-                          help: 'Text underneath link'
-                          default: 'fa fa-cogs'
+                          help: 'A short text underneath the title. Leave blank for none.'
                           

@@ -46,7 +46,7 @@ form:
                   type: url
                   label: URL
                   help: 'Button target'
-                  default: 'https://kittyfishfrommars.github.io'
+                  default: '#'
 
             items:
               type: section
