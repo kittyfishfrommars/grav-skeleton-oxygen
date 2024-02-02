@@ -9,9 +9,11 @@
 					</header>
 				</div>
 				<div class="6u">
-					{{ (text_copy|default(page.content))|raw }}
-					{% if page.header.hook.button %}
-						<a href="{{ header.hook.button.url }}" class="button mt-1">{{ header.hook.button.text|raw }}</a>
+					<div class="{{ (page.header.hook.button.text) ? 'mb-2' }}">
+						{{ (text_copy|default(page.content))|raw }}
+					</div>
+					{% if page.header.hook.button.text %}
+						<a href="{{ header.hook.button.url }}" class="button mb-1">{{ header.hook.button.text|raw }}</a>
 					{% endif %}
 				</div>
 			</div>

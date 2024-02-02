@@ -528,6 +528,10 @@ input[type = "button"].fit,
     background-color: config.$color-bg-primary;
 }
 
+.wrapper.evenpart {
+    padding-bottom: 4rem;
+}
+
 .wrapper.style2 .major,
 .wrapper.evenpart .major {
     text-align: left !important;
