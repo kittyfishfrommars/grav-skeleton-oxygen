@@ -9,9 +9,9 @@ sitemap:
 
 banner:
     # leave url empty to disable banner
-    url: 'header_home-1600x1024.webp'
+    url: 'header_home-1500x960_q82.webp'
     # headline: 'solstice'
-    position: 'center center'
+    position: '30% 42.5%'
     # follower:
       # (values) bold | italic | uppercase | normal-case | small | skew
       # ... opacity-dark | opacity-light
@@ -25,7 +25,7 @@ banner:
 hook:
     teaser: "Look, It's Kittyfish from Mars."
     byline:
-        This theme is crazy fast, accessible and GDPR-compliant out of the box. The source code is available at <a href="https://github.com/kittyfishfrommars" target="_blank">github.com/kittyfishfrommars</a>. Provided as-is and free for personal and commercial use. No strings attached. Have fun!
+        Out of the box this theme is crazy fast, accessible and GDPR-compliant. The source code is available at <a href="https://github.com/kittyfishfrommars" target="_blank">github.com/kittyfishfrommars</a>. Provided as-is and free for personal and commercial use. No strings attached. Have fun!
     button:
       # comment-out line below to disable button
       text: 'Button'
@@ -55,16 +55,17 @@ notices:
           url: '#'
         - heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin orci... <a href="#">read more</a>'
-          icon: fa-volume-up color-primary
+          icon: fa-comments-o color-primary
           url: '#'
 
         - heading: 'Fusce ultrices fringilla'
           point: 'Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Gravida orci.'
           url: '#'
-          icon: fa-comments-o color-primary
+          icon: fa-volume-up color-primary
         - heading: 'Nulla luctus eleifend'
           point: 'In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.'
-          icon: fa-shield color-primary
+          # icon: fa-shield color-primary
+          icon: fa-star-half-o color-primary
           url: '#'
         - heading: 'Etiam posuere augue'
           point: 'Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat liguala.'
