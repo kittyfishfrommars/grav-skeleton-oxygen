@@ -53,7 +53,8 @@
     "stylelint-order": "^6.0.4"
   },
   "scripts": {
-    "serve": "NODE_ENV=dev gulp build",
-    "build": "NODE_ENV=prd gulp build"
+    "serve": "NODE_ENV=dev gulp serve",
+    "build": "NODE_ENV=prd gulp build",
+    "wget": "NODE_ENV=prd gulp wget"
   }
 }

@@ -10,6 +10,7 @@ const { compileJS } = require('./concat.js');
 const { fingerprint } = require('./replace.js');
 const { server } = require('./browsersync.js');
 const { watchHTML, watchCSS, watchJS } = require('./watch.js');
+const { wgetSH } = require('./exec.js');
 
 // set environment
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
@@ -32,8 +33,7 @@ exports.build = series(
 	)
 );
 
-// TODO: implement ftp / git-sync, maybe github actions
-// Run "npm run build" on the command line
+// Run "npm run deploy" on the command line
 exports.deploy = series(
 	cleanDist,
 	parallel(
@@ -42,6 +42,16 @@ exports.deploy = series(
 		fingerprint
 	)
 );
+
+// TODO: implement CI: lftp / git-sync or github actions
+
+// Run "npm run wget" or "gulp wget" on the command line
+// exports.build,
+exports.wget = series(
+	exports.deploy, 
+	series(
+		wgetSH
+));
 
 // opens up a local browsersync server in a new tab
 // Run "gulp serve" on the command line
