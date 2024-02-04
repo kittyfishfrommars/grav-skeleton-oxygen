@@ -1,39 +1,25 @@
 # Solstice Theme
 
-The **Solstice** Theme is for [Grav CMS](http://github.com/getgrav/grav). It's inspired by [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize). For additional modifications see CHANGELOG.md included in this release.
+Solstice for [Grav CMS](http://github.com/getgrav/grav) has been adapted from [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize). 
+
+> Please see [CHANGELOG.md](CHANGELOG.md) for a detailed list of features included in this release.
+
+## Features
+
+* Solstice is screen-reader friendly and meets **Accessibility** standards
+* Asset delivery has been optimized for **Performance**
+* Grav's admin plugin is supported via blueprints for ease of **Maintenance**
+* Preconfigured to set no cookies, no third-party connections for **GDPR-compliance**
+
+This theme includes a legally required [Contact page](_demo/pages/99.contact/default.md), with mandatory data pre-filled, to help with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and [Press Regulations](https://secureprivacy.ai/blog/what-is-an-impressum). Please make sure to update your personal data and privacy statement to your specific use case. National laws apply.
 
 There's an additional [Elements page](_demo/pages/90.elements/default.md) included to allow you to identify gaps in the theme's styling. There are a few.
 
-This theme also includes a contact or [Legal page](_demo/pages/99.contact/default.md), with mandatory data pre-filled, as required by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and [Press Regulations](https://secureprivacy.ai/blog/what-is-an-impressum). Please make sure to update your personal data and privacy statement to your specific use case. National laws apply.
-
 ![Solstice](screenshot.jpg)
 
-## Quickstart Guide: Gulp usage
+## Installation
 
-in `user/theme/solstice/`
-
-* Run `npm install` once to install packages
-
-* Run `gulp` or `gulp serve` or `npm run serve` for development 
-* Run `gulp fix` to automatically --fix code where possible
-
-* Run `gulp build` or `npm run build` to generate files for production
-
-
-The Gulp taskrunner is configured to execute the following functions:
-
-* Autoreload on CSS/JS or content change
-* Lint SCSS files via stylelint
-* Concatenate and compile SCSS files to CSS
-* Autoprefix and minify CSS file
-* Minify JS files
-* Move final CSS and JS files to the `/dist` folder
-
-# Installation
-
-Installing this theme can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.
-
-## GPM Installation (Preferred)
+### GPM Installation (Preferred)
 
 The simplest way to install this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through your system's Terminal (also called the command line).  From the root of your Grav install type:
 
@@ -41,23 +27,38 @@ The simplest way to install this theme is via the [Grav Package Manager (GPM)](h
 
 This will install the theme into your `/user/themes` directory within Grav. Its files can be found under `user/themes/solstice`.
 
->> This method will copy the sample pages provided in the `_demo/pages` folder to your `user/pages` folder so that the theme will work out of the box with placeholder content.
+> This method will copy the sample pages provided in the `_demo/pages` folder to your `user/pages` folder so that the theme will work out of the box with placeholder content.
 
-## Manual Installation
+### Manual Installation
 
-To install this theme, just download the zip version of this repository and unzip it under `user/themes`. Then, rename the folder to `solstice`. You can find these files either on [GitHub](https://github.com/kittyfishfrommars) or via [GetGrav.org](http://getgrav.org/downloads/themes).
+> Please note that the demo content and configuration is not copied when your plugin or theme is installed via the Admin plugin. Please refer the provided files from the `_demo` folder.
+
+To install this theme, download the zip version of this repository and unzip it under `user/themes`. Then, rename the folder to `solstice`. You can find these files either on [GitHub](https://github.com/kittyfishfrommars) or via [GetGrav.org](http://getgrav.org/downloads/themes).
 
 You should now have all the theme files under
 
     user/themes/solstice
 
->> NOTE: If you want to use and adapt the default _Ipsum lorem_ content provided with the original theme, move the contents of `_demo/pages` into your grav installations's `user/pages` directory. This will ensure that the theme templates work out of the box.
+> It's easiest to adapt the default configuration and content provided with the original theme: move the contents of `_demo` into your grav installations's `user/pages` directory to ensure that the theme templates work out of the box.
 
-# Updating
+### Setup
+
+If you want to set Solstice as the default theme, you can do so by following these steps:
+
+* Navigate to `grav/user/config`.
+* Open the **system.yaml** file.
+* Change the `theme:` setting to `theme: solstice` and save your changes.
+* Open the **site.yaml** file.
+* Add this line at the bottom: `taxonomies: [tag]` and save your changes.
+* Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`.
+
+Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the `solstice` folder.
+
+## Updating
 
 As development for the Solstice theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating Solstice is easy, and can be done through Grav's GPM system, as well as manually.
 
-## GPM Update (Preferred)
+### GPM Update (Preferred)
 
 The simplest way to update this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm). You can do this with this by navigating to the root directory of your Grav install using your system's Terminal (also called command line) and typing the following:
 
@@ -65,7 +66,7 @@ The simplest way to update this theme is via the [Grav Package Manager (GPM)](ht
 
 This command will check your Grav install to see if your theme is due for an update. If a newer release is found, you will be asked whether or not you wish to update. To continue, type `y` and hit enter. The theme will automatically update and clear Grav's cache.
 
-## Manual Update
+### Manual Update
 
 Manually updating this theme is pretty simple. Here is what you will need to do to get this done:
 
@@ -74,37 +75,29 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 * Unzip the zip file in `user/themes` and rename the resulting folder to `solstice`.
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing `bin/grav clear-cache`.
 
-> Note: Please backup any changes you have made to any of the files- Files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a YAML settings file placed in `user/config/themes`) will remain intact.
+> Note: Please backup any changes you have made to any of the files. Files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a YAML settings file placed in `user/config/themes`) will remain intact.
 
-### Supported Page Templates
+## Supported Templates
 
 * [Sample home template](templates/home.html.twig)
 * [Default content template](templates/default.html.twig)
-* [Left sidebar template](templates/left-sidebar.html.twig)
-* [Right sidebar template](templates/right-sidebar.html.twig)
-* [Custom error page](templates/error.html.twig)
-* [Custom sitemap page](templates/sitemap.html.twig)
+* [Sidebar template](templates/sidebar.html.twig)
+* [Link Module](templates/modular/links.html.twig)
+* [Footer template](templates/partials/footer.html.twig)
+* [Error template](templates/error.html.twig)
+* [Sitemap template](templates/sitemap.html.twig)
 
-## Deferred assets block support
+## Examples in the wild
 
-As [explained in the Grav blog](https://getgrav.org/blog/important-theme-updates), since Grav 1.5.10 deferred blocks are supported and these are implemented in this theme.
+* [kittyfish.github.io](https://kittyfish.github.io) - Project demo
+* [juedisch.info](https://juedisch.info) - Jewish activism (german)
+* Original Grav port [Solarize by hughbris](https://behold.metamotive.co.nz/solstice)
 
-This has been implemented in this theme.
-
-# Setup
-
-If you want to set Solstice as the default theme, you can do so by following these steps:
-
-* Navigate to `grav/user/config`.
-* Open the **system.yaml** file.
-* Change the `theme:` setting to `theme: solstice`.
-* Save your changes.
-* Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`.
-
-Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the `solstice` folder.
-
-# Examples in the wild
-
-* Inspired by [Solarize by hughbris](https://behold.metamotive.co.nz/solstice)
-
-Please let me know if you want yours included (hey, it's free publicity).
+## Credits
+* Theme "Solstice" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://opensource.org/license/mit/), for modifications see [CHANGELOG](https://github.com/Kittyfishfrommars/grav-skeleton-solstice/blob/main/user/themes/solstice/CHANGELOG.md)
+* Based on the Grav port by [hughbris](https://github.com/hughbris/grav-theme-solarize/tree/develop) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE)
+* Developed for [Grav CMS](https://getgrav.org/) under the [MIT License](https://github.com/getgrav/grav/blob/master/LICENSE.txt)
+* Header image created by [DeepAI](https://deepai.org/machine-learning-model/text2img) under its [Generated Content License](https://deepai.org/terms-of-service/terms-of-service)
+* Design inspired by "Solarize" of [templated.co](https://templated.co) under the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/)
+* Font Awesome 4.0.3 by @davegandy - [fontawesome.io](http://fontawesome.io) @fontawesome License - [fontawesome.io/license](https://fontawesome.io/license) (Font: SIL OFL 1.1, CSS: MIT License)
+* OpenSans[wdth,wght].woff2: Copyright 2020 The Open Sans Project Authors [github.com/googlefonts/opensans](https://github.com/googlefonts/opensans) (SIL OFL 1.1)
