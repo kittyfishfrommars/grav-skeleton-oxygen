@@ -10,7 +10,7 @@ sitemap:
 banner:
     # leave url empty to disable banner
     url: 'header_home-1500x960_q82.webp'
-    # headline: 'solstice'
+    # headline: 'oxygen'
     position: '30% 42.5%'
     # follower:
       # (values) bold | italic | uppercase | normal-case | small | skew

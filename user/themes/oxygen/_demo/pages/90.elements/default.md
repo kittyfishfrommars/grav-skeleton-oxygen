@@ -2,7 +2,7 @@
 title: Elements
 ---
 
-> README: This page is not part of the Solstice theme but is probably a useful reference device to see gaps in the theme's styling. As you might notice, there are some gaps in styling. If you see an element here, it will probably need to be styled by you to look half decent.
+> README: This page is not part of the Oxygen theme but is probably a useful reference device to see gaps in the theme's styling. As you might notice, there are some gaps in styling. If you see an element here, it will probably need to be styled by you to look half decent.
 
 > The elements markup has been taken faithfully copied from the [HTML5UP Massively theme elements page](https://html5up.net/massively "oops, resource not directly linkable"). This might be switched out for [elements used in Templated's Theory template](https://templated.co/items/demos/theory/elements.html) eventually.
 

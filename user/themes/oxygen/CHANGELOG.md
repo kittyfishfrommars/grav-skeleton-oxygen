@@ -5,7 +5,7 @@
 
  Located at: [github.com/kittyfishfrommars](https://github.com/kittyfishfrommars)
 
- This release is a major rework of [hughbris grav port](https://github.com/hughbris/grav-theme-solstice/tree/develop) to provide a basis for further development.
+ This release is a major rework of [hughbris grav port](https://github.com/hughbris/grav-theme-oxygen/tree/develop) to provide a basis for further development.
 
 ### Accessibility
 * Typography: increase font-size, unify line-height to improve readability
@@ -49,31 +49,31 @@
 ##  19-02-2022
 
 [](#bugfix)
-* Escape output as required for Grav 1.7+ ([#12](https://github.com/hughbris/grav-theme-solstice/pull/12))
+* Escape output as required for Grav 1.7+ ([#12](https://github.com/hughbris/grav-theme-oxygen/pull/12))
 
 # v0.1.6
 ##  25-09-2019
 
 [](#bugfix)
-* Merged PR by @tiktuk which fixes dropdown menus after Twig engine changes ([#10](https://github.com/hughbris/grav-theme-solstice/pull/10))
+* Merged PR by @tiktuk which fixes dropdown menus after Twig engine changes ([#10](https://github.com/hughbris/grav-theme-oxygen/pull/10))
 
 # v0.1.5
 ##  12-06-2019
 
 [](#bugfix)
-* Fixed mixed content warning when importing google fonts plain http CSS URL ([#8](https://github.com/hughbris/grav-theme-solstice/issues/8))
+* Fixed mixed content warning when importing google fonts plain http CSS URL ([#8](https://github.com/hughbris/grav-theme-oxygen/issues/8))
 
 # v0.1.4
 ##  31-05-2019
 
 [](#bugfix)
-* Fixed JS-derived CSS paths for skel framework in IE browsers ([#6](https://github.com/hughbris/grav-theme-solstice/issues/6))
+* Fixed JS-derived CSS paths for skel framework in IE browsers ([#6](https://github.com/hughbris/grav-theme-oxygen/issues/6))
 
 # v0.1.3
 ##  23-05-2019
 
 [](#improved)
-* Base template modified so it can be extended to support a deferred asset block ([#5](https://github.com/hughbris/grav-theme-solstice/issues/5))
+* Base template modified so it can be extended to support a deferred asset block ([#5](https://github.com/hughbris/grav-theme-oxygen/issues/5))
 
 [](#new)
 * Instructions for deploying deferred asset blocks added to README

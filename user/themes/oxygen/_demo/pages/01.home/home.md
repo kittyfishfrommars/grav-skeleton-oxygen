@@ -1,10 +1,10 @@
 ---
-title: 'Solstice
+title: 'Oxygen
 menu: Home
 body_classes: homepage
 
 banner:
-    headline: Solstice
+    headline: Oxygen
     follower: 'a performant theme for grav'
     blurb: 'Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna.'
 

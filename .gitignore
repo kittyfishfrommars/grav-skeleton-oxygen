@@ -33,8 +33,8 @@ dist/
 
 # explicitly track this folder (i.e. do NOT ignore it)
 # !user/data/*.*/
-!user/themes/solstice/dist
-!user/themes/solstice/vendor
+!user/themes/oxygen/dist
+!user/themes/oxygen/vendor
 
 # explicitly track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore

@@ -3,7 +3,7 @@ namespace Grav\Theme;
 
 use Grav\Common\Theme;
 
-class Solstice extends Theme {
+class Oxygen extends Theme {
 
     /* Call this function in twig: {{ getUrl(path) }}
 

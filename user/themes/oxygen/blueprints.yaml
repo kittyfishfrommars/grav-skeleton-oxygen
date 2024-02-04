@@ -1,4 +1,4 @@
-name: Solstice
+name: Oxygen
 version: 1.0.0
 description: A performant theme for Grav
 icon: sun-o
@@ -7,11 +7,11 @@ author:
   email: kittfishfrommars@gmail.com
   url: https://github.com/kittyfishfrommars
 keywords: grav, theme, accessiblity, performance, maintenance, legal
-homepage: https://github.com/kittyfishfrommars/grav-skeleton-solstice
-demo: https://kittyfishfrommars.github.io/grav/grav-skeleton-solstice
-readme: https://github.com/kittyfishfrommars/blob/main/user/themes/solstice/README.md
+homepage: https://github.com/kittyfishfrommars/grav-skeleton-oxygen
+demo: https://kittyfishfrommars.github.io/grav/grav-skeleton-oxygen
+readme: https://github.com/kittyfishfrommars/blob/main/user/themes/oxygen/README.md
 bugs: https://github.com/kittyfishfrommars/issues
-changelog: https://github.com/kittyfishfrommars/blob/main/user/themes/solstice/CHANGELOG.md
+changelog: https://github.com/kittyfishfrommars/blob/main/user/themes/oxygen/CHANGELOG.md
 license: MIT
 
 dependencies:

@@ -1,12 +1,12 @@
-# Solstice Theme
+# Oxygen Theme
 
-Solstice for [Grav CMS](http://github.com/getgrav/grav) has been adapted from [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize). 
+Oxygen for [Grav CMS](http://github.com/getgrav/grav) has been adapted from [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize). 
 
 > Please see [CHANGELOG.md](CHANGELOG.md) for a detailed list of features included in this release.
 
 ## Features
 
-* Solstice is screen-reader friendly and meets **Accessibility** standards
+* Oxygen is screen-reader friendly and meets **Accessibility** standards
 * Asset delivery has been optimized for **Performance**
 * Grav's admin plugin is supported via blueprints for ease of **Maintenance**
 * Preconfigured to set no cookies, no third-party connections for **GDPR-compliance**
@@ -15,7 +15,7 @@ This theme includes a legally required [Contact page](_demo/pages/99.contact/def
 
 There's an additional [Elements page](_demo/pages/90.elements/default.md) included to allow you to identify gaps in the theme's styling. There are a few.
 
-![Solstice](screenshot.jpg)
+![Oxygen](screenshot.jpg)
 
 ## Installation
 
@@ -23,9 +23,9 @@ There's an additional [Elements page](_demo/pages/90.elements/default.md) includ
 
 The simplest way to install this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through your system's Terminal (also called the command line).  From the root of your Grav install type:
 
-    bin/gpm install solstice
+    bin/gpm install oxygen
 
-This will install the theme into your `/user/themes` directory within Grav. Its files can be found under `user/themes/solstice`.
+This will install the theme into your `/user/themes` directory within Grav. Its files can be found under `user/themes/oxygen`.
 
 > This method will copy the sample pages provided in the `_demo/pages` folder to your `user/pages` folder so that the theme will work out of the box with placeholder content.
 
@@ -33,36 +33,36 @@ This will install the theme into your `/user/themes` directory within Grav. Its 
 
 > Please note that the demo content and configuration is not copied when your plugin or theme is installed via the Admin plugin. Please refer the provided files from the `_demo` folder.
 
-To install this theme, download the zip version of this repository and unzip it under `user/themes`. Then, rename the folder to `solstice`. You can find these files either on [GitHub](https://github.com/kittyfishfrommars) or via [GetGrav.org](http://getgrav.org/downloads/themes).
+To install this theme, download the zip version of this repository and unzip it under `user/themes`. Then, rename the folder to `oxygen`. You can find these files either on [GitHub](https://github.com/kittyfishfrommars) or via [GetGrav.org](http://getgrav.org/downloads/themes).
 
 You should now have all the theme files under
 
-    user/themes/solstice
+    user/themes/oxygen
 
 > It's easiest to adapt the default configuration and content provided with the original theme: move the contents of `_demo` into your grav installations's `user/pages` directory to ensure that the theme templates work out of the box.
 
 ### Setup
 
-If you want to set Solstice as the default theme, you can do so by following these steps:
+If you want to set Oxygen as the default theme, you can do so by following these steps:
 
 * Navigate to `grav/user/config`.
 * Open the **system.yaml** file.
-* Change the `theme:` setting to `theme: solstice` and save your changes.
+* Change the `theme:` setting to `theme: oxygen` and save your changes.
 * Open the **site.yaml** file.
 * Add this line at the bottom: `taxonomies: [tag]` and save your changes.
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`.
 
-Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the `solstice` folder.
+Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the `oxygen` folder.
 
 ## Updating
 
-As development for the Solstice theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating Solstice is easy, and can be done through Grav's GPM system, as well as manually.
+As development for the Oxygen theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating Oxygen is easy, and can be done through Grav's GPM system, as well as manually.
 
 ### GPM Update (Preferred)
 
 The simplest way to update this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm). You can do this with this by navigating to the root directory of your Grav install using your system's Terminal (also called command line) and typing the following:
 
-    bin/gpm update solstice
+    bin/gpm update oxygen
 
 This command will check your Grav install to see if your theme is due for an update. If a newer release is found, you will be asked whether or not you wish to update. To continue, type `y` and hit enter. The theme will automatically update and clear Grav's cache.
 
@@ -70,9 +70,9 @@ This command will check your Grav install to see if your theme is due for an upd
 
 Manually updating this theme is pretty simple. Here is what you will need to do to get this done:
 
-* Delete the `user/themes/solstice` directory.
-* Download the new version of the solstice theme from either [GitHub](https://github.com/kittyfishfrommars) or [GetGrav.org](http://getgrav.org/downloads/themes#extras).
-* Unzip the zip file in `user/themes` and rename the resulting folder to `solstice`.
+* Delete the `user/themes/oxygen` directory.
+* Download the new version of the oxygen theme from either [GitHub](https://github.com/kittyfishfrommars) or [GetGrav.org](http://getgrav.org/downloads/themes#extras).
+* Unzip the zip file in `user/themes` and rename the resulting folder to `oxygen`.
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing `bin/grav clear-cache`.
 
 > Note: Please backup any changes you have made to any of the files. Files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a YAML settings file placed in `user/config/themes`) will remain intact.
@@ -91,10 +91,10 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 
 * [kittyfish.github.io](https://kittyfish.github.io) - Project demo
 * [juedisch.info](https://juedisch.info) - Jewish activism (german)
-* Original Grav port [Solarize by hughbris](https://behold.metamotive.co.nz/solstice)
+* Original Grav port [Solarize by hughbris](https://behold.metamotive.co.nz/oxygen)
 
 ## Credits
-* Theme "Solstice" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://opensource.org/license/mit/), for modifications see [CHANGELOG](https://github.com/Kittyfishfrommars/grav-skeleton-solstice/blob/main/user/themes/solstice/CHANGELOG.md)
+* Theme "Oxygen" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://opensource.org/license/mit/), for modifications see [CHANGELOG](https://github.com/Kittyfishfrommars/grav-skeleton-oxygen/blob/main/user/themes/oxygen/CHANGELOG.md)
 * Based on the Grav port by [hughbris](https://github.com/hughbris/grav-theme-solarize/tree/develop) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE)
 * Developed for [Grav CMS](https://getgrav.org/) under the [MIT License](https://github.com/getgrav/grav/blob/master/LICENSE.txt)
 * Header image created by [DeepAI](https://deepai.org/machine-learning-model/text2img) under its [Generated Content License](https://deepai.org/terms-of-service/terms-of-service)
