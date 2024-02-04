@@ -1,0 +1,25 @@
+# debug settings
+assets:
+  collections:
+    jquery: 'system://assets/jquery/jquery-3.x.min.js'
+
+errors:
+  display: 1
+  log: true
+
+log:
+  handler: file
+  syslog:
+    facility: local6
+    tag: grav
+
+debugger:
+  # enabled: true
+  provider: debugbar
+  censored: false
+  shutdown:
+    close_connection: true
+  twig: true
+
+cache:
+  enabled: false

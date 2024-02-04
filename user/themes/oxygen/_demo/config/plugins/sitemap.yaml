@@ -1,0 +1,7 @@
+# generate a html-version under /sitemap
+html_support: true
+# override these defaults on a per-page basis
+include_changefreq: true
+changefreq: monthly
+include_priority: true
+priority: !!float 0.5
