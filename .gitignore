@@ -21,6 +21,7 @@ user/images/multiavatar/
 config.codekit
 *.code-workspace
 security.yaml
+.wget/
 
 # ignore temporary folders and subfolders
 logs/

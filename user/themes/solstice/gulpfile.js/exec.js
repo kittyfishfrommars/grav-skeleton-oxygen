@@ -1,7 +1,8 @@
 // const config = require('../gulp.config.json');
 const { exec } = require('child_process');
 
-// script to execute
+// TODO: pass values from gulp.config.json via parameter
+// invoke shell script to download a static copy
 function wgetSH() {
 	return './wget.sh';
 };
