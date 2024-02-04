@@ -8,7 +8,7 @@ const { lintCSS, fixCSS } = require('./stylelint.js');
 const { compileCSS } = require('./sass.js');
 const { compileJS } = require('./concat.js');
 const { fingerprint } = require('./replace.js');
-const { server } = require('./browsersync.js');
+const { open } = require('./browsersync.js');
 const { watchHTML, watchCSS, watchJS } = require('./watch.js');
 const { wgetSH } = require('./exec.js');
 
@@ -62,7 +62,7 @@ exports.serve = series(
 		compileJS
 	),
 	series(
-		server,
+		open,
 		lintCSS
 	),
 	parallel(

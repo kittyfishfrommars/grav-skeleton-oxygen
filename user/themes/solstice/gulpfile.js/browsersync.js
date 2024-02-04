@@ -1,14 +1,13 @@
 // import packages
-// TODO: make basedir configurable
 const config = require('../gulp.config.json');
 const browsersync = require('browser-sync').create();
 
 // assumes apache is running at config.host (default: http://localhost/)
-function server(cb) {
+function open(cb) {
 	browsersync.init({
 		server: false,
         port: 8080,
-        open: 'local',
+		open: 'local',
         proxy: {
             target: config.host,
             ws: true
@@ -23,7 +22,7 @@ function server(cb) {
 	cb();
 }
 
-exports.server = server;
+exports.open = open;
 
 // reload browsersync server
 function reload(cb) {

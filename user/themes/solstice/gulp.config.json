@@ -6,12 +6,12 @@
           "../../**/*.yaml",
           "templates/**/*.twig"
       ],
-      "fingerprint": [
-          "templates/partials/base.html.twig",
-          "templates/partials/banner.html.twig"
-      ],
       "scss": ["src/scss/**/*.scss"],
       "js": ["src/js/**/*.js"],
-      "dist": "dist"
+      "dist": "dist",
+      "fingerprint": [
+        "templates/partials/base.html.twig",
+        "templates/partials/banner.html.twig"
+    ]
     }
  }  
