@@ -6,22 +6,30 @@
 SOURCE="http://localhost/s-be/grav-dev/"
 readonly SOURCE
 
-# path to destination directory
+# path to destination dir
 TARGET="${PWD}/.wget"
 readonly TARGET
 
-# clean destination directory
-rm ${TARGET}/* -r
+# delete destination dir and subdirectories
+rm ${TARGET} -r
 
-# download site
-wget -m -r -nH -np -q --cut-dirs=2 -lnf -k -E -e robots=off ${SOURCE} -P ${TARGET}
+# make destination dir if it not exists
+mkdir ${TARGET} -p
 
-# remove query string from static resource.
-cd ${TARGET}
-find . -type f -name "*\?*" -print0 | 
+# NOTE: wget localhost of oxygen in all files
+
+# download site (-E --restrict-file-names=ascii)
+# wget -r -linf -K -E --restrict-file-names=windows -e robots=off ${SOURCE} -P ${TARGET}
+wget -m -nH -np -q --cut-dirs=2 -k -E --restrict-file-names=unix,nocontrol --show-progress robots=off ${SOURCE} -P ${TARGET}
+
+# rename files: remove ? query string from actual filenames
+find ${TARGET} -type f -name "*\?*" -print0 | 
 while IFS= read -r -d '' file; 
   do 
-    mv -f "$file" "`echo $file | cut -d? -f1`"; 
+   mv -f "$file" "`echo $file | cut -d? -f1`"; 
 done
 
-echo "wget output directory: ${TARGET}"
+# edit html: search string %3Ffp and replace it with ?fp
+find ${TARGET} -type f -name "*.html" -exec sed -i -s -r 's/%3Ffp/?fp/g' {} +
+
+echo "Created: ${TARGET}"
