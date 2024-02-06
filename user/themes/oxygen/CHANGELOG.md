@@ -1,11 +1,10 @@
-# v1.0.0 (s-be)
-##  14-02-2024
+# v1.0.0 (kittyfishfrommars)
+##  07-02-2024
 
 [](#release)
 
- Located at: [github.com/kittyfishfrommars](https://github.com/kittyfishfrommars)
+Oxygen for [Grav CMS](http://github.com/getgrav/grav) is a continuation of [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize).
 
- This release is a major rework of [hughbris grav port](https://github.com/hughbris/grav-theme-oxygen/tree/develop) to provide a basis for further development.
 
 ### Accessibility
 * Typography: increase font-size, unify line-height to improve readability

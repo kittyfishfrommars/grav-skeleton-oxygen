@@ -46,26 +46,26 @@
 	{% block header %}
 
 		<!-- Header Wrapper -->
-			<div class="wrapper style1">
+		<div class="wrapper style1">
 
 			<!-- Header -->
-				<div id="header">
-					<div class="container">
+			<div id="header">
+				<div class="container">
 
-						<!-- Logo -->
-							<h1><a href="{{ home_url }}" id="logo">{{ site.title }}</a></h1>
+					<!-- Logo -->
+					<h1><a href="{{ getHome(home_url) }}" id="logo">{{ site.title }}</a></h1>
 
-						<!-- Nav -->
-							<nav id="nav">
-								{% include 'partials/navigation.html.twig' %}
-							</nav>
+					<!-- Nav -->
+					<nav id="nav">
+						{% include 'partials/navigation.html.twig' %}
+					</nav>
 
-					</div>
 				</div>
-
-				{% block banner %}{% endblock banner %}
-
 			</div>
+
+			{% block banner %}{% endblock banner %}
+
+		</div>
 
 	{% endblock header %}
 

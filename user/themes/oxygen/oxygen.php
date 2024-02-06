@@ -4,19 +4,33 @@ namespace Grav\Theme;
 use Grav\Common\Theme;
 
 class Oxygen extends Theme {
-
-    /* Call this function in twig: {{ getUrl(path) }}
-
-       This theme allows for defined paths to be reused across the site by
-       calculating the url from webroot, supporting #anchors.
-
-       Perform a search by any given slug and output its path from webroot, if it exists
-       Otherwise return early with the $path given as is from twig
-    */
     function onTwigExtensions() {
 
-        // set urls for given path
-        $function = new \Twig_SimpleFunction ('getUrl', function ($path) {
+        /*  SAFE HOME
+            twig: {{ getHome(path) }}
+            Adds a trailing slash to directory, if not present
+            workaround for #3798 -https://github.com/getgrav/grav/issues/3798
+        */
+        $getHome = new \Twig_SimpleFunction ('getHome', function ($path) {
+            // case: slash is already correctly attached
+            if (substr( $path, -1 ) === "/") {
+                return $path;
+            }
+            return $path. "/";
+        });
+
+        // pass function getUrl to template engine
+        $this->grav['twig']->twig->addFunction($getHome);
+
+        /*  MODULAR LINKS
+            twig: {{ getUrl(path) }}
+            Allows defined paths to be reused across the site by
+            calculating the url from webroot, supporting #anchors.
+
+            Perform a search by any given slug and output its path from webroot, if it exists
+            Otherwise return early with the $path given as is from twig
+        */
+        $getUrl = new \Twig_SimpleFunction ('getUrl', function ($path) {
             // case: external path, return $path as is
             if (substr( $path, 0, 4 ) === "http") {
                 return $path;
@@ -49,7 +63,7 @@ class Oxygen extends Theme {
             }
         });
 
-        // pass function to template engine
-        $this->grav['twig']->twig->addFunction($function);
+        // pass function getUrl to template engine
+        $this->grav['twig']->twig->addFunction($getUrl);
     }
 }
