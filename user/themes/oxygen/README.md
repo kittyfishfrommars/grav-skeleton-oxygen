@@ -19,7 +19,7 @@ Demo: [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io/grav/gra
 
 This theme includes a legally required [Contact page](_demo/pages/099.contact/default.md), with mandatory data pre-filled, to help with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and [Press Regulations](https://secureprivacy.ai/blog/what-is-an-impressum). Please make sure to update your personal data and privacy statement to your specific use case. National laws apply.
 
-There's an additional [Elements page](_demo/pages/98.elements/default.md) included to allow you to identify gaps in the theme's styling. There are a few.
+There's an additional [Elements page](_demo/pages/098.elements/default.md) included to allow you to identify gaps in the theme's styling. There are a few.
 
 ## Installation
 
