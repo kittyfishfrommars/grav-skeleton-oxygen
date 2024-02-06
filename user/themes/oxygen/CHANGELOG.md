@@ -3,7 +3,7 @@
 
 [](#release)
 
-Oxygen for [Grav CMS](http://github.com/getgrav/grav) is a continuation of [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize).
+Oxygen by [kittyfishfrommars](https://github.com/kittyfishfrommars) is a continuation of [hughbris](https://github.com/hughbris/grav-theme-solarize) work for [Grav CMS](http://github.com/getgrav/grav).
 
 
 ### Accessibility

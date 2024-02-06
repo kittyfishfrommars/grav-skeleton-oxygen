@@ -1,11 +1,11 @@
 # Oxygen Theme
+
+Oxygen by [kittyfishfrommars](https://github.com/kittyfishfrommars) is a continuation of [hughbris](https://github.com/hughbris/grav-theme-solarize) work for [Grav CMS](http://github.com/getgrav/grav).
+
+
+[<img src="screenshot.jpg" width="360">](screenshot.jpg)
+---
 Demo: [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io/grav/grav-theme-oxygen)
-Repository: [github.com/kittyfishfrommars/grav-skeleton-oxygen](https://github.com/kittyfishfrommars/grav-skeleton-oxygen)
-
-Oxygen for [Grav CMS](http://github.com/getgrav/grav) is a continuation of [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize).
-
-
-![](screenshot.jpg | width=360)
 
 
 ## Features
@@ -17,9 +17,9 @@ Oxygen for [Grav CMS](http://github.com/getgrav/grav) is a continuation of [hugh
 * Grav's admin plugin is supported via blueprints for ease of **Maintenance**
 * Preconfigured to set no cookies, no third-party connections for **GDPR-compliance**
 
-This theme includes a legally required [Contact page](_demo/pages/99.contact/default.md), with mandatory data pre-filled, to help with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and [Press Regulations](https://secureprivacy.ai/blog/what-is-an-impressum). Please make sure to update your personal data and privacy statement to your specific use case. National laws apply.
+This theme includes a legally required [Contact page](_demo/pages/099.contact/default.md), with mandatory data pre-filled, to help with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and [Press Regulations](https://secureprivacy.ai/blog/what-is-an-impressum). Please make sure to update your personal data and privacy statement to your specific use case. National laws apply.
 
-There's an additional [Elements page](_demo/pages/90.elements/default.md) included to allow you to identify gaps in the theme's styling. There are a few.
+There's an additional [Elements page](_demo/pages/98.elements/default.md) included to allow you to identify gaps in the theme's styling. There are a few.
 
 ## Installation
 
@@ -64,7 +64,7 @@ Once this is done, you should be able to see the new theme on the frontend. Keep
 
 If you're getting this error, it means your current installation does not yet have the proper [permissions](https://learn.getgrav.org/17/troubleshooting/permissions).
 
-The nuclear option is, of course, **not recommend for production**:
+The nuclear option is, of course, **not recommended for production**:
 
     chmod 777 grav-skeleton-oxygen -R
 

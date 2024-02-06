@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'getgrav/grav',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => 'a9d607f4ae27824058699b30d4d85f1722ba32b2',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '78b8125eae24de659eddf20db42413bed632b290',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'composer/ca-bundle' => array(
-            'pretty_version' => '1.3.7',
-            'version' => '1.3.7.0',
-            'reference' => '76e46335014860eec1aa5a724799a00a2e47cc85',
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'reference' => 'b66d11b7479109ab547f9405b97205640b17d385',
             'type' => 'library',
             'install_path' => __DIR__ . '/./ca-bundle',
             'aliases' => array(),
@@ -56,9 +56,9 @@
             'dev_requirement' => false,
         ),
         'donatj/phpuseragentparser' => array(
-            'pretty_version' => 'v1.7.0',
-            'version' => '1.7.0.0',
-            'reference' => 'a35900b93530715f8669c10e49756adde5c8e6fc',
+            'pretty_version' => 'v1.8.0',
+            'version' => '1.8.0.0',
+            'reference' => 'b8c16fd6e963651c6d86f66cb782ce599d62418e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../donatj/phpuseragentparser',
             'aliases' => array(),
@@ -92,9 +92,9 @@
             'dev_requirement' => false,
         ),
         'filp/whoops' => array(
-            'pretty_version' => '2.15.3',
-            'version' => '2.15.3.0',
-            'reference' => 'c83e88a30524f9360b11f585f71e6b17313b7187',
+            'pretty_version' => '2.15.4',
+            'version' => '2.15.4.0',
+            'reference' => 'a139776fa3f5985a50b509f2a02ff0f709d2a546',
             'type' => 'library',
             'install_path' => __DIR__ . '/../filp/whoops',
             'aliases' => array(),
@@ -110,9 +110,9 @@
             'dev_requirement' => false,
         ),
         'getgrav/grav' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'a9d607f4ae27824058699b30d4d85f1722ba32b2',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '78b8125eae24de659eddf20db42413bed632b290',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -173,9 +173,9 @@
             'dev_requirement' => false,
         ),
         'maximebf/debugbar' => array(
-            'pretty_version' => 'v1.19.0',
-            'version' => '1.19.0.0',
-            'reference' => '30f65f18f7ac086255a77a079f8e0dcdd35e828e',
+            'pretty_version' => 'v1.19.1',
+            'version' => '1.19.1.0',
+            'reference' => '03dd40a1826f4d585ef93ef83afa2a9874a00523',
             'type' => 'library',
             'install_path' => __DIR__ . '/../maximebf/debugbar',
             'aliases' => array(),
@@ -209,18 +209,18 @@
             'dev_requirement' => false,
         ),
         'nyholm/psr7' => array(
-            'pretty_version' => '1.8.0',
-            'version' => '1.8.0.0',
-            'reference' => '3cb4d163b58589e47b35103e8e5e6a6a475b47be',
+            'pretty_version' => '1.8.1',
+            'version' => '1.8.1.0',
+            'reference' => 'aa5fc277a4f5508013d571341ade0c3886d4d00e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nyholm/psr7',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'nyholm/psr7-server' => array(
-            'pretty_version' => '1.0.2',
-            'version' => '1.0.2.0',
-            'reference' => 'b846a689844cef114e8079d8c80f0afd96745ae3',
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => '4335801d851f554ca43fa6e7d2602141538854dc',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nyholm/psr7-server',
             'aliases' => array(),
@@ -366,9 +366,9 @@
             'dev_requirement' => false,
         ),
         'rhukster/dom-sanitizer' => array(
-            'pretty_version' => '1.0.6',
-            'version' => '1.0.6.0',
-            'reference' => '4db3ef1ac3d5505d044c5eb12aa106ba745bf129',
+            'pretty_version' => '1.0.7',
+            'version' => '1.0.7.0',
+            'reference' => 'c2a98f27ad742668b254282ccc5581871d0fb601',
             'type' => 'library',
             'install_path' => __DIR__ . '/../rhukster/dom-sanitizer',
             'aliases' => array(),
@@ -395,7 +395,7 @@
         'symfony/cache-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.13',
+                0 => 'v1.10.0',
             ),
         ),
         'symfony/console' => array(
@@ -408,9 +408,9 @@
             'dev_requirement' => false,
         ),
         'symfony/contracts' => array(
-            'pretty_version' => 'v1.1.13',
-            'version' => '1.1.13.0',
-            'reference' => '9e27f5c175ecbd6fff554d839ff4a432da797168',
+            'pretty_version' => 'v1.10.0',
+            'version' => '1.10.0.0',
+            'reference' => 'e3cc841da1eaf10088250a10618aa223eeb82280',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/contracts',
             'aliases' => array(),
@@ -428,7 +428,7 @@
         'symfony/event-dispatcher-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.13',
+                0 => 'v1.10.0',
             ),
         ),
         'symfony/event-dispatcher-implementation' => array(
@@ -438,9 +438,9 @@
             ),
         ),
         'symfony/http-client' => array(
-            'pretty_version' => 'v4.4.49',
-            'version' => '4.4.49.0',
-            'reference' => '0185497cd61440bdf68df7d81241b97a543e9c3f',
+            'pretty_version' => 'v4.4.51',
+            'version' => '4.4.51.0',
+            'reference' => 'da88e5df8a24e7c229c3df4f19f24ac502b8532b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/http-client',
             'aliases' => array(),
@@ -449,7 +449,7 @@
         'symfony/http-client-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.13',
+                0 => 'v1.10.0',
             ),
         ),
         'symfony/http-client-implementation' => array(
@@ -536,13 +536,13 @@
         'symfony/service-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.13',
+                0 => 'v1.10.0',
             ),
         ),
         'symfony/translation-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.13',
+                0 => 'v1.10.0',
             ),
         ),
         'symfony/var-dumper' => array(

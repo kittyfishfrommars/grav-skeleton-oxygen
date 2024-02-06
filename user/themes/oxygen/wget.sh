@@ -1,7 +1,6 @@
 #! /bin/bash
 
 # TODO: use exec.js with gulp.config.json values, calculate cut-dirs, add security for parameters
-
 # path to localhost directory
 SOURCE="http://localhost/kittyfish/grav-skeleton-oxygen"
 readonly SOURCE
@@ -16,7 +15,7 @@ rm ${TARGET} -r
 # make destination dir if it not exists
 mkdir ${TARGET} -p
 
-# download site (-E --restrict-file-names=ascii)
+# download site
 wget -m -nH -np -q --cut-dirs=2 -k -E --restrict-file-names=unix,nocontrol robots=off ${SOURCE} -P ${TARGET}
 
 # rename files: remove ? query string from actual filenames
