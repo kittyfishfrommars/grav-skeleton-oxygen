@@ -1,10 +1,16 @@
 # Oxygen Theme
+Demo: [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io/grav/grav-theme-oxygen)
+Repository: [github.com/kittyfishfrommars/grav-skeleton-oxygen](https://github.com/kittyfishfrommars/grav-skeleton-oxygen)
 
-Oxygen for [Grav CMS](http://github.com/getgrav/grav) has been adapted from [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize). 
+Oxygen for [Grav CMS](http://github.com/getgrav/grav) is a continuation of [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize).
 
-> Please see [CHANGELOG.md](CHANGELOG.md) for a detailed list of features included in this release.
+
+![](screenshot.jpg | width=360)
+
 
 ## Features
+
+> Please see [CHANGELOG.md](CHANGELOG.md) for a detailed list of features included in this release.
 
 * Oxygen is screen-reader friendly and meets **Accessibility** standards
 * Asset delivery has been optimized for **Performance**
@@ -14,8 +20,6 @@ Oxygen for [Grav CMS](http://github.com/getgrav/grav) has been adapted from [hug
 This theme includes a legally required [Contact page](_demo/pages/99.contact/default.md), with mandatory data pre-filled, to help with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and [Press Regulations](https://secureprivacy.ai/blog/what-is-an-impressum). Please make sure to update your personal data and privacy statement to your specific use case. National laws apply.
 
 There's an additional [Elements page](_demo/pages/90.elements/default.md) included to allow you to identify gaps in the theme's styling. There are a few.
-
-![Oxygen](screenshot.jpg)
 
 ## Installation
 
@@ -53,6 +57,18 @@ If you want to set Oxygen as the default theme, you can do so by following these
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`.
 
 Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the `oxygen` folder.
+
+## Troubleshooting
+
+### 500 Internal Server Error
+
+If you're getting this error, it means your current installation does not yet have the proper [permissions](https://learn.getgrav.org/17/troubleshooting/permissions).
+
+The nuclear option is, of course, **not recommend for production**:
+
+    chmod 777 grav-skeleton-oxygen -R
+
+Where `grav-skeleton-oxygen` is your installation folder.
 
 ## Updating
 
