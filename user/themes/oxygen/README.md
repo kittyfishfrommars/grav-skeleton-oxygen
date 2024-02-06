@@ -1,11 +1,11 @@
 # Oxygen Theme
+
+Oxygen by [kittyfishfrommars](https://github.com/kittyfishfrommars) is a continuation of [hughbris](https://github.com/hughbris/grav-theme-solarize) work for [Grav CMS](http://github.com/getgrav/grav).
+
+
+[<img src="screenshot.jpg" width="360">](screenshot.jpg)
+---
 Demo: [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io/grav/grav-theme-oxygen)
-Repository: [github.com/kittyfishfrommars/grav-skeleton-oxygen](https://github.com/kittyfishfrommars/grav-skeleton-oxygen)
-
-Oxygen for [Grav CMS](http://github.com/getgrav/grav) is a continuation of [hughbris' Solarize Theme](https://github.com/hughbris/grav-theme-solarize).
-
-
-![](screenshot.jpg | width=360)
 
 
 ## Features
@@ -64,7 +64,7 @@ Once this is done, you should be able to see the new theme on the frontend. Keep
 
 If you're getting this error, it means your current installation does not yet have the proper [permissions](https://learn.getgrav.org/17/troubleshooting/permissions).
 
-The nuclear option is, of course, **not recommend for production**:
+The nuclear option is, of course, **not recommended for production**:
 
     chmod 777 grav-skeleton-oxygen -R
 
