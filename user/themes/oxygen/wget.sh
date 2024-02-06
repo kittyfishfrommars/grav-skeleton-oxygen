@@ -23,10 +23,10 @@ mkdir ${TARGET} -p
 wget -m -nH -np -q --cut-dirs=2 -k -E --restrict-file-names=unix,nocontrol robots=off ${SOURCE} -P ${TARGET}
 
 # rename files: remove ? query string from actual filenames
-find ${TARGET} -type f -name "*\?*" -print0 | 
-while IFS= read -r -d '' file; 
+find ${TARGET} -type f -name "*\?*" -print0 |
+while IFS= read -r -d '' file;
   do 
-   mv -f "$file" "`echo $file | cut -d? -f1`"; 
+   mv -f "$file" "`echo $file | cut -d? -f1`";
 done
 
 # edit html: search string %3Ffp and replace it with ?fp
