@@ -1,7 +1,6 @@
 #! /bin/bash
 
 # TODO: use exec.js with gulp.config.json values, calculate cut-dirs, add security for parameters
-
 # path to localhost directory
 SOURCE="http://localhost/s-be/grav-dev/"
 readonly SOURCE
@@ -16,10 +15,7 @@ rm ${TARGET} -r
 # make destination dir if it not exists
 mkdir ${TARGET} -p
 
-# NOTE: wget localhost of oxygen in all files
-
-# download site (-E --restrict-file-names=ascii)
-# wget -r -linf -K -E --restrict-file-names=windows -e robots=off ${SOURCE} -P ${TARGET}
+# download site
 wget -m -nH -np -q --cut-dirs=2 -k -E --restrict-file-names=unix,nocontrol robots=off ${SOURCE} -P ${TARGET}
 
 # rename files: remove ? query string from actual filenames
