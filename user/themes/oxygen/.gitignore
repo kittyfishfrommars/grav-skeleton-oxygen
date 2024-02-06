@@ -8,6 +8,11 @@ cache/
 # specifically allow folders
 !images/
 
+# track this folder (i.e. do NOT ignore it)
+!user/data/*.*/
+!dist
+!vendor
+
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
 !.htaccess
