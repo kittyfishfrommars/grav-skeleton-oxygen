@@ -20,7 +20,7 @@ mkdir ${TARGET} -p
 
 # download site (-E --restrict-file-names=ascii)
 # wget -r -linf -K -E --restrict-file-names=windows -e robots=off ${SOURCE} -P ${TARGET}
-wget -m -nH -np -q --cut-dirs=2 -k -E --restrict-file-names=unix,nocontrol --show-progress robots=off ${SOURCE} -P ${TARGET}
+wget -m -nH -np -q --cut-dirs=2 -k -E --restrict-file-names=unix,nocontrol robots=off ${SOURCE} -P ${TARGET}
 
 # rename files: remove ? query string from actual filenames
 find ${TARGET} -type f -name "*\?*" -print0 | 
