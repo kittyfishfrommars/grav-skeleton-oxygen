@@ -107,11 +107,11 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 
 * [kittyfish.github.io](https://kittyfish.github.io) - Project demo
 * [juedisch.info](https://juedisch.info) - Jewish activism (german)
-* Original Grav port [Solarize by hughbris](https://behold.metamotive.co.nz/oxygen)
+* Original Grav port [Solarize by hughbris](https://behold.metamotive.co.nz/solarize)
 
 ## Credits
 * Theme "Oxygen" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://opensource.org/license/mit/), for modifications see [CHANGELOG](https://github.com/Kittyfishfrommars/grav-skeleton-oxygen/blob/main/user/themes/oxygen/CHANGELOG.md)
-* Based on the Grav port by [hughbris](https://github.com/hughbris/grav-theme-solarize/tree/develop) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE)
+* Based on the Grav port by [hughbris](https://github.com/hughbris/grav-theme-solarize/) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE)
 * Developed for [Grav CMS](https://getgrav.org/) under the [MIT License](https://github.com/getgrav/grav/blob/master/LICENSE.txt)
 * Header image created by [DeepAI](https://deepai.org/machine-learning-model/text2img) under its [Generated Content License](https://deepai.org/terms-of-service/terms-of-service)
 * Design inspired by "Solarize" of [templated.co](https://templated.co) under the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/)
