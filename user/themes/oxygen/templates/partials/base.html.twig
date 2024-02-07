@@ -9,29 +9,29 @@
 
 	{% include 'partials/metadata.html.twig' %}
 
-	<link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png?fp=4700') }}" />
+	<link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png?fp=4701') }}" />
 	<link rel="canonical" href="{{ page.url(true, true) }}" />
 
 	{% block stylesheets %}
-		{% do assets.addCss('theme://fonts/opensans/opensans.css?fp=4700', {group: 'init'}) %}
-		{% do assets.addCss('theme://dist/css/main.css?fp=4700', {group: 'init'}) %}
+		{% do assets.addCss('theme://fonts/opensans/opensans.css?fp=4701', {group: 'init'}) %}
+		{% do assets.addCss('theme://dist/css/main.css?fp=4701', {group: 'init'}) %}
 		{# head: blocking scripts #}		
 		{{ assets.css('init')|raw }}
 		{# head: with loading parameter #}
 		{{ assets.css('delay')|raw }}
 		{# head: deferred css #}
-		<link rel="stylesheet" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css?fp=4700" media="print" onload="this.onload=null;this.media='all'">
+		<link rel="stylesheet" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css?fp=4701" media="print" onload="this.onload=null;this.media='all'">
 		<noscript>
-			<link rel="stylesheet" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css?fp=4700">
+			<link rel="stylesheet" href="{{ theme_url }}/fonts/fontawesome/font-awesome.min.css?fp=4701">
 		</noscript>
 	{% endblock %}
 
 	{% block javascripts %}
-		{% do assets.addJs('theme://vendor/js/jquery-1.11.custom.min.js?fp=4700', {group: 'delay', loading: 'defer'}) %}
-		{% do assets.addJs('theme://vendor/js/jquery.dropotron.min.js?fp=4700', {group: 'delay', loading: 'defer'}) %}
-		{% do assets.addJs('theme://vendor/js/skel.min.js?fp=4700', {group: 'delay', loading: 'defer'}) %}
-		{% do assets.addJs('theme://vendor/js/skel-layers.min.js?fp=4700', {group: 'delay', loading: 'defer'}) %}
-		{% do assets.addJs('theme://dist/js/scripts.js?fp=4700', {group: 'delay', loading: 'defer', 'data-theme-root': theme_url}) %}
+		{% do assets.addJs('theme://vendor/js/jquery-1.11.custom.min.js?fp=4701', {group: 'delay', loading: 'defer'}) %}
+		{% do assets.addJs('theme://vendor/js/jquery.dropotron.min.js?fp=4701', {group: 'delay', loading: 'defer'}) %}
+		{% do assets.addJs('theme://vendor/js/skel.min.js?fp=4701', {group: 'delay', loading: 'defer'}) %}
+		{% do assets.addJs('theme://vendor/js/skel-layers.min.js?fp=4701', {group: 'delay', loading: 'defer'}) %}
+		{% do assets.addJs('theme://dist/js/scripts.js?fp=4701', {group: 'delay', loading: 'defer', 'data-theme-root': theme_url}) %}
 		{# head: blocking scripts #}		
 		{{ assets.js('init')|raw }}
 		{# head: with loading parameter #}		
