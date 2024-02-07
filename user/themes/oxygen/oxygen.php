@@ -7,11 +7,11 @@ class Oxygen extends Theme {
     function onTwigExtensions() {
 
         /*  SAFE HOME
-            twig: {{ getHome(path) }}
-            Adds a trailing slash to directory, if not present
+            twig: {{ addSlash(path) }}
+            Adds a trailing slash to path, if not already present
             workaround for #3798 -https://github.com/getgrav/grav/issues/3798
         */
-        $getHome = new \Twig_SimpleFunction ('getHome', function ($path) {
+        $addSlash = new \Twig_SimpleFunction ('addSlash', function ($path) {
             // case: slash is already correctly attached
             if (substr( $path, -1 ) === "/") {
                 return $path;
@@ -20,7 +20,7 @@ class Oxygen extends Theme {
         });
 
         // pass function getUrl to template engine
-        $this->grav['twig']->twig->addFunction($getHome);
+        $this->grav['twig']->twig->addFunction($addSlash);
 
         /*  MODULAR LINKS
             twig: {{ getUrl(path) }}
