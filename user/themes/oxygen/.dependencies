@@ -1,0 +1,74 @@
+git:
+    admin:
+        url: https://github.com/getgrav/grav-plugin-admin
+        path: user/plugins/admin
+        branch: master
+    email:
+        url: https://github.com/getgrav/grav-plugin-email
+        path: user/plugins/email
+        branch: master
+    error:
+        url: https://github.com/getgrav/grav-plugin-error
+        path: user/plugins/error
+        branch: master
+    flex-objects:
+        url: https://github.com/trilbymedia/grav-plugin-flex-objects
+        path: user/plugins/flex-objects
+        branch: master
+    form:
+        url: https://github.com/getgrav/grav-plugin-form
+        path: user/plugins/form
+        branch: master
+    login:
+        url: https://github.com/getgrav/grav-plugin-login
+        path: user/plugins/login
+        branch: master
+    markdown-notices:
+        url: https://github.com/getgrav/grav-plugin-markdown-notices
+        path: user/plugins/markdown-notices
+        branch: master
+    problems:
+        url: https://github.com/getgrav/grav-plugin-problems
+        path: user/plugins/problems
+        branch: master
+    sitemap:
+        url: https://github.com/getgrav/grav-plugin-sitemap
+        path: user/plugins/sitemap
+        branch: master
+links:
+    admin:
+        src: grav-plugin-admin
+        path: user/plugins/admin
+        scm: github
+    email:
+        src: grav-plugin-email
+        path: user/plugins/email
+        scm: github
+    error:
+        src: grav-plugin-error
+        path: user/plugins/error
+        scm: github
+    flex-objects:
+        src: grav-plugin-flex-objects
+        path: user/plugins/flex-objects
+        scm: github
+    form:
+        src: grav-plugin-form
+        path: user/plugins/form
+        scm: github
+    login:
+        src: grav-plugin-login
+        path: user/plugins/login
+        scm: github
+    markdown-notices:
+        src: grav-plugin-markdown-notices
+        path: user/plugins/markdown-notices
+        scm: github
+    problems:
+        src: grav-plugin-problems
+        path: user/plugins/problems
+        scm: github
+    sitemap:
+        src: grav-plugin-sitemap
+        path: user/plugins/problems
+        scm: github
