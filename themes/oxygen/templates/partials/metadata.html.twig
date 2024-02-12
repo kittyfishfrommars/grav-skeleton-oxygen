@@ -1,8 +1,0 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
-{% for meta in page.metadata %}
-    {% if meta.name == "generator" or meta.name == "author" %}
-        {# skip #}
-    {% else %}
-        <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
-    {% endif %}
-{% endfor %}
