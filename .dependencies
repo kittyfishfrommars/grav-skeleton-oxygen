@@ -1,8 +1,4 @@
 git:
-    admin:
-        url: https://github.com/getgrav/grav-plugin-admin
-        path: user/plugins/admin
-        branch: master
     email:
         url: https://github.com/getgrav/grav-plugin-email
         path: user/plugins/email
@@ -36,10 +32,6 @@ git:
         path: user/plugins/sitemap
         branch: master
 links:
-    admin:
-        src: grav-plugin-admin
-        path: user/plugins/admin
-        scm: github
     email:
         src: grav-plugin-email
         path: user/plugins/email
