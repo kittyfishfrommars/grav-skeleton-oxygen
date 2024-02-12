@@ -1,0 +1,100 @@
+# ROOT .gitignore
+
+# ignore secret files
+
+# ignore generated folders
+/config/security.yaml
+/data/*
+!data/.*
+/plugins/*
+!plugins/.*
+/accounts/*
+!accounts/.*
+
+# ignore package managers
+node_modules
+bower_components
+node_modules
+npm-debug.log
+
+# ignore generated files
+assets/admin-preset.css
+user/images/multiavatar/
+
+# ignore temporary files
+.sass-cache
+*.css.map
+.DS_Store
+config.codekit
+*.code-workspace
+security.yaml
+.wget/
+
+# ignore temporary folders and subfolders
+logs/
+dist/
+/cache/
+/tmp/
+/images/
+/user/data/
+
+# explicitly track this folder (i.e. do NOT ignore it)
+# !user/data/*.*/
+!user/themes/oxygen/dist
+!user/themes/oxygen/vendor
+
+# explicitly track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+!.gitkeep
+
+# explicitly track .editorconfig file (i.e. do NOT ignore it)
+!.editorconfig
+
+# explicitly track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
+
+# ignore all files that start with ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# osx specific files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+._*
+*.swp
+*.swo
+*.swn
+
+# ignore log files
+*.log
+
+# ignore compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
