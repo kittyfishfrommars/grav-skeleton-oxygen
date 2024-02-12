@@ -16,7 +16,7 @@ pages:
   parents_levels: null
 session:
   timeout: 3600
-edit_mode: expert
+# edit_mode: expert
 frontend_preview_target: inline
 show_github_msg: false
 admin_icons: line-awesome
