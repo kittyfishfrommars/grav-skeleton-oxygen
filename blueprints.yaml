@@ -1,6 +1,6 @@
 name: Oxygen
 version: 1.0.0
-description: A performant theme for Grav
+description: Crazy fast, accessible and GDRP-compliant out of the box.
 icon: sun-o
 author:
   name: Kittyfish from Mars
@@ -15,7 +15,10 @@ license: MIT
 
 dependencies:
   - { name: grav, version: '>=1.7.0' }
-  - { name: grav-plugin-sitemap, version: '>=5.5.0' }
+  - { name: grav-plugin-error, version: '>=1.8.0' }
+  - { name: grav-plugin-markdown-notices, version: '>=1.1.0' }
+  - { name: grav-plugin-problems, version: '>=2.1.1' }
+  - { name: grav-plugin-sitemap, version: '>=5.0.0' }
 
 form:
   validation: strict
