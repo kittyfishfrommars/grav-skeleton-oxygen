@@ -39,7 +39,7 @@ Julie Citizen, Hillside 9, 50555 Capitol City
 
 ### Credits {#credits .pt-3}
 <div class="color-link-text" markdown="1">
-* Theme "Oxygen" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://github.com/Kittyfishfrommars/grav-skeleton-oxygen/blob/main/user/themes/oxygen/CHANGELOG.md), for modifications see [CHANGELOG](https://github.com/Kittyfishfrommars/grav-skeleton-oxygen/blob/main/user/themes/oxygen/CHANGELOG.md)
+* Theme "Oxygen" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://github.com/Kittyfishfrommars/grav-theme-oxygen/blob/main/LICENSE), for modifications see [Changelog](https://github.com/Kittyfishfrommars/grav-theme-oxygen/blob/main/CHANGELOG.md)
 * Based on the "Solarize" Grav port by [hughbris](https://github.com/hughbris/grav-theme-solarize/) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE)
 * Developed for [Grav CMS](https://getgrav.org/) under the [MIT License](https://github.com/getgrav/grav/blob/master/LICENSE.txt)
 * Header image created by [DeepAI](https://deepai.org/machine-learning-model/text2img) under its [Generated Content License](https://deepai.org/terms-of-service/terms-of-service)

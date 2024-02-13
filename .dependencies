@@ -16,7 +16,7 @@ git:
         path: user/plugins/sitemap
         branch: master
     oxygen:
-        url: https://github.com/kittyfisfrommars/grav-theme-oxygen
+        url: https://github.com/kittyfishfrommars/grav-theme-oxygen
         path: user/themes/oxygen
         branch: master
 links:
