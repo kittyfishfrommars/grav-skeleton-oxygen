@@ -8,7 +8,7 @@ Oxygen by [kittyfishfrommars](https://github.com/kittyfishfrommars) is a continu
 Demo: [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io/grav/grav-theme-oxygen)
 
 
-## Features
+## Summary
 
 > Please see [CHANGELOG.md](CHANGELOG.md) for a detailed list of features included in this release.
 
