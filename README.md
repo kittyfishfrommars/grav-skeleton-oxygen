@@ -105,12 +105,12 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 
 ## Examples in the wild
 
-* [kittyfish.github.io](https://kittyfish.github.io) - Project demo
+* [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io/grav/grav-theme-oxygen/) - Theme "Oxygen" developed by [kittyfishfrommars](https://github.com/kittyfishfrommars)
 * [juedisch.info](https://juedisch.info) - Jewish activism (german)
-* Original Grav port [Solarize by hughbris](https://behold.metamotive.co.nz/solarize)
+* [behold.metamotive.co.nz](https://behold.metamotive.co.nz/solarize) - Original Grav port "Solarize" by [hughbris](https://github.com/hughbris/)
 
 ## Credits
-* Theme "Oxygen" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://opensource.org/license/mit/), for modifications see [CHANGELOG](https://github.com/Kittyfishfrommars/grav-skeleton-oxygen/blob/main/user/themes/oxygen/CHANGELOG.md)
+* Theme "Oxygen" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://opensource.org/license/mit/), for modifications see [Changelog](https://github.com/Kittyfishfrommars/grav-skeleton-oxygen/blob/main/CHANGELOG.md)
 * Based on the Grav port by [hughbris](https://github.com/hughbris/grav-theme-solarize/) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE)
 * Developed for [Grav CMS](https://getgrav.org/) under the [MIT License](https://github.com/getgrav/grav/blob/master/LICENSE.txt)
 * Header image created by [DeepAI](https://deepai.org/machine-learning-model/text2img) under its [Generated Content License](https://deepai.org/terms-of-service/terms-of-service)
