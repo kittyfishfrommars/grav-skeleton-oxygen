@@ -7,6 +7,8 @@ Oxygen by [kittyfishfrommars](https://github.com/kittyfishfrommars) is a continu
 ---
 Demo: [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io/grav/grav-theme-oxygen)
 
+All-in-one package: [grav-skeleton-oxygen](https://github.com/kittyfishfrommars/grav-skeleton-oxygen/releases/)
+
 
 ## Summary
 
