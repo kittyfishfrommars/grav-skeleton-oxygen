@@ -109,6 +109,8 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 * [juedisch.info](https://juedisch.info) - Jewish activism (german)
 * [behold.metamotive.co.nz](https://behold.metamotive.co.nz/solarize) - Original Grav port "Solarize" by [hughbris](https://github.com/hughbris/)
 
+Please drop me a line if you want yours to be included (hey, it's free publicity).
+
 ## Credits
 * Theme "Oxygen" developed by [kittyfishfrommars](https://github.com/Kittyfishfrommars) under the [MIT License](https://opensource.org/license/mit/), for modifications see [Changelog](https://github.com/Kittyfishfrommars/grav-skeleton-oxygen/blob/main/CHANGELOG.md)
 * Based on the Grav port by [hughbris](https://github.com/hughbris/grav-theme-solarize/) under the [MIT License](https://github.com/hughbris/grav-theme-solarize/blob/develop/LICENSE)
