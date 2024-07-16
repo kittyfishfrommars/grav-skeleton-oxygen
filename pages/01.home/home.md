@@ -25,7 +25,7 @@ banner:
 hook:
     teaser: "Look, It's Kittyfish from Mars."
     byline:
-        This theme is crazy fast, accessible and GDPR-compliant out of the box. The source code is available at <a href="https://github.com/kittyfishfrommars" target="_blank">github.com/kittyfishfrommars</a>. Provided as-is and free for personal and commercial use. No strings attached. Have fun!
+        This theme is crazy fast, accessible and GDPR-compliant out of the box. Source code and build tools are available at <a href="https://github.com/kittyfishfrommars" target="_blank">github.com/kittyfishfrommars</a>. Provided as-is and free for personal and commercial use. No strings attached. Have fun!
     button:
       # comment-out line below to disable button
       text: 'Button'
