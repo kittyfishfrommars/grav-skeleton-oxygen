@@ -1,6 +1,7 @@
 # debug settings
 assets:
   collections:
+    # grav bundled version for debugger
     jquery: 'system://assets/jquery/jquery-3.x.min.js'
 
 errors:

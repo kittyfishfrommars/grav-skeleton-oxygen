@@ -4,7 +4,7 @@
 assets:
   # depending on asset size HTTTP/2 may be a better option
   css_pipeline: true   # concat from assets.addCss
-  # do not enable (breaking change until skel.js is removed)
+  # do not enable (breaking change until skel.js is removed), use npm run build instead
   js_pipeline: false    # concat from assets.addJs
 
 # Enable force_ssl if env supports it
