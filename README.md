@@ -9,6 +9,27 @@ Demo: [kittyfishfrommars.github.io](https://kittyfishfrommars.github.io/grav/gra
 All-in-one package: [grav-skeleton-oxygen](https://github.com/kittyfishfrommars/grav-skeleton-oxygen/releases/)
 
 
+## Table of Contents
+
+- [Summary](#summary)
+- [Installation](#installation)
+  - [GPM Installation (Preferred)](#gpm-installation-preferred)
+  - [Manual Installation](#manual-installation)
+  - [Setup](#setup)
+- [Updating](#updating)
+  - [GPM Update (Preferred)](#gpm-update-preferred)
+  - [Manual Update](#manual-update)
+- [Supported Templates](#supported-templates)
+- [Configuration](#configuration)
+  - [Environments](#environments)
+- [Build Tools](#build-tools)
+  - [Gulp](#gulp)
+- [Troubleshooting](#troubleshooting)
+  - [500 Internal Server Error](#500-internal-server-error)
+- [Examples in the wild](#examples-in-the-wild)
+- [Credits](#credits)
+
+
 ## Summary
 
 > Please see [CHANGELOG.md](CHANGELOG.md) for a detailed list of features included in this release.
@@ -100,17 +121,11 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 * [Sitemap template](templates/sitemap.html.twig)
 
 
-## Troubleshooting
+## Configuration
 
-### 500 Internal Server Error
+### Environments
 
-If you're getting this error, it means your current installation does not yet have the proper [permissions](https://learn.getgrav.org/17/troubleshooting/permissions).
-
-The nuclear option is, of course, **not recommended for production**:
-
-    chmod 777 grav-skeleton-oxygen -R
-
-Where `grav-skeleton-oxygen` is your installation folder.
+For optimal perfomance in your production environment, copy [env/mysite.com/system.yaml](https://github.com/kittyfishfrommars/grav-skeleton-oxygen/blob/main/env/mysite.com/config/system.yaml) and rename the folder `mysite.com` to your production domain (without www).
 
 
 ## Build Tools
@@ -129,7 +144,7 @@ A taskrunner to compile JS and SCSS source files so you can adapt this theme to 
 For example, you might want to configure colors and fonts in [src/scss/_config.less](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/src/scss/_config.scss).
 
 
-**Setup**
+**Installation**
 
 Navigate to `user/themes/oxygen` and install necessary dependencies once with:
 
@@ -150,6 +165,19 @@ This process may take a while populating `node_modules`. Please wait patiently.
 
 
 For security purposes, please make sure not to deploy the `node_modules` folder to any production environment.
+
+
+## Troubleshooting
+
+### 500 Internal Server Error
+
+If you're getting this error, it means your current installation does not yet have the proper [permissions](https://learn.getgrav.org/17/troubleshooting/permissions).
+
+The nuclear option is, of course, **not recommended for production**:
+
+    chmod 777 grav-skeleton-oxygen -R
+
+Where `grav-skeleton-oxygen` is your installation folder.
 
 
 ## Examples in the wild
