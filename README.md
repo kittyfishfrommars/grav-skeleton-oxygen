@@ -21,6 +21,8 @@ All-in-one package: [grav-skeleton-oxygen](https://github.com/kittyfishfrommars/
   - [Manual Update](#manual-update)
 - [Supported Templates](#supported-templates)
 - [Configuration](#configuration)
+  - [Theme Options](#theme-options)
+    - [Search Engine Index](#search-engine-index)
   - [Environments](#environments)
 - [Build Tools](#build-tools)
   - [Gulp](#gulp)
@@ -115,7 +117,7 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 * [Sample home template](templates/home.html.twig)
 * [Default content template](templates/default.html.twig)
 * [Sidebar template](templates/sidebar.html.twig)
-* [Link Module](templates/modular/links.html.twig)
+* [Link module](templates/modular/links.html.twig)
 * [Footer template](templates/partials/footer.html.twig)
 * [Error template](templates/error.html.twig)
 * [Sitemap template](templates/sitemap.html.twig)
@@ -123,9 +125,37 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 
 ## Configuration
 
+### Theme Options
+
+#### Search Engine Index
+
+For a granular approach to indexing, please refer to Grav's [sitemap plugin](https://github.com/getgrav/grav-plugin-sitemap), which comes bundled with this theme.
+
+By default Oxygen additionally instructs [search engines](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag) to not index any content, so you can setup your new site in your own time. Once you are ready to go live you have two ways to remove the `noindex` meta tag:
+
+**Method 1: Admin Panel**
+
+Enable indexing through the [Grav Admin Panel](https://github.com/getgrav/grav-plugin-admin), which comes pre-installed with [Oxygen's Skeleton](https://github.com/kittyfishfrommars/grav-skeleton-oxygen) package.
+
+1. Login by pointing your browser to `http://mysite.com/admin`
+2. Navigate to `Themes` and select the Oxygen Theme
+3. Scroll down to `Theme Options` and enable the `Search Engine Index` toggle
+
+
+**Method 2: Manual Edit**
+
+Create [user/env/mysite.com/config/themes/oxygen.yaml](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/_demo/config/env/mysite.com/config/themes/oxygen.yaml) and its contents. Then rename the folder `mysite.com` to your production url without `www`. 
+
+Enable indexing by setting this key/value pair:
+
+`
+index: true
+`
+
+
 ### Environments
 
-For optimal perfomance in your production environment, copy [env/mysite.com/system.yaml](https://github.com/kittyfishfrommars/grav-skeleton-oxygen/blob/main/env/mysite.com/config/system.yaml) and rename the folder `mysite.com` to your production domain (without www).
+For optimal perfomance in your production environment, create [user/env/mysite.com/config/system.yaml](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/_demo/env/mysite.com/system.yaml) and its contents. Then rename the folder `mysite.com` to your production url without `www`.
 
 
 ## Build Tools

@@ -1,3 +1,11 @@
+# v1.0.2
+##  08-08-2024
+
+1. [](#new)
+* Add [Theme Option](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#theme-options) to enable search engine indexing (default: disabled)
+1. [](#improved)
+* Include sample `user/env/mysite.com` folder for production settings, see [README](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#environments)
+
 # v1.0.1
 ##  17-07-2024
 
@@ -27,7 +35,6 @@
         - Improve JS/CSS loading strategy
         - Refactor JS/CSS folders for easier automation
         - Convert iconfont to woff2
-        - Remove IE8 support
         - Introduce fingerprints to help with [Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) busting
 4. [Maintenance](#maintenance)
     1. [](#new)

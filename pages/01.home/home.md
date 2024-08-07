@@ -28,8 +28,8 @@ hook:
         This theme is crazy fast, accessible and GDPR-compliant out of the box. Source code and build tools are available at <a href="https://github.com/kittyfishfrommars" target="_blank">github.com/kittyfishfrommars</a>. Provided as-is and free for personal and commercial use. No strings attached. Have fun!
     button:
       # comment-out line below to disable button
-      text: 'Button'
-      url: '#'
+      text: 'Read more'
+      url: 'https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#configuration'
 
 cta:
     headline: Curio vitae metus semper
@@ -120,6 +120,6 @@ portals:
 
 ---
 
-### Curio vitae metus semper
+### Getting started
 
-Donec leo. Vivamus fermentum nibh in augue. <a href="#">Praesent a lacus</a> at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet, magna nec eleifend semper. Vestibulum elementum.
+Once you're happy with your site's content, head on over to the [Theme Options](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#theme-options) and enable indexing for your favorite search engine.

@@ -1,16 +1,16 @@
 name: Oxygen
-version: 1.0.1
-description: 'A crazy fast, accessible and GDPR-compliant skeleton out of the box + build tools.'
+version: 1.0.2
+description: 'A crazy fast, accessible and GDPR-compliant theme out of the box + build tools.'
 icon: sun-o
 author:
   name: Kittyfish from Mars
   email: kittfishfrommars@gmail.com
   url: https://github.com/kittyfishfrommars
 keywords: grav, theme, accessiblity, performance, maintenance, legal, gulp
-homepage: https://github.com/kittyfishfrommars/grav-skeleton-oxygen
+homepage: https://github.com/kittyfishfrommars/grav-theme-oxygen
 demo: https://kittyfishfrommars.github.io/grav/grav-theme-oxygen
-readme: https://github.com/kittyfishfrommars/grav-skeleton-oxygen/blob/main/user/themes/oxygen/README.md
-docs: https://github.com/kittyfishfrommars/grav-skeleton-oxygen/blob/main/README.md
+readme: https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md
+docs: https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md
 bugs: https://github.com/kittyfishfrommars/grav-theme-oxygen/issues
 license: MIT
 
