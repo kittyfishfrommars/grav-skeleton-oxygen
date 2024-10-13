@@ -1,8 +1,14 @@
+# v1.0.3
+##  13-10-2024
+
+1. [](#new)
+* Add page-specific [Theme Option](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#page-options) for granular control of search engine indexing by page. Make sure to also enable [site-wide indexing](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#theme-options) once you go live.
+
 # v1.0.2
 ##  08-08-2024
 
 1. [](#new)
-* Add [Theme Option](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#theme-options) to enable search engine indexing (default: disabled)
+* Add site-wide [Theme Option](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#theme-options) to enable search engine indexing (default: disabled - indexing is not allowed)
 1. [](#improved)
 * Include sample `user/env/mysite.com` folder for production settings, see [README](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#environments)
 

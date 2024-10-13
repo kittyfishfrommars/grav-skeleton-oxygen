@@ -22,7 +22,7 @@ All-in-one package: [grav-skeleton-oxygen](https://github.com/kittyfishfrommars/
 - [Supported Templates](#supported-templates)
 - [Configuration](#configuration)
   - [Theme Options](#theme-options)
-    - [Search Engine Index](#search-engine-index)
+  - [Page Options](#page-options)
   - [Environments](#environments)
 - [Build Tools](#build-tools)
   - [Gulp](#gulp)
@@ -127,9 +127,9 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 
 ### Theme Options
 
-#### Search Engine Index
+#### Enable site-wide indexing
 
-For a granular approach to indexing, please refer to Grav's [sitemap plugin](https://github.com/getgrav/grav-plugin-sitemap), which comes bundled with this theme.
+For a granular approach to indexing per page, please refer to Grav's [#page-options].
 
 By default Oxygen additionally instructs [search engines](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag) to not index any content, so you can setup your new site in your own time. Once you are ready to go live you have two ways to remove the `noindex` meta tag:
 
@@ -141,7 +141,6 @@ Enable indexing through the [Grav Admin Panel](https://github.com/getgrav/grav-p
 2. Navigate to `Themes` and select the Oxygen Theme
 3. Scroll down to `Theme Options` and enable the `Search Engine Index` toggle
 
-
 **Method 2: Manual Edit**
 
 Create [user/env/mysite.com/config/themes/oxygen.yaml](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/_demo/config/env/mysite.com/config/themes/oxygen.yaml) and its contents. Then rename the folder `mysite.com` to your production url without `www`. 
@@ -152,6 +151,30 @@ Enable indexing by setting this key/value pair:
 index: true
 `
 
+### Page Options
+
+#### Prevent a specific page from being indexed
+
+Per-page indexing will only take effect once site-wide indexing is enabled via [#theme-options].
+
+By default new pages may be indexed by [search engines](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag). However, you might want to exclude certain content from being indexed, such as error pages or personal data.
+
+**Method 1: Admin Panel**
+
+1. Login to the the [Grav Admin Panel](https://github.com/getgrav/grav-plugin-admin) by pointing your browser to `http://mysite.com/admin`
+2. Navigate your desired `Page`
+3. Scroll down to the`Page Options` fieldset, open it, and set the `Search Engine Index` toggle to `Disabled`
+
+**Method 2: Manual Edit**
+
+Open any [Markdown Page](https://raw.githubusercontent.com/kittyfishfrommars/grav-theme-oxygen/refs/heads/main/_demo/pages/error/error.md) in your preferred editor.
+
+Disable indexing of this page by setting this key/value pair:
+
+`
+pageOptions:
+  noIndex: true
+`
 
 ### Environments
 
