@@ -1,6 +1,5 @@
 ---
 title: Sitemap
-# robots: index,follow
 template: error
 visible: false
 slug: sitemap
