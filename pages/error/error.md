@@ -1,17 +1,13 @@
 ---
-title: Page not found
-template: error
-routable: false
-visible: false
-http_response_code: 404
-twig_first: true
-process:
-  twig: true
-expires: 0
+title: Oops...
+content:
+    items: '@self.modules'
 pageOptions:
     noIndex: true
+routable: false
+visible: false
 sitemap:
-   ignore: true
+    ignore: true
+template: error
+http_response_code: '404'
 ---
-
-{{ 'PLUGIN_ERROR.ERROR_MESSAGE'|t }}
