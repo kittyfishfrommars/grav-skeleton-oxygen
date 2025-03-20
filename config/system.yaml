@@ -196,7 +196,7 @@ media:
 session:
   enabled: true
   initialize: false
-  timeout: 1800
+  timeout: 9000
   name: site
   uniqueness: path
   secure: false

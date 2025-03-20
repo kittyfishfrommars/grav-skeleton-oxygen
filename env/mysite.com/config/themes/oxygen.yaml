@@ -1,7 +1,2 @@
-# Theme options
-# if this theme is currently active
-enabled: true
-# if search engines may index this site
+# SEO: if search engines may index this site
 index: false
-# if main navigation should display submenus in a dropdown on desktop
-dropdown: true

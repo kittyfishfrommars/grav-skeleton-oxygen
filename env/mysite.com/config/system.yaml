@@ -4,11 +4,11 @@
 assets:
   # depending on asset size HTTTP/2 may be a better option
   css_pipeline: true   # concat from assets.addCss
-  # do not enable (breaking change until skel.js is removed), use npm run build instead
+  # do not enable (breaking change until skel.js is removed)
   js_pipeline: false    # concat from assets.addJs
 
 # Enable force_ssl if env supports it
-force_ssl: false       # Use HTTPS only (redirect from HTTP -> HTTPS)
+force_ssl: false      # Use HTTPS only (redirect from HTTP -> HTTPS)
 
 debugger:
   enabled: false      # disable development helper, if set
