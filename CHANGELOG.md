@@ -14,7 +14,7 @@
 * [#11](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/11) Add CSS or image float in content
 * [#8](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/2) Allow link lists with relative URLs in admin panel
 * [#5](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/2) Update README with more detailed [Setup Instructions](https://github.com/kittyfishfrommars/grav-theme-oxygen/tree/main?tab=readme-ov-file#setup)
-3. [](#fix)
+3. [](#bugfix)
 * [#13](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/13) Permanently highlight active child items in navigation
 * [#4](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/4) Correctly save footer values in admin panel
 * [#2](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/2) Fix fontawesome reference for inherited themes
