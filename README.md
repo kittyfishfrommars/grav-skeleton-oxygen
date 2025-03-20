@@ -28,6 +28,7 @@ All-in-one package: [grav-skeleton-oxygen](https://github.com/kittyfishfrommars/
   - [Gulp](#gulp)
 - [Troubleshooting](#troubleshooting)
   - [500 Internal Server Error](#500-internal-server-error)
+  - [Incorrect content rendering](#incorrect-content-rendering)
 - [Examples in the wild](#examples-in-the-wild)
 - [Credits](#credits)
 
@@ -63,7 +64,7 @@ This will install the theme into your `/user/themes` directory within Grav. Its 
 
 > Please note that the demo content and configuration is not copied when your plugin or theme is installed via the Admin plugin. Please refer the provided files from the `_demo` folder.
 
-To install this theme, download the zip version of this repository and unzip it under `user/themes`. Then, rename the folder to `oxygen`. You can find these files either on [GitHub](https://github.com/kittyfishfrommars) or via [GetGrav.org](http://getgrav.org/downloads/themes).
+To install this theme, download the zip version of this repository and unzip it under `user/themes`. Then, rename the folder to `oxygen`. You can find these files either on [GitHub](https://github.com/kittyfishfrommars?tab=repositories) or via [GetGrav.org](http://getgrav.org/downloads/themes).
 
 You should now have all the theme files under
 
@@ -77,10 +78,14 @@ You should now have all the theme files under
 If you want to set Oxygen as the default theme, you can do so by following these steps:
 
 * Navigate to `grav/user/config`.
-* Open the **system.yaml** file.
-* Change the `theme:` setting to `theme: oxygen` and save your changes.
-* Open the **site.yaml** file.
-* Add this line at the bottom: `taxonomies: [tag]` and save your changes.
+* Open [system.yaml](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/_demo/config/system.yaml).
+* Change the `theme:` setting to `theme: oxygen` to enable this theme.
+* Under `markdown:` set `extra: true` to enable Markdown Extra.
+* Under `markdown:` set `auto_line_breaks: true` to enable automatic line breaks.
+* Save your changes.
+* Open [site.yaml](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/_demo/config/system.yaml).
+* Add this line at the bottom: `taxonomies: [tag]` to enable Taxonomies.
+* Save your changes.
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`.
 
 Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the `oxygen` folder.
@@ -129,8 +134,6 @@ Manually updating this theme is pretty simple. Here is what you will need to do 
 
 #### Enable site-wide indexing
 
-For a granular approach to indexing per page, please refer to Grav's [#page-options].
-
 By default Oxygen additionally instructs [search engines](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag) to not index any content, so you can setup your new site in your own time. Once you are ready to go live you have two ways to remove the `noindex` meta tag:
 
 **Method 1: Admin Panel**
@@ -143,7 +146,7 @@ Enable indexing through the [Grav Admin Panel](https://github.com/getgrav/grav-p
 
 **Method 2: Manual Edit**
 
-Create [user/env/mysite.com/config/themes/oxygen.yaml](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/_demo/config/env/mysite.com/config/themes/oxygen.yaml) and its contents. Then rename the folder `mysite.com` to your production url without `www`. 
+Copy [user/env/mysite.com/config/themes/oxygen.yaml](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/_demo/config/env/mysite.com/config/themes/oxygen.yaml). Then rename the folder `mysite.com` to your production url without `www`. 
 
 Enable indexing by setting this key/value pair:
 
@@ -178,7 +181,7 @@ pageOptions:
 
 ### Environments
 
-For optimal perfomance in your production environment, create [user/env/mysite.com/config/system.yaml](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/_demo/env/mysite.com/system.yaml) and its contents. Then rename the folder `mysite.com` to your production url without `www`.
+For optimal perfomance in your production environment, copy [user/env/mysite.com/config/system.yaml](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/_demo/env/mysite.com/system.yaml). Then rename the folder `mysite.com` to your production url without `www`.
 
 
 ## Build Tools
@@ -231,6 +234,10 @@ The nuclear option is, of course, **not recommended for production**:
     chmod 777 grav-skeleton-oxygen -R
 
 Where `grav-skeleton-oxygen` is your installation folder.
+
+### Incorrect content rendering
+
+If your content renders as markdown instead of nicely formatted html, this is most solved by editing the settings in `/user/config/system.yaml`. Please see [Setup](#setup) for detailed instructions.
 
 
 ## Examples in the wild

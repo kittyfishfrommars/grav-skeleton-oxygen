@@ -1,36 +1,83 @@
 name: Oxygen
-version: 1.0.3
-description: 'A crazy fast, accessible and GDPR-compliant theme out of the box + build tools.'
+version: 2.0.0
+description: 'Oxygen is a crazy fast, accessible and GDPR-compliant theme + build tools. Now with modular building blocks!'
 icon: sun-o
 author:
-  name: Kittyfish from Mars
-  email: kittfishfrommars@gmail.com
-  url: https://github.com/kittyfishfrommars
-keywords: grav, theme, accessiblity, performance, maintenance, legal, gulp
-homepage: https://github.com/kittyfishfrommars/grav-theme-oxygen
-demo: https://kittyfishfrommars.github.io/grav/grav-theme-oxygen
-readme: https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md
-docs: https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md
-bugs: https://github.com/kittyfishfrommars/grav-theme-oxygen/issues
+    name: Kittyfish from Mars
+    email: kittfishfrommars@gmail.com
+    url: 'https://github.com/kittyfishfrommars'
+keywords: 'grav, theme, accessiblity, performance, maintenance, legal, gulp'
+homepage: 'https://github.com/kittyfishfrommars/grav-theme-oxygen'
+demo: 'https://kittyfishfrommars.github.io/grav/grav-theme-oxygen'
+readme: 'https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md'
+docs: 'https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md'
+bugs: 'https://github.com/kittyfishfrommars/grav-theme-oxygen/issues'
 license: MIT
 
 dependencies:
-  - { name: grav, version: '>=1.7.0' }
-  - { name: grav-plugin-error, version: '>=1.8.0' }
-  - { name: grav-plugin-markdown-notices, version: '>=1.1.0' }
-  - { name: grav-plugin-problems, version: '>=2.1.1' }
-  - { name: grav-plugin-sitemap, version: '>=5.0.0' }
+    - { name: grav, version: '>=1.7.0' }
+    - { name: grav-plugin-error, version: '>=1.8.0' }
+    - { name: grav-plugin-markdown-notices, version: '>=1.1.0' }
+    - { name: grav-plugin-problems, version: '>=2.1.1' }
+    - { name: grav-plugin-sitemap, version: '>=5.0.0' }
 
 form:
-  validation: strict
-  fields:
-    dropdown:
-        type: toggle
-        label: Dropdown in Navigation
-        highlight: 1
-        default: 1
-        options:
-            1: PLUGIN_ADMIN.ENABLED
-            0: PLUGIN_ADMIN.DISABLED
-        validate:
-            type: bool
+    validation: strict
+    fields:
+        spacer:
+            type: spacer
+            title: Theme Options
+            text: >
+                Please refer to <a target="_blank"
+                href="https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#theme-options">README
+                - Theme Options</a> for a more detailed explanation of each
+                setting.
+            underline: true
+        index:
+            type: toggle
+            label: Search Engine Index
+            sublabel: >
+                <small>SEO: Allow this website to be indexed by search engines, individual page exceptions may apply (default: disabled).</small>
+            default: 0
+            highlight: 1
+            options:
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
+            validate:
+                type: bool
+        sitetitle:
+            type: toggle
+            label: Include sitename in page title
+            sublabel: >
+                <small>SEO: Add the global sitename to every page's title attribute.</small>
+            default: 0
+            highlight: 1
+            options:
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
+            validate:
+                type: bool
+        dropdown:
+            type: toggle
+            label: Dropdown in Navigation
+            sublabel: >
+                <small>Desktop navigation: Display submenus in a dropdown (default: enabled).</small>
+            default: 1
+            highlight: 1
+            options:
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
+            validate:
+                type: bool
+        jquery:
+            type: toggle
+            label: Load jQuery
+            sublabel: >
+                <small>Include jQuery library from theme folder (default: enabled).</small>
+            default: 1
+            highlight: 1
+            options:
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
+            validate:
+                type: bool
