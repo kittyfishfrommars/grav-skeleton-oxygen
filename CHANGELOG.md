@@ -1,3 +1,10 @@
+# v2.0.1
+##  10-07-2025
+
+1. [](#bugfix)
+* [#25](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/25) Fix [GPM Installation](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#gpm-installation-preferred)
+
+
 # v2.0.0
 ##  20-03-2025
 
@@ -24,7 +31,7 @@
 # v1.0.4
 ##  14-10-2024
 
-1. [](#fix)
+1. [](#bugfix)
 * Decrease logo font-size for tablet (<1280), slightly decrease navigation item margins
 
 # v1.0.3
