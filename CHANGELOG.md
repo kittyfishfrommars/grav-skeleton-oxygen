@@ -1,5 +1,5 @@
 # v2.1.0
-##  21-07-2025
+## 21-07-2025
 
 1. [](#new)
 * [PR #32](https://github.com/kittyfishfrommars/grav-theme-oxygen/pull/32) Customise site title separator character, thanks [@petira](https://github.com/petira)
@@ -10,7 +10,7 @@
 * [#25](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/25) Fix [GPM Installation](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#gpm-installation-preferred)
 
 # v2.0.0
-##  20-03-2025
+## 20-03-2025
 
 1. [](#new)
 * **Oxygen v2.0.0 Breaking Changes:** This major release improves integration with the admin panel. Please import all [_demo](https://github.com/kittyfishfrommars/grav-theme-oxygen/tree/main/_demo) content for a new data structure
@@ -33,19 +33,19 @@
 * ...and flimsy sample story
 
 # v1.0.4
-##  14-10-2024
+## 14-10-2024
 
 1. [](#bugfix)
 * Decrease logo font-size for tablet (<1280), slightly decrease navigation item margins
 
 # v1.0.3
-##  13-10-2024
+## 13-10-2024
 
 1. [](#new)
 * Add page-specific [Theme Option](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#page-options) for granular control of search engine indexing by page. Make sure to also enable [site-wide indexing](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#theme-options) once you go live.
 
 # v1.0.2
-##  08-08-2024
+## 08-08-2024
 
 1. [](#new)
 * Add site-wide [Theme Option](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#theme-options) to enable search engine indexing (default: disabled - indexing is not allowed)
@@ -53,7 +53,7 @@
 * Include sample `user/env/mysite.com` folder for production settings, see [README](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#environments)
 
 # v1.0.1
-##  17-07-2024
+## 17-07-2024
 
 1. [](#new)
 * Add gulp taskrunner build tools, usage `npm run serve` and `npm run build`, see [README](https://github.com/kittyfishfrommars/grav-theme-oxygen/blob/main/README.md#build-tools)
@@ -64,7 +64,7 @@
 * Fix profile image size on narrow screens
 
 # v1.0.0
-##  14-02-2024
+## 14-02-2024
 
 1. [Release](#release)
     1. [](#new)
