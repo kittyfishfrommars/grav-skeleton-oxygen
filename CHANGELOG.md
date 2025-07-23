@@ -1,5 +1,5 @@
-# v2.1.1
-## 21-07-2025
+# v2.1.2
+## 23-07-2025
 
 1. [](#new)
 * [PR #32](https://github.com/kittyfishfrommars/grav-theme-oxygen/pull/32) Customise site title separator character, thanks [@petira](https://github.com/petira)
