@@ -1,11 +1,5 @@
-# v2.1.7
-## 28-07-2025
-
-1. [](#bugfix)
-* [#25](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/25) Fix GPM installation
-
-# v2.1.5
-## 28-07-2025
+# v2.1.9
+## 03-08-2025
 
 1. [](#new)
 * [PR #32](https://github.com/kittyfishfrommars/grav-theme-oxygen/pull/32) Customise site title separator character, thanks [@petira](https://github.com/petira)
