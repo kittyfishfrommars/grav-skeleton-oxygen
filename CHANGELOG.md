@@ -1,11 +1,13 @@
-# v2.1.9
+# v2.1.10
 ## 03-08-2025
 
-1. [](#new)
+1. [](#bugfix)
+* [#25](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/25) Fix GPM installation
+2. [](#new)
 * [PR #32](https://github.com/kittyfishfrommars/grav-theme-oxygen/pull/32) Customise site title separator character, thanks [@petira](https://github.com/petira)
-2. [](#improved)
+3. [](#improved)
 * [PR #31](https://github.com/kittyfishfrommars/grav-theme-oxygen/pull/31) Optionally display callout button, thanks [@petira](https://github.com/petira)
-3. [](#bugfix)
+4. [](#bugfix)
 * [PR #30](https://github.com/kittyfishfrommars/grav-theme-oxygen/pull/30) Fix module links blueprint description, thanks [@petira](https://github.com/petira)
 
 # v2.0.0
