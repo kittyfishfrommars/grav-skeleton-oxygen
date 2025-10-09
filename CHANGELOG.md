@@ -1,3 +1,8 @@
+# v2.1.11
+## 10-10-2025
+1. [](#improved)
+* [#22](https://github.com/kittyfishfrommars/grav-theme-oxygen/issues/22) Add local/remote toggle for banner, thanks [@pmoreno-rodriguez](https://github.com/pmoreno-rodriguez)
+
 # v2.1.10
 ## 03-08-2025
 
