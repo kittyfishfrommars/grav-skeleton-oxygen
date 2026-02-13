@@ -20,8 +20,8 @@ content:
 banner:
     # leave url empty to disable banner
     url: 'banner_home-1500x960_q82.webp'
-    # headline: 'Home'
     position: '30% 42.5%'
+    image_source: 'local'
     # comment-out line below to disable headline
     # headline: 'Headline'
     # follower:

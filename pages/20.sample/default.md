@@ -7,6 +7,7 @@ content:
 banner:
     url: 'banner_default-1500x960_q100.webp'
 	position: '85% 77.5%'
+    image_source: 'local'
 ---
 ## A Cosmic Tale
 
