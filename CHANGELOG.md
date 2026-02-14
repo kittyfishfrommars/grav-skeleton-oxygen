@@ -1,3 +1,7 @@
+# v2.1.12
+## 14-02-2026
+1. [](#bugfix) Fix banner image source in `pages`
+
 # v2.1.11
 ## 10-10-2025
 1. [](#improved)
